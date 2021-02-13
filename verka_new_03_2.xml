@@ -254,24 +254,13 @@ section(1 /*1*/,RESOURCE_1 /*{{starts}}*/,10000 /*10000*/,0,function(){
    function general_function()
    {
    section_insert()
-      section_start("", 346739560)!
-      /*Dat:eyJzIjoicmVzZXQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
-      /*Browser*/
-      reset()!
-      section_end()!
-
-      section_start("", 282982680)!
-      /*Dat:eyJzIjoiZ2V0ZnVuY3Rpb25wYXJhbWV0ZXIiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiUGFyYW1ldGVyTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiZXJyb3IiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJGVU5DVElPTl9QQVJBTUVURVIifV19*/
-      VAR_FUNCTION_PARAMETER = _function_argument("error")
-      section_end()!
-
       section_start("", 424761940)!
       /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6ImltYWdlc19vZmYifV19*/
       _call_function(images_off,{})!
       _result_function()
       section_end()!
 
-      section_start("\u007b\u0022c\u0022:\u00223\u0022\u007d", 480537471)!
+      section_start("\u007b\u0022n\u0022:\u0022Чтение и удаление строки из ресурса с логинами\u005cnПарсим строку с аккаунтом на username и password\u005cn\u0022,\u0022c\u0022:\u00223\u0022\u007d", 480537471)!
       /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ii8v0KfRgtC10L3QuNC1INC4INGD0LTQsNC70LXQvdC40LUg0YHRgtGA0L7QutC4INC40Lcg0YDQtdGB0YPRgNGB0LAg0YEg0LvQvtCz0LjQvdCw0LzQuFxyXG5sZW5ndGggPSBsb2dpbigpOyBcclxuVkFSX01BSU5fQUNDT1VOVCA9IFZBUl9DVVJSRU5UX0FDQ09VTlQ7XHJcbmxvZyhcIltcIitsZW5ndGgrIFwiXSDQktC30Y/RgiDQsNC60LrQsNGD0L3RgjogXCIgKyBWQVJfTUFJTl9BQ0NPVU5UKTsgXHJcbiBcclxuZnVuY3Rpb24gbG9naW4oKSBcclxueyAgICAgXHJcbiAgICBSTWFwKFwiTG9naW5zXCIpLnN5bmMoKTsgXHJcbiAgICB2YXIgbGVuZ3RoID0gUk1hcChcIkxvZ2luc1wiKS5sZW5ndGgoKTsgXHJcbiAgICBsb2cobGVuZ3RoKTtcclxuICAgICBpZiAobGVuZ3RoID09IDApeyBcclxuICAgICAgICBsb2coXCLQodC/0LjRgdC+0Log0L3QvtCy0YvRhSDQsNC60LrQsNGD0L3RgtC+0LIg0L/Rg9GB0YJcIik7XHJcbiAgICAgICAgZmFpbChcItCh0L/QuNGB0L7QuiDQvdC+0LLRi9GFINCw0LrQutCw0YPQvdGC0L7QsiDQv9GD0YHRglwiLHRydWUpO1xyXG4gICAgICAgIH0gXHJcbiAgICBlbHNleyBcclxuICAgICAgICBWQVJfQ1VSUkVOVF9BQ0NPVU5UID0gUk1hcChcIkxvZ2luc1wiKS5hdCgwKSBcclxuICAgICAgICBSTWFwKFwiTG9naW5zXCIpLnJlbW92ZSgwKTsgXHJcbiAgICAgICAgUk1hcChcIkxvZ2luc1wiKS5zeW5jKCk7XHJcbiAgICB9IFxyXG4gICAgcmV0dXJuIGxlbmd0aCA9IFJNYXAoXCJMb2dpbnNcIikubGVuZ3RoKCkgXHJcbn1cclxuLy/Qv9Cw0YDRgdC40Lwg0YHRgtGA0L7QutGDINGBINCw0LrQutCw0YPQvdGC0L7QvCDQvdCwIHVzZXJuYW1lINC4IHBhc3N3b3JkXHJcbnZhciBjc3ZfcGFyc2VfcmVzdWx0ID0gY3N2X3BhcnNlKFZBUl9DVVJSRU5UX0FDQ09VTlQpO1xyXG4gICAgICBWQVJfVVNFUk5BTUUgPSBjc3ZfcGFyc2VfcmVzdWx0WzBdO1xyXG4gICAgICBpZih0eXBlb2YoVkFSX1VTRVJOQU1FKSA9PSAndW5kZWZpbmVkJyB8fCAhVkFSX1VTRVJOQU1FKVxyXG4gICAgICB7XHJcbiAgICAgIFZBUl9VU0VSTkFNRSA9IFwiXCI7XHJcbiAgICAgIH1cclxuICAgICAgVkFSX1BBU1NXT1JEID0gY3N2X3BhcnNlX3Jlc3VsdFsxXTtcclxuICAgICAgaWYodHlwZW9mKFZBUl9QQVNTV09SRCkgPT0gJ3VuZGVmaW5lZCcgfHwgIVZBUl9QQVNTV09SRClcclxuICAgICAge1xyXG4gICAgICBWQVJfUEFTU1dPUkQgPSBcIlwiO1xyXG4gICAgICB9IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
       //Чтение и удаление строки из ресурса с логинами
       length = login();
@@ -307,12 +296,12 @@ section(1 /*1*/,RESOURCE_1 /*{{starts}}*/,10000 /*10000*/,0,function(){
       }
       section_end()!
 
-      section_start("", 422308049)!
+      section_start("\u007b\u0022n\u0022:\u0022Ресурс в список для перезаписи\u0022\u007d", 422308049)!
       /*Dat:eyJzIjoiUmVzb3VyY2VUb0FycmF5IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlJlc291cmNlTmFtZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiTG9naW5zIn0seyJpZCI6IlNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IkxJU1RfV0lUSF9MT0dJTlMifV19*/
       VAR_LIST_WITH_LOGINS = RPick("Logins")
       section_end()!
 
-      section_start("", 729494393)!
+      section_start("\u007b\u0022n\u0022:\u0022Запись нового списка в ресурсе в файл по глобальной ссылке\u0022\u007d", 729494393)!
       /*Dat:eyJzIjoiZmlsZXN5c3RlbV9saXN0X3RvX2ZpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiRmlsZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tHTE9CQUw6TE9HSU5QQVRIXV0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJMSVNUX1dJVEhfTE9HSU5TIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9LHsiaWQiOiJDaGVjazIiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
       native("filesystem", "writefile", JSON.stringify({path: JSON.parse(P("basglobal", "LOGINPATH") || '""'),value: (VAR_LIST_WITH_LOGINS).join("\r\n") + ((false) ? "\r\n" : "" ),base64:false,append:false}))
       section_end()!
@@ -882,18 +871,13 @@ section(1 /*1*/,RESOURCE_1 /*{{starts}}*/,10000 /*10000*/,0,function(){
       PSet("basglobal", "DATOLKOVREMIA", val)
       section_end()!
 
-      section_start("", 479706671)!
+      section_start("\u007b\u0022n\u0022:\u0022глобальная переменная пути для получения файла с непроверенными аккаунтами\u0022\u007d", 479706671)!
       /*Dat:eyJzIjoiZ2xvYmFsc2V0IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6Ik5hbWUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IkxPR0lOUEFUSCJ9LHsiaWQiOiJWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tHTE9CQUw6RklMRUlORk9fQkFTRV9ESVJFQ1RPUlldXVxc0JDQutC60LDRg9C90YLRi1xcW1tHTE9CQUw6REFUQV9OT19WUkVNSUFdXVxcW1tHTE9CQUw6REFUQV9OT19WUkVNSUFdXS50eHQiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
       var val = JSON.stringify(JSON.parse(P("basglobal", "FILEINFO_BASE_DIRECTORY") || '""') + "\u005cАккаунты\u005c" + JSON.parse(P("basglobal", "DATA_NO_VREMIA") || '""') + "\u005c" + JSON.parse(P("basglobal", "DATA_NO_VREMIA") || '""') + ".txt");
       PSet("basglobal", "LOGINPATH", val)
       section_end()!
 
-      section_start("", 856619167)!
-      /*Dat:eyJzIjoiZmlsZXN5c3RlbV9yZWFkZmlsZSIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tHTE9CQUw6TE9HSU5QQVRIXV0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJMT0dJTl9yZXMifSx7ImlkIjoiRnJvbSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50In0seyJpZCI6IlRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
-      VAR_LOGIN_RES = native("filesystem", "readfile", JSON.stringify({value: JSON.parse(P("basglobal", "LOGINPATH") || '""'),base64:false,from:0,to:0}))
-      section_end()!
-
-      section_start("", 834037189)!
+      section_start("\u007b\u0022n\u0022:\u0022читем файл с непроверенными аккаунтами в список\u0022\u007d", 834037189)!
       /*Dat:eyJzIjoiZmlsZXN5c3RlbV9maWxlX3RvX2xpc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbR0xPQkFMOkxPR0lOUEFUSF1dIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiTElTVF9XSVRIX0xPR0lOUyJ9XX0=*/
       {
       var d = native("filesystem", "readfile", JSON.stringify({value: JSON.parse(P("basglobal", "LOGINPATH") || '""'),base64:false,from:0,to:0}))
@@ -901,12 +885,12 @@ section(1 /*1*/,RESOURCE_1 /*{{starts}}*/,10000 /*10000*/,0,function(){
       }
       section_end()!
 
-      section_start("", 986705536)!
+      section_start("\u007b\u0022n\u0022:\u0022Создаем ресурс под непроверенные аки\u0022\u007d", 986705536)!
       /*Dat:eyJzIjoiQ3JlYXRlUmVzb3VyY2UiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiTG9naW5zIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiU3VjY2Vzc051bWJlciIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMSIsImNsYXNzIjoiaW50In0seyJpZCI6IkZhaWxOdW1iZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJTaW11bHRhbmVvdXNVc2FnZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMSIsImNsYXNzIjoiaW50In0seyJpZCI6IkludGVydmFsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI1MDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX0seyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
       RCreate("Logins", 1, 1, 1, 5000, false, false)
       section_end()!
 
-      section_start("", 872933276)!
+      section_start("\u007b\u0022n\u0022:\u0022записываем список в ресурс\u0022\u007d", 872933276)!
       /*Dat:eyJzIjoiQXJyYXlUb1Jlc291cmNlIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlJlc291cmNlTmFtZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiTG9naW5zIn0seyJpZCI6IlZhcmlhYmxlIiwidHlwZSI6InZhciIsImRhdGEiOiJMSVNUX1dJVEhfTE9HSU5TIn1dfQ==*/
       RClear("Logins")
       RSync("Logins")
@@ -917,11 +901,11 @@ section(1 /*1*/,RESOURCE_1 /*{{starts}}*/,10000 /*10000*/,0,function(){
       RSync("Logins")
       section_end()!
 
-      section_start("", 445321564)!
+      section_start("\u007b\u0022n\u0022:\u0022Перезапуск модема и проверка работы интернета, чтобы исключить зависание\u0022\u007d", 445321564)!
       /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e01vZGVtIHJlbG9hZH19PT1cItCS0LrQu1wiIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
       RS("Modem reload", false, false)!
-      RESOURCE_688937 = _result().get()
-      _if(RESOURCE_688937=="Вкл",function(){
+      RESOURCE_480689 = _result().get()
+      _if(RESOURCE_480689=="Вкл",function(){
       section_insert()
          section_start("", 106498257)!
          /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6Ik1vZGVtUmVsb2FkIn1dfQ==*/
@@ -2364,10 +2348,17 @@ section(1 /*1*/,RESOURCE_1 /*{{starts}}*/,10000 /*10000*/,0,function(){
    })!
    section_end()!
 
-   section_start("", 988574911)!
-   /*Dat:eyJzIjoiYXN5bmNmdW5jdGlvbl93YWl0IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjEiLCJ1dGkiOiIxMDAwMDAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlRocmVhZElkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1RIUkVBRF9MSVNUXV0iLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
-   waiter_timeout_next(100000000)
-   _thread_wait(VAR_THREAD_LIST)!
+   section_start("", 362854103)!
+   /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxPT0xIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+   _if(1==1,function(){
+   section_insert()
+      section_start("", 870271869)!
+      /*Dat:eyJzIjoiYXN5bmNmdW5jdGlvbl93YWl0IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjEiLCJ1dGkiOiIxMDAwMDAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlRocmVhZElkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1RIUkVBRF9MSVNUXV0iLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+      waiter_timeout_next(100000000)
+      _thread_wait(VAR_THREAD_LIST)!
+      section_end()!
+
+   })!
    section_end()!
 
 })!]]></Script>
