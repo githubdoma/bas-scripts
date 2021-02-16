@@ -8522,6 +8522,11 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10 /*10*/,0,fu
          native("filesystem", "writefile", JSON.stringify({path: JSON.parse(P("basglobal", "FILE_DIRECTORY") || '""') + "\u005cplayed_accounts.txt",value: (VAR_LIST_PLAYED_ACCOUNTS).join("\r\n") + ((false) ? "\r\n" : "" ),base64:false,append:false}))
          section_end()!
 
+         section_start("", 915831955)!
+         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InJlc3VsdChWQVJfQUNDT1VOVF9GT1JfUExBWSArIFwiOjpcIiAgKyBWQVJfREFURV9OT1cgK1wiICDQn9GA0L7QstC10YDRj9C5INCw0LrQsNGD0L3RgiDQvdCwINC90LDQsdC40YLRi9C5INC60YPQv9C+0L1cIiwgMilcclxuIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+         result(VAR_ACCOUNT_FOR_PLAY + "::"  + VAR_DATE_NOW +"  Проверяй акаунт на набитый купон", 2)
+         section_end()!
+
       })!
       section_end()!
 
