@@ -606,7 +606,7 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10 /*10*/,0,fu
                section_end()!
 
                section_start("", 317987244)!
-               /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ii8v0L/RgNC+0LLQtdGA0Y/QtdC8INGC0LXQutGB0YIg0YEg0L/Qu9Cw0YjQutC4XHJcblZBUl9DT1VQT05fVEVYVCA9IFZBUl9DT1VQT05fVEVYVC5zcGxpdCgnJCcpO1xyXG5pZiAocGFyc2VJbnQoK1ZBUl9DT1VQT05fVEVYVFsxXSkgPT0gMTApe1xyXG4gICAgVkFSX0NPVVBPTl9BTU9VTlQgPSBwYXJzZUludCgrVkFSX0NPVVBPTl9URVhUWzFdKTtcclxuICAgIGxvZyhcItCi0YPRgiDQtdGB0YLRjCDQutGD0L/QvtC9OiBcIisgVkFSX0NPVVBPTl9URVhUICsgXCIg0LzQvtC20L3QviDQtNC10LvQsNGC0Ywg0LrQu9GP0LnQvFwiICk7XHJcbiAgICAgICAgX2lmKFZBUl9DT1VQT05fQU1PVU5UID09IDEwICxmdW5jdGlvbigpe1xyXG4gICAgICAgICAgICB2YXIgZCA9IG5hdGl2ZShcImZpbGVzeXN0ZW1cIiwgXCJyZWFkZmlsZVwiLCBKU09OLnN0cmluZ2lmeSh7dmFsdWU6IFJJbmZvKFwiTG9naW46UGFzc3dvcmRcIixcIkxvY2F0aW9uXCIpLGJhc2U2NDpmYWxzZSxmcm9tOjAsdG86MH0pKTtcclxuICAgICAgICAgICAgVkFSX0FDQ09VTl9MSVNUXHQ9IChkLmxlbmd0aCA9PSAwKSA/IFtdIDogZC5zcGxpdCgvXFxyP1xcbi8pOyAgICAgICAgICBcclxuICAgICAgICAgICAgVkFSX0FDQ09VTl9MSVNULnB1c2goVkFSX0FDQ09VTlRfRk9SX1BMQVkgKyBcIjo6ICDQmtGD0L/QvtC9IFwiICsgVkFSX0NPVVBPTl9BTU9VTlQgKyBcIiDQs9C+0YLQvtCyINC6INCy0LfRj9GC0LjRjiDQuNC3INC00L7QsdC40LLQutC4XCIpXHJcbiAgICAgICAgICAgIG5hdGl2ZShcImZpbGVzeXN0ZW1cIiwgXCJ3cml0ZWZpbGVcIiwgSlNPTi5zdHJpbmdpZnkoe3BhdGg6IFJJbmZvKFwiTG9naW46UGFzc3dvcmRcIixcIkxvY2F0aW9uXCIpLHZhbHVlOiAoVkFSX0FDQ09VTl9MSVNUKS5qb2luKFwiXFxyXFxuXCIpICsgKChmYWxzZSkgPyBcIlxcclxcblwiIDogXCJcIiApLGJhc2U2NDpmYWxzZSxhcHBlbmQ6ZmFsc2V9KSlcclxuICAgICAgICAgICAgc3VjY2VzcyhWQVJfQUNDT1VOVF9GT1JfUExBWSArIFwiIDo6ICDQmtGD0L/QvtC9IFwiICsgVkFSX0NPVVBPTl9BTU9VTlQgKyBcIiDQs9C+0YLQvtCyINC6INCy0LfRj9GC0LjRjiDQuNC3INC00L7QsdC40LLQutC4XCIpXHJcbiAgICAgICAgfSl9ICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgICAgICAgXHJcblxyXG4gICAgICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgICAgICAgXHJcblxyXG4gICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgICAgICAgXHJcbiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+               /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ii8v0L/RgNC+0LLQtdGA0Y/QtdC8INGC0LXQutGB0YIg0YEg0L/Qu9Cw0YjQutC4XHJcblZBUl9DT1VQT05fVEVYVCA9IFZBUl9DT1VQT05fVEVYVC5zcGxpdCgnJCcpO1xyXG5pZiAocGFyc2VJbnQoK1ZBUl9DT1VQT05fVEVYVFsxXSkgPT0gMTApe1xyXG4gICAgVkFSX0NPVVBPTl9BTU9VTlQgPSBwYXJzZUludCgrVkFSX0NPVVBPTl9URVhUWzFdKTtcclxuICAgIGxvZyhcItCi0YPRgiDQtdGB0YLRjCDQutGD0L/QvtC9OiBcIisgVkFSX0NPVVBPTl9URVhUICsgXCIg0LzQvtC20L3QviDQtNC10LvQsNGC0Ywg0LrQu9GP0LnQvFwiICk7XHJcbiAgICAgICAgX2lmKFZBUl9DT1VQT05fQU1PVU5UID09IDEwICxmdW5jdGlvbigpe1xyXG4gICAgICAgICAgICB2YXIgZCA9IG5hdGl2ZShcImZpbGVzeXN0ZW1cIiwgXCJyZWFkZmlsZVwiLCBKU09OLnN0cmluZ2lmeSh7dmFsdWU6IFJJbmZvKFwiTG9naW46UGFzc3dvcmRcIixcIkxvY2F0aW9uXCIpLGJhc2U2NDpmYWxzZSxmcm9tOjAsdG86MH0pKTtcclxuICAgICAgICAgICAgVkFSX0FDQ09VTl9MSVNUXHQ9IChkLmxlbmd0aCA9PSAwKSA/IFtdIDogZC5zcGxpdCgvXFxyP1xcbi8pOyAgICAgICAgICBcclxuICAgICAgICAgICAgVkFSX0FDQ09VTlRfRk9SX1BMQVkgPSBWQVJfVVNFUk5BTUUgKyBcIjpcIisgVkFSX1BBU1NXT1JEO1xyXG4gICAgICAgICAgICBWQVJfQUNDT1VOX0xJU1QucHVzaChWQVJfQUNDT1VOVF9GT1JfUExBWSArIFwiOjogINCa0YPQv9C+0L0gXCIgKyBWQVJfQ09VUE9OX0FNT1VOVCArIFwiINCz0L7RgtC+0LIg0Log0LLQt9GP0YLQuNGOINC40Lcg0LTQvtCx0LjQstC60LhcIilcclxuICAgICAgICAgICAgbmF0aXZlKFwiZmlsZXN5c3RlbVwiLCBcIndyaXRlZmlsZVwiLCBKU09OLnN0cmluZ2lmeSh7cGF0aDogUkluZm8oXCJMb2dpbjpQYXNzd29yZFwiLFwiTG9jYXRpb25cIiksdmFsdWU6IChWQVJfQUNDT1VOX0xJU1QpLmpvaW4oXCJcXHJcXG5cIikgKyAoKGZhbHNlKSA/IFwiXFxyXFxuXCIgOiBcIlwiICksYmFzZTY0OmZhbHNlLGFwcGVuZDpmYWxzZX0pKVxyXG4gICAgICAgICAgICBzdWNjZXNzKFZBUl9BQ0NPVU5UX0ZPUl9QTEFZICsgXCIgOjogINCa0YPQv9C+0L0gXCIgKyBWQVJfQ09VUE9OX0FNT1VOVCArIFwiINCz0L7RgtC+0LIg0Log0LLQt9GP0YLQuNGOINC40Lcg0LTQvtCx0LjQstC60LhcIilcclxuICAgICAgICB9KX0gICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgICBcclxuXHJcbiAgICAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgICBcclxuXHJcbiAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgICBcclxuIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
                //проверяем текст с плашки
                VAR_COUPON_TEXT = VAR_COUPON_TEXT.split('$');
                if (parseInt(+VAR_COUPON_TEXT[1]) == 10){
@@ -615,6 +615,7 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10 /*10*/,0,fu
                _if(VAR_COUPON_AMOUNT == 10 ,function(){
                var d = native("filesystem", "readfile", JSON.stringify({value: RInfo("Login:Password","Location"),base64:false,from:0,to:0}));
                VAR_ACCOUN_LIST	= (d.length == 0) ? [] : d.split(/\r?\n/);
+               VAR_ACCOUNT_FOR_PLAY = VAR_USERNAME + ":"+ VAR_PASSWORD;
                VAR_ACCOUN_LIST.push(VAR_ACCOUNT_FOR_PLAY + "::  Купон " + VAR_COUPON_AMOUNT + " готов к взятию из добивки")
                native("filesystem", "writefile", JSON.stringify({path: RInfo("Login:Password","Location"),value: (VAR_ACCOUN_LIST).join("\r\n") + ((false) ? "\r\n" : "" ),base64:false,append:false}))
                success(VAR_ACCOUNT_FOR_PLAY + " ::  Купон " + VAR_COUPON_AMOUNT + " готов к взятию из добивки")
@@ -2259,15 +2260,9 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10 /*10*/,0,fu
       }
       section_end()!
 
-      section_start("\u007b\u0022n\u0022:\u0022Читаем в переменную первый аккаунт после основы и вырезаем его из списка\u0022\u007d", 423731429)!
-      /*Dat:eyJzIjoiR2V0RWxlbWVudEJ5SW5kZXgiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFyaWFibGUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IkFDQ09VTl9MSVNUIn0seyJpZCI6IkluZGV4IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfSx7ImlkIjoiVmFyaWFibGVSZXN1bHQiLCJ0eXBlIjoidmFyIiwiZGF0YSI6ImFjY291bnRfZm9yX3BsYXkifV19*/
-      VAR_ACCOUNT_FOR_PLAY = (VAR_ACCOUN_LIST)[0];
-      VAR_ACCOUN_LIST.splice(0,1)
-      section_end()!
-
       section_start("\u007b\u0022n\u0022:\u0022Перемещаем отыгранный элемент в конец списка.\u0022\u007d", 675068485)!
-      /*Dat:eyJzIjoiQWRkRWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJWYXJpYWJsZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiQUNDT1VOX0xJU1QifSx7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbQUNDT1VOVF9GT1JfUExBWV1dOjpbW0RBVEVfTk9XXV0gINCa0YPQv9C+0L0gW1tDT1VQT05fQU1PVU5UXV0g0LPQvtGC0L7QsiDQuiDQstC30Y/RgtC40Y4iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
-      VAR_ACCOUN_LIST.push(VAR_ACCOUNT_FOR_PLAY + "::" + VAR_DATE_NOW + "  Купон " + VAR_COUPON_AMOUNT + " готов к взятию")
+      /*Dat:eyJzIjoiQWRkRWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJWYXJpYWJsZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiQUNDT1VOX0xJU1QifSx7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbVVNFUk5BTUVdXTpbW1BBU1NXT1JEXV06OltbREFURV9OT1ddXSAg0JrRg9C/0L7QvSBbW0NPVVBPTl9BTU9VTlRdXSDQs9C+0YLQvtCyINC6INCy0LfRj9GC0LjRjiIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+      VAR_ACCOUN_LIST.push(VAR_USERNAME + ":" + VAR_PASSWORD + "::" + VAR_DATE_NOW + "  Купон " + VAR_COUPON_AMOUNT + " готов к взятию")
       section_end()!
 
       section_start("\u007b\u0022n\u0022:\u0022Окончательно записываем список с перемещенным в конец элементом\u0022\u007d", 848928440)!
@@ -3783,13 +3778,12 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10 /*10*/,0,fu
          _if(VAR_REPEAT_COUNT >= RESOURCE_595527,function(){
          section_insert()
             section_start("\u007b\u0022n\u0022:\u0022Обработка списка при  секьюрити : отправляем в конец списка с пометкой\u0022\u007d", 167430440)!
-            /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InZhciBkID0gbmF0aXZlKFwiZmlsZXN5c3RlbVwiLCBcInJlYWRmaWxlXCIsIEpTT04uc3RyaW5naWZ5KHsgdmFsdWU6IFJJbmZvKFwiTG9naW46UGFzc3dvcmRcIiwgXCJMb2NhdGlvblwiKSwgYmFzZTY0OiBmYWxzZSwgZnJvbTogMCwgdG86IDAgfSkpO1xyXG5WQVJfQUNDT1VOX0xJU1QgPSAoZC5sZW5ndGggPT0gMCkgPyBbXSA6IGQuc3BsaXQoL1xccj9cXG4vKTtcclxuVkFSX0FDQ09VTlRfRk9SX1BMQVkgPSAoVkFSX0FDQ09VTl9MSVNUKVswXTtcclxuVkFSX0FDQ09VTl9MSVNULnNwbGljZSgwLCAxKTsvL9GD0LTQsNC70LjRgtGMINC/0L4g0LjQvdC00LXQutGB0YNcclxuLy9WQVJfQUNDT1VOX0xJU1QucHVzaChWQVJfQUNDT1VOVF9GT1JfUExBWSArIFwiOjpcIiArIFZBUl9EQVRFX05PVyArIFwiICDQndCwINCw0LrQutCw0YPQvdGC0LUg0YHQtdC60YzRjtGA0LjRgtC4XCIpOyDQv9C+0LzQtdGB0YLQuNGC0Ywg0Y3Qu9C10LzQtdC90YIg0LIg0LrQvtC90LXRhiDRgdC/0LjRgdC60LBcclxubmF0aXZlKFwiZmlsZXN5c3RlbVwiLCBcIndyaXRlZmlsZVwiLCBKU09OLnN0cmluZ2lmeSh7IHBhdGg6IFJJbmZvKFwiTG9naW46UGFzc3dvcmRcIiwgXCJMb2NhdGlvblwiKSwgdmFsdWU6IChWQVJfQUNDT1VOX0xJU1QpLmpvaW4oXCJcXHJcXG5cIikgKyAoKGZhbHNlKSA/IFwiXFxyXFxuXCIgOiBcIlwiKSwgYmFzZTY0OiBmYWxzZSwgYXBwZW5kOiBmYWxzZSB9KSk7XHJcbnJlc3VsdChWQVJfQUNDT1VOVF9GT1JfUExBWSArIFwiOjogINCd0LAg0LDQutC60LDRg9C90YLQtSDRgdC10LrRjNGO0YDQuNGC0LhcIiwgMCk7XHJcbnN1Y2Nlc3MoVkFSX0FDQ09VTlRfRk9SX1BMQVkgKyBcIjo6XCIgKyBWQVJfREFURV9OT1cgKyBcIiAg0J3QsCDQsNC60LrQsNGD0L3RgtC1INGB0LXQutGM0Y7RgNC40YLQuFwiKTsiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+            /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InZhciBkID0gbmF0aXZlKFwiZmlsZXN5c3RlbVwiLCBcInJlYWRmaWxlXCIsIEpTT04uc3RyaW5naWZ5KHsgdmFsdWU6IFJJbmZvKFwiTG9naW46UGFzc3dvcmRcIiwgXCJMb2NhdGlvblwiKSwgYmFzZTY0OiBmYWxzZSwgZnJvbTogMCwgdG86IDAgfSkpO1xyXG5WQVJfQUNDT1VOX0xJU1QgPSAoZC5sZW5ndGggPT0gMCkgPyBbXSA6IGQuc3BsaXQoL1xccj9cXG4vKTtcclxuVkFSX0FDQ09VTlRfRk9SX1BMQVkgPSBWQVJfVVNFUk5BTUUgKyBcIjpcIisgVkFSX1BBU1NXT1JEO1xyXG4vL1ZBUl9BQ0NPVU5fTElTVC5wdXNoKFZBUl9BQ0NPVU5UX0ZPUl9QTEFZICsgXCI6OlwiICsgVkFSX0RBVEVfTk9XICsgXCIgINCd0LAg0LDQutC60LDRg9C90YLQtSDRgdC10LrRjNGO0YDQuNGC0LhcIik7INC/0L7QvNC10YHRgtC40YLRjCDRjdC70LXQvNC10L3RgiDQsiDQutC+0L3QtdGGINGB0L/QuNGB0LrQsFxyXG4vL25hdGl2ZShcImZpbGVzeXN0ZW1cIiwgXCJ3cml0ZWZpbGVcIiwgSlNPTi5zdHJpbmdpZnkoeyBwYXRoOiBSSW5mbyhcIkxvZ2luOlBhc3N3b3JkXCIsIFwiTG9jYXRpb25cIiksIHZhbHVlOiAoVkFSX0FDQ09VTl9MSVNUKS5qb2luKFwiXFxyXFxuXCIpICsgKChmYWxzZSkgPyBcIlxcclxcblwiIDogXCJcIiksIGJhc2U2NDogZmFsc2UsIGFwcGVuZDogZmFsc2UgfSkpO1xyXG5yZXN1bHQoVkFSX0FDQ09VTlRfRk9SX1BMQVkgKyBcIjo6ICDQndCwINCw0LrQutCw0YPQvdGC0LUg0YHQtdC60YzRjtGA0LjRgtC4XCIsIDApO1xyXG5zdWNjZXNzKFZBUl9BQ0NPVU5UX0ZPUl9QTEFZICsgXCI6OlwiICsgVkFSX0RBVEVfTk9XICsgXCIgINCd0LAg0LDQutC60LDRg9C90YLQtSDRgdC10LrRjNGO0YDQuNGC0LhcIik7IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
             var d = native("filesystem", "readfile", JSON.stringify({ value: RInfo("Login:Password", "Location"), base64: false, from: 0, to: 0 }));
             VAR_ACCOUN_LIST = (d.length == 0) ? [] : d.split(/\r?\n/);
-            VAR_ACCOUNT_FOR_PLAY = (VAR_ACCOUN_LIST)[0];
-            VAR_ACCOUN_LIST.splice(0, 1);//удалить по индексу
+            VAR_ACCOUNT_FOR_PLAY = VAR_USERNAME + ":"+ VAR_PASSWORD;
             //VAR_ACCOUN_LIST.push(VAR_ACCOUNT_FOR_PLAY + "::" + VAR_DATE_NOW + "  На аккаунте секьюрити"); поместить элемент в конец списка
-            native("filesystem", "writefile", JSON.stringify({ path: RInfo("Login:Password", "Location"), value: (VAR_ACCOUN_LIST).join("\r\n") + ((false) ? "\r\n" : ""), base64: false, append: false }));
+            //native("filesystem", "writefile", JSON.stringify({ path: RInfo("Login:Password", "Location"), value: (VAR_ACCOUN_LIST).join("\r\n") + ((false) ? "\r\n" : ""), base64: false, append: false }));
             result(VAR_ACCOUNT_FOR_PLAY + "::  На аккаунте секьюрити", 0);
             success(VAR_ACCOUNT_FOR_PLAY + "::" + VAR_DATE_NOW + "  На аккаунте секьюрити");
             section_end()!
@@ -4143,7 +4137,7 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10 /*10*/,0,fu
                section_end()!
 
                section_start("\u007b\u0022n\u0022:\u0022Проверка текста с плашки\u005cnЗапись в файл с основными аккаунтами, если нашелся с набитым купоном\u0022\u007d", 39074187)!
-               /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ii8v0L/RgNC+0LLQtdGA0Y/QtdC8INGC0LXQutGB0YIg0YEg0L/Qu9Cw0YjQutC4XHJcblZBUl9DT1VQT05fVEVYVCA9IFZBUl9DT1VQT05fVEVYVC5zcGxpdCgnJCcpO1xyXG5pZiAocGFyc2VJbnQoK1ZBUl9DT1VQT05fVEVYVFsxXSkgPT0gMTAgfHxwYXJzZUludCgrVkFSX0NPVVBPTl9URVhUWzFdKSA9PSAyMCApe1xyXG4gICAgVkFSX0NPVVBPTl9BTU9VTlQgPSBwYXJzZUludCgrVkFSX0NPVVBPTl9URVhUWzFdKTtcclxuICAgIGxvZyhcItCi0YPRgiDQtdGB0YLRjCDQutGD0L/QvtC9OiBcIisgVkFSX0NPVVBPTl9URVhUICsgXCIg0LzQvtC20L3QviDQtNC10LvQsNGC0Ywg0LrQu9GP0LnQvFwiICk7XHJcbiAgICAgICAgX2lmKFZBUl9DT1VQT05fQU1PVU5UID09IDEwIHx8IFZBUl9DT1VQT05fQU1PVU5UID09IDIwLGZ1bmN0aW9uKCl7XHJcbiAgICAgICAgICAgIHZhciBkID0gbmF0aXZlKFwiZmlsZXN5c3RlbVwiLCBcInJlYWRmaWxlXCIsIEpTT04uc3RyaW5naWZ5KHt2YWx1ZTogUkluZm8oXCJMb2dpbjpQYXNzd29yZFwiLFwiTG9jYXRpb25cIiksYmFzZTY0OmZhbHNlLGZyb206MCx0bzowfSkpO1xyXG4gICAgICAgICAgICBWQVJfQUNDT1VOX0xJU1RcdD0gKGQubGVuZ3RoID09IDApID8gW10gOiBkLnNwbGl0KC9cXHI/XFxuLyk7XHJcbiAgICAgICAgICAgIFZBUl9BQ0NPVU5UX0ZPUl9QTEFZID0gKFZBUl9BQ0NPVU5fTElTVClbMF07XHJcbiAgICAgICAgICAgIFZBUl9BQ0NPVU5fTElTVC5zcGxpY2UoMCwxKTtcclxuICAgICAgICAgICAgVkFSX0FDQ09VTl9MSVNULnB1c2goVkFSX0FDQ09VTlRfRk9SX1BMQVkgKyBcIjo6XCIgKyBWQVJfREFURV9OT1cgKyBcIiAg0JrRg9C/0L7QvSBcIiArIFZBUl9DT1VQT05fQU1PVU5UICsgXCIg0LPQvtGC0L7QsiDQuiDQstC30Y/RgtC40Y5cIik7XHJcbiAgICAgICAgICAgIG5hdGl2ZShcImZpbGVzeXN0ZW1cIiwgXCJ3cml0ZWZpbGVcIiwgSlNPTi5zdHJpbmdpZnkoe3BhdGg6IFJJbmZvKFwiTG9naW46UGFzc3dvcmRcIixcIkxvY2F0aW9uXCIpLHZhbHVlOiAoVkFSX0FDQ09VTl9MSVNUKS5qb2luKFwiXFxyXFxuXCIpICsgKChmYWxzZSkgPyBcIlxcclxcblwiIDogXCJcIiApLGJhc2U2NDpmYWxzZSxhcHBlbmQ6ZmFsc2V9KSk7XHJcbiAgICAgICAgICAgIHN1Y2Nlc3MoVkFSX0FDQ09VTlRfRk9SX1BMQVkgKyBcIjo6XCIgICsgVkFSX0RBVEVfTk9XICtcIiAg0JrRg9C/0L7QvSBcIiArIFZBUl9DT1VQT05fQU1PVU5UICsgXCIg0LPQvtGC0L7QsiDQuiDQstC30Y/RgtC40Y4g0LjQtyDQtNC+0LHQuNCy0LrQuFwiKTtcclxuICAgICAgICB9KX0gICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgICBcclxuXHJcbiAgICAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgICBcclxuXHJcbiAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgICBcclxuIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+               /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ii8v0L/RgNC+0LLQtdGA0Y/QtdC8INGC0LXQutGB0YIg0YEg0L/Qu9Cw0YjQutC4XHJcblZBUl9DT1VQT05fVEVYVCA9IFZBUl9DT1VQT05fVEVYVC5zcGxpdCgnJCcpO1xyXG5pZiAocGFyc2VJbnQoK1ZBUl9DT1VQT05fVEVYVFsxXSkgPT0gMTAgfHxwYXJzZUludCgrVkFSX0NPVVBPTl9URVhUWzFdKSA9PSAyMCApe1xyXG4gICAgVkFSX0NPVVBPTl9BTU9VTlQgPSBwYXJzZUludCgrVkFSX0NPVVBPTl9URVhUWzFdKTtcclxuICAgIGxvZyhcItCi0YPRgiDQtdGB0YLRjCDQutGD0L/QvtC9OiBcIisgVkFSX0NPVVBPTl9URVhUICsgXCIg0LzQvtC20L3QviDQtNC10LvQsNGC0Ywg0LrQu9GP0LnQvFwiICk7XHJcbiAgICAgICAgX2lmKFZBUl9DT1VQT05fQU1PVU5UID09IDEwIHx8IFZBUl9DT1VQT05fQU1PVU5UID09IDIwLGZ1bmN0aW9uKCl7XHJcbiAgICAgICAgICAgIHZhciBkID0gbmF0aXZlKFwiZmlsZXN5c3RlbVwiLCBcInJlYWRmaWxlXCIsIEpTT04uc3RyaW5naWZ5KHt2YWx1ZTogUkluZm8oXCJMb2dpbjpQYXNzd29yZFwiLFwiTG9jYXRpb25cIiksYmFzZTY0OmZhbHNlLGZyb206MCx0bzowfSkpO1xyXG4gICAgICAgICAgICBWQVJfQUNDT1VOX0xJU1RcdD0gKGQubGVuZ3RoID09IDApID8gW10gOiBkLnNwbGl0KC9cXHI/XFxuLyk7XHJcbiAgICAgICAgICAgIFZBUl9BQ0NPVU5UX0ZPUl9QTEFZID0gVkFSX1VTRVJOQU1FICsgXCI6XCIrIFZBUl9QQVNTV09SRDtcclxuICAgICAgICAgICAgLy8gVkFSX0FDQ09VTl9MSVNULnNwbGljZSgwLDEpOyAvL9GD0LTQsNC70LXQvdC40LUg0L/QviDQuNC90LTQtdC60YHRg1xyXG4gICAgICAgICAgICBWQVJfQUNDT1VOX0xJU1QucHVzaChWQVJfQUNDT1VOVF9GT1JfUExBWSArIFwiOjpcIiArIFZBUl9EQVRFX05PVyArIFwiICDQmtGD0L/QvtC9IFwiICsgVkFSX0NPVVBPTl9BTU9VTlQgKyBcIiDQs9C+0YLQvtCyINC6INCy0LfRj9GC0LjRjlwiKTtcclxuICAgICAgICAgICAgbmF0aXZlKFwiZmlsZXN5c3RlbVwiLCBcIndyaXRlZmlsZVwiLCBKU09OLnN0cmluZ2lmeSh7cGF0aDogUkluZm8oXCJMb2dpbjpQYXNzd29yZFwiLFwiTG9jYXRpb25cIiksdmFsdWU6IChWQVJfQUNDT1VOX0xJU1QpLmpvaW4oXCJcXHJcXG5cIikgKyAoKGZhbHNlKSA/IFwiXFxyXFxuXCIgOiBcIlwiICksYmFzZTY0OmZhbHNlLGFwcGVuZDpmYWxzZX0pKTtcclxuICAgICAgICAgICAgc3VjY2VzcyhWQVJfQUNDT1VOVF9GT1JfUExBWSArIFwiOjpcIiAgKyBWQVJfREFURV9OT1cgK1wiICDQmtGD0L/QvtC9IFwiICsgVkFSX0NPVVBPTl9BTU9VTlQgKyBcIiDQs9C+0YLQvtCyINC6INCy0LfRj9GC0LjRjiDQuNC3INC00L7QsdC40LLQutC4XCIpO1xyXG4gICAgICAgIH0pfSAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICAgIFxyXG5cclxuICAgICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICAgIFxyXG5cclxuICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICAgIFxyXG4iLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
                //проверяем текст с плашки
                VAR_COUPON_TEXT = VAR_COUPON_TEXT.split('$');
                if (parseInt(+VAR_COUPON_TEXT[1]) == 10 ||parseInt(+VAR_COUPON_TEXT[1]) == 20 ){
@@ -4152,8 +4146,8 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10 /*10*/,0,fu
                _if(VAR_COUPON_AMOUNT == 10 || VAR_COUPON_AMOUNT == 20,function(){
                var d = native("filesystem", "readfile", JSON.stringify({value: RInfo("Login:Password","Location"),base64:false,from:0,to:0}));
                VAR_ACCOUN_LIST	= (d.length == 0) ? [] : d.split(/\r?\n/);
-               VAR_ACCOUNT_FOR_PLAY = (VAR_ACCOUN_LIST)[0];
-               VAR_ACCOUN_LIST.splice(0,1);
+               VAR_ACCOUNT_FOR_PLAY = VAR_USERNAME + ":"+ VAR_PASSWORD;
+               // VAR_ACCOUN_LIST.splice(0,1); //удаление по индексу
                VAR_ACCOUN_LIST.push(VAR_ACCOUNT_FOR_PLAY + "::" + VAR_DATE_NOW + "  Купон " + VAR_COUPON_AMOUNT + " готов к взятию");
                native("filesystem", "writefile", JSON.stringify({path: RInfo("Login:Password","Location"),value: (VAR_ACCOUN_LIST).join("\r\n") + ((false) ? "\r\n" : "" ),base64:false,append:false}));
                success(VAR_ACCOUNT_FOR_PLAY + "::"  + VAR_DATE_NOW +"  Купон " + VAR_COUPON_AMOUNT + " готов к взятию из добивки");
@@ -8485,25 +8479,6 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10 /*10*/,0,fu
          log("похоже номинал набит,переносим ак в played accounts")
          section_end()!
 
-         section_start("\u007b\u0022n\u0022:\u0022читаем  основной список аккаунтов\u0022\u007d", 391189356)!
-         /*Dat:eyJzIjoiZmlsZXN5c3RlbV9maWxlX3RvX2xpc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Int7TG9naW46UGFzc3dvcmR9fSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6ImFjY291bl9saXN0In1dfQ==*/
-         {
-         var d = native("filesystem", "readfile", JSON.stringify({value: RInfo("Login:Password","Location"),base64:false,from:0,to:0}))
-         VAR_ACCOUN_LIST	= (d.length == 0) ? [] : d.split(/\r?\n/)
-         }
-         section_end()!
-
-         section_start("\u007b\u0022n\u0022:\u0022Читаем в переменную первый аккаунт после основы и вырезаем его из списка\u0022\u007d", 543805525)!
-         /*Dat:eyJzIjoiR2V0RWxlbWVudEJ5SW5kZXgiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFyaWFibGUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IkFDQ09VTl9MSVNUIn0seyJpZCI6IkluZGV4IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfSx7ImlkIjoiVmFyaWFibGVSZXN1bHQiLCJ0eXBlIjoidmFyIiwiZGF0YSI6ImFjY291bnRfZm9yX3BsYXkifV19*/
-         VAR_ACCOUNT_FOR_PLAY = (VAR_ACCOUN_LIST)[0];
-         VAR_ACCOUN_LIST.splice(0,1)
-         section_end()!
-
-         section_start("\u007b\u0022n\u0022:\u0022Окончательно записываем список  после удаления элемента\u0022\u007d", 166454609)!
-         /*Dat:eyJzIjoiZmlsZXN5c3RlbV9saXN0X3RvX2ZpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiRmlsZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoie3tMb2dpbjpQYXNzd29yZH19IiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiQUNDT1VOX0xJU1QifSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX0seyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
-         native("filesystem", "writefile", JSON.stringify({path: RInfo("Login:Password","Location"),value: (VAR_ACCOUN_LIST).join("\r\n") + ((false) ? "\r\n" : "" ),base64:false,append:false}))
-         section_end()!
-
          section_start("", 483777970)!
          /*Dat:eyJzIjoiZmlsZXN5c3RlbV9maWxlX3RvX2xpc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbR0xPQkFMOkZJTEVfRElSRUNUT1JZXV0vcGxheWVkX2FjY291bnRzLnR4dCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6Imxpc3RfcGxheWVkX2FjY291bnRzIn1dfQ==*/
          {
@@ -8513,8 +8488,8 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10 /*10*/,0,fu
          section_end()!
 
          section_start("\u007b\u0022n\u0022:\u0022Перемещаем отыгранный элемент в конец списка.\u0022\u007d", 537679212)!
-         /*Dat:eyJzIjoiQWRkRWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJWYXJpYWJsZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiTElTVF9QTEFZRURfQUNDT1VOVFMifSx7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbQUNDT1VOVF9GT1JfUExBWV1dOjog0L/RgNC+0LLQtdGA0Y/QuSDQutGD0L/QvtC9INGC0YPRgiIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
-         VAR_LIST_PLAYED_ACCOUNTS.push(VAR_ACCOUNT_FOR_PLAY + ":: проверяй купон тут")
+         /*Dat:eyJzIjoiQWRkRWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJWYXJpYWJsZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiTElTVF9QTEFZRURfQUNDT1VOVFMifSx7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbVVNFUk5BTUVdXTpbW1BBU1NXT1JEXV06OiDQv9GA0L7QstC10YDRj9C5INC60YPQv9C+0L0g0YLRg9GCIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+         VAR_LIST_PLAYED_ACCOUNTS.push(VAR_USERNAME + ":" + VAR_PASSWORD + ":: проверяй купон тут")
          section_end()!
 
          section_start("\u007b\u0022n\u0022:\u0022Окончательно записываем список с перемещенным в конец элементом\u0022\u007d", 700277031)!
@@ -8523,8 +8498,8 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10 /*10*/,0,fu
          section_end()!
 
          section_start("", 915831955)!
-         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InJlc3VsdChWQVJfQUNDT1VOVF9GT1JfUExBWSArIFwiOjpcIiAgKyBWQVJfREFURV9OT1cgK1wiICDQn9GA0L7QstC10YDRj9C5INCw0LrQsNGD0L3RgiDQvdCwINC90LDQsdC40YLRi9C5INC60YPQv9C+0L1cIiwgMilcclxuIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
-         result(VAR_ACCOUNT_FOR_PLAY + "::"  + VAR_DATE_NOW +"  Проверяй акаунт на набитый купон", 2)
+         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InJlc3VsdChWQVJfVVNFUk5BTUUgKyBcIjpcIisgVkFSX1BBU1NXT1JEICsgXCI6OlwiICArIFZBUl9EQVRFX05PVyArXCIgINCf0YDQvtCy0LXRgNGP0Lkg0LDQutCw0YPQvdGCINC40Lcg0L7RgdC90L7QstC90L7Qs9C+INGB0L/QuNGB0LrQsCAg0L3QsCDQvdCw0LHQuNGC0YvQuSDQutGD0L/QvtC9XCIsIDIpXHJcbiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+         result(VAR_USERNAME + ":"+ VAR_PASSWORD + "::"  + VAR_DATE_NOW +"  Проверяй акаунт из основного списка  на набитый купон", 2)
          section_end()!
 
       })!
@@ -8792,7 +8767,7 @@ ToolboxHeight=393
 MaxBrowserStartSimultaneously=1
 MinFreeMemoryToStartBrowser=500
 MinUnusedCpu=20
-ScenarioWidth=724
+ScenarioWidth=858
 Zoom=100
 IsMaximized=false
 Restart=true
@@ -8829,15 +8804,15 @@ Detector=true
     &quot;FTP&quot;: false
 }
 </ModulesMetaJson>
-     <OutputTitle1 en="First Results" ru="First Results"/>
-     <OutputTitle2 en="Second Results" ru="Second Results"/>
-     <OutputTitle3 en="Third Results" ru="Third Results"/>
-     <OutputTitle4 en="Fourth Results" ru="Fourth Results"/>
-     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
-     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
-     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
-     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
-     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
+     <OutputTitle1 ru="Секьюрити основной ак" en="First Results"/>
+     <OutputTitle2 ru="Секьюрити добивка" en="Second Results"/>
+     <OutputTitle3 ru="акаунты  с возможным купоном " en="Third Results"/>
+     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
+     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
+     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
+     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
+     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
+     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>1</OutputVisible2>
      <OutputVisible3>1</OutputVisible3>
@@ -8850,8 +8825,8 @@ Detector=true
      <ModelList>
           <Model>
                <Name>Login:Password</Name>
-               <Description en="Login:Password" ru="Login:Password"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="Login:Password" en="Login:Password"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -8860,7 +8835,7 @@ Detector=true
                <Enabled>1</Enabled>
                <AllowedTypes>FixedString,LinesFromFile</AllowedTypes>
                <Filename></Filename>
-               <Clean>0</Clean>
+               <Clean>1</Clean>
                <Read>1</Read>
                <Mix>0</Mix>
                <MaxSuccess>1</MaxSuccess>
@@ -8874,8 +8849,8 @@ Detector=true
           <Defaults>
                <Default>
                     <Name>Login:Password</Name>
-                    <Description en="Login:Password" ru="Login:Password"/>
-                    <SectionName en="General" ru="Основные"/>
+                    <Description ru="Login:Password" en="Login:Password"/>
+                    <SectionName ru="Основные" en="General"/>
                     <VisibilityConditionValue></VisibilityConditionValue>
                     <VisibilityConditionVariable></VisibilityConditionVariable>
                     <Type>FixedString</Type>
@@ -8889,8 +8864,8 @@ Detector=true
           </Defaults>
           <Model>
                <Name>newaccsforplay</Name>
-               <Description en="new accounts for play" ru="аккаунты для добивки новореги"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="аккаунты для добивки новореги" en="new accounts for play"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -8913,8 +8888,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>oldaccsforplay</Name>
-               <Description en="old accounts for play" ru="аккаунты для добивки старые с покупокой"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="аккаунты для добивки старые с покупокой" en="old accounts for play"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -8937,8 +8912,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>Proxy switch</Name>
-               <Description en="Proxy switch" ru="Proxy switch"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="Proxy switch" en="Proxy switch"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -8953,8 +8928,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>proxy</Name>
-               <Description en="proxy" ru="proxy"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="proxy" en="proxy"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue>Вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>Proxy switch</VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -8977,8 +8952,8 @@ Detector=true
           <Defaults>
                <Default>
                     <Name>proxy</Name>
-                    <Description en="proxy" ru="proxy"/>
-                    <SectionName en="General" ru="Основные"/>
+                    <Description ru="proxy" en="proxy"/>
+                    <SectionName ru="Основные" en="General"/>
                     <VisibilityConditionValue>Вкл</VisibilityConditionValue>
                     <VisibilityConditionVariable>Proxy switch</VisibilityConditionVariable>
                     <Type>FixedString</Type>
@@ -8992,8 +8967,8 @@ Detector=true
           </Defaults>
           <Model>
                <Name>Потоки</Name>
-               <Description en="Потоки" ru="Потоки"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="Потоки" en="Потоки"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9008,8 +8983,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>adslave</Name>
-               <Description en="adslave" ru="дополнительная добивка"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="дополнительная добивка" en="adslave"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -9024,8 +8999,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>slave</Name>
-               <Description en="slave " ru="добивка"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="добивка" en="slave "/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -9040,8 +9015,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>ip modema</Name>
-               <Description en="ip modema" ru="ip modema"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="ip modema" en="ip modema"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -9055,8 +9030,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>ip change</Name>
-               <Description en="ip change" ru="смена ip"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="смена ip" en="ip change"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -9071,8 +9046,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>starts</Name>
-               <Description en="starts" ru="starts"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="starts" en="starts"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9087,8 +9062,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>3plays</Name>
-               <Description en="3plays" ru="3plays"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="3plays" en="3plays"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -9105,8 +9080,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>nord vpn</Name>
-               <Description en="nord vpn" ru="nord vpn"/>
-               <SectionName en="counters" ru="счетчики"/>
+               <Description ru="nord vpn" en="nord vpn"/>
+               <SectionName ru="счетчики" en="counters"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -9121,8 +9096,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>pause </Name>
-               <Description en="pause vpn restart" ru="pause "/>
-               <SectionName en="counters" ru="счетчики"/>
+               <Description ru="pause " en="pause vpn restart"/>
+               <SectionName ru="счетчики" en="counters"/>
                <VisibilityConditionValue>вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>nord vpn</VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9137,8 +9112,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>cycle NORD</Name>
-               <Description en="cycle NORD" ru="cycle NORD"/>
-               <SectionName en="counters" ru="счетчики"/>
+               <Description ru="cycle NORD" en="cycle NORD"/>
+               <SectionName ru="счетчики" en="counters"/>
                <VisibilityConditionValue>вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>nord vpn</VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -9161,8 +9136,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>counter slave cycles</Name>
-               <Description en="counter cycles" ru="счетчик slave циклов"/>
-               <SectionName en="counters" ru="счетчики"/>
+               <Description ru="счетчик slave циклов" en="counter cycles"/>
+               <SectionName ru="счетчики" en="counters"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9177,8 +9152,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>counter security</Name>
-               <Description en="count security" ru="счетчик ошибок security"/>
-               <SectionName en="counters" ru="счетчики"/>
+               <Description ru="счетчик ошибок security" en="count security"/>
+               <SectionName ru="счетчики" en="counters"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9193,8 +9168,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>сounter errors</Name>
-               <Description en="сounter errors" ru="счетчик ошибок для циклов контроля запуска"/>
-               <SectionName en="counters" ru="счетчики"/>
+               <Description ru="счетчик ошибок для циклов контроля запуска" en="сounter errors"/>
+               <SectionName ru="счетчики" en="counters"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9209,8 +9184,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>vpn cycle index</Name>
-               <Description en="vpn cycle index" ru="vpn cycle index"/>
-               <SectionName en="counters" ru="счетчики"/>
+               <Description ru="vpn cycle index" en="vpn cycle index"/>
+               <SectionName ru="счетчики" en="counters"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9225,8 +9200,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>country</Name>
-               <Description en="country" ru="country"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="country" en="country"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -9243,8 +9218,8 @@ RU</Values>
           <Defaults/>
           <Model>
                <Name>refer list</Name>
-               <Description en="refer list" ru="список рефок для добивки"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="список рефок для добивки" en="refer list"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue>Вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>adslave</VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -9267,8 +9242,8 @@ RU</Values>
           <Defaults/>
           <Model>
                <Name>refer link</Name>
-               <Description en="refer link" ru="refer link"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="refer link" en="refer link"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue>Вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>adslave</VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -9282,8 +9257,8 @@ RU</Values>
           <Defaults/>
           <Model>
                <Name>resurce_change</Name>
-               <Description en="resurce change order" ru="порядок смены ресурса логинов для добивки, смена на цикле кратному установленной пеерменной"/>
-               <SectionName en="counters" ru="счетчики"/>
+               <Description ru="порядок смены ресурса логинов для добивки, смена на цикле кратному установленной пеерменной" en="resurce change order"/>
+               <SectionName ru="счетчики" en="counters"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9298,8 +9273,8 @@ RU</Values>
           <Defaults/>
           <Model>
                <Name>pause for cycles</Name>
-               <Description en="pause for cycles" ru="паузы для циклов"/>
-               <SectionName en="counters" ru="счетчики"/>
+               <Description ru="паузы для циклов" en="pause for cycles"/>
+               <SectionName ru="счетчики" en="counters"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9314,8 +9289,8 @@ RU</Values>
           <Defaults/>
           <Model>
                <Name>manual change ip</Name>
-               <Description en="manual change ip" ru="пауза (количество циклов) для смены ип руками"/>
-               <SectionName en="counters" ru="счетчики"/>
+               <Description ru="пауза (количество циклов) для смены ип руками" en="manual change ip"/>
+               <SectionName ru="счетчики" en="counters"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9330,8 +9305,8 @@ RU</Values>
           <Defaults/>
           <Model>
                <Name>EU taker_ref</Name>
-               <Description en="EU taker_ref" ru="Опция взятия рефки EU полуавтомат"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="Опция взятия рефки EU полуавтомат" en="EU taker_ref"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue>EU</VisibilityConditionValue>
                <VisibilityConditionVariable>country</VisibilityConditionVariable>
                <Type>Select</Type>
