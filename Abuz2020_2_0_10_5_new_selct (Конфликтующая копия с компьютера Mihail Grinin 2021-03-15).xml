@@ -5,47 +5,111 @@ RESOURCE_1 = _result().get()
 RS("starts", false, false)!
 RESOURCE_2 = _result().get()
 
-section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*/,0,function(){
+section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10 /*10*/,0,function(){
    section_start("\u007b\u0022n\u0022:\u0022Initialize\u0022\u007d", 0)!
 
    section_end()!
 
-   section_start("\u007b\u0022n\u0022:\u0022coupon_amount\u0022,\u0022fd\u0022:\u0022\u007b\u005c\u0022fd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022hr\u005c\u0022:false,\u005c\u0022rd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022rv\u005c\u0022:\u005c\u0022FUNCTION_RESULT\u005c\u0022,\u005c\u0022p\u005c\u0022:[]\u007d\u0022\u007d", 190686627)!
-   function coupon_amount()
+   section_start("\u007b\u0022n\u0022:\u0022COUPON_AMOUNT\u0022,\u0022fd\u0022:\u0022\u007b\u005c\u0022fd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022hr\u005c\u0022:false,\u005c\u0022rd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022rv\u005c\u0022:\u005c\u0022FUNCTION_RESULT\u005c\u0022,\u005c\u0022p\u005c\u0022:[]\u007d\u0022\u007d", 358204357)!
+   function COUPON_AMOUNT()
    {
    section_insert()
-      section_start("", 93809448)!
-      /*Dat:eyJzIjoiY2FjaGVtYXNrYWxsb3ciLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiptdG9wanNvbnAxKiIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+      section_start("", 111568238)!
+      /*Dat:eyJzIjoic2F2ZWNvb2tpZXMiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiU0FWRURfQ09PS0lFUyJ9XX0=*/
       /*Browser*/
-      cache_allow("*mtopjsonp1*")!
+      save_cookies()!
+      VAR_SAVED_COOKIES = "{\"cookies\":" + _result() + "}"
       section_end()!
 
-      section_start("", 132923412)!
-      /*Dat:eyJzIjoiamF2YXNjcmlwdCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJTQVZFRF9TQ1JJUFRfUkVTVUxUIn0seyJpZCI6IlZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJsb2NhdGlvbi5yZWxvYWQoKSIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+      section_start("", 194095242)!
+      /*Dat:eyJzIjoiaHR0cGNsaWVudHNhdmVjb29raWVzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IlNBVkVEX0NPT0tJRVMifV19*/
+      _switch_http_client_main()
+      VAR_SAVED_COOKIES = http_client_save_cookies()
+      section_end()!
+
+      section_start("", 974984313)!
+      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ii8qLy9WQVJfQ09PS0lFUyA9IEpTT04ucGFyc2UoW1tTQVZFRF9DT09LSUVTXV0pO1xyXG4vL1ZBUl9fSDVUSyA9IFZBUl9DT09LSUVTLmNvb2tpZXMuXHJcbi8vPdCf0L7Qu9GD0YfQsNC10LwgNCBjb29raWVcclxuaHR0cF9jbGllbnRfZ2V0MihcImh0dHBzOi8vYWNzLmFsaWV4cHJlc3MuY29tXCIse21ldGhvZDooXCJHRVRcIiksaGVhZGVyczooXCJcIil9KSFcclxudmFyIGNvb2tpZXMgPSBodHRwX2NsaWVudF9zYXZlX2Nvb2tpZXMoKVxyXG4qL1xyXG5cclxudmFyIGNvb2thMSA9IEpTT04ucGFyc2UoVkFSX1NBVkVEX0NPT0tJRVMpW1wiY29va2llc1wiXS5maWx0ZXIoZnVuY3Rpb24oYyl7cmV0dXJuIGNbXCJuYW1lXCJdID09IFwiX21faDVfdGtcIn0pXHJcbnBhcnNlKGNvb2thMSlcclxubG9nKGNvb2thMSlcclxuXHJcbmZ1bmN0aW9uIHBhcnNlKGNvb2tpZSlcclxue1xyXG4gICAgZm9yIChpID0gMDsgaSA8IGNvb2tpZS5sZW5ndGg7IGkrKykgXHJcbiAgICB7XHJcbiAgICAgICAgdmFyIGRvbWFpbiA9IGNvb2tpZVtpXS5kb21haW5cclxuICAgICAgICBpZiAoZG9tYWluID09IFwiLmFsaWV4cHJlc3MuY29tXCIpXHJcbiAgICAgICAge1xyXG4gICAgICAgICAgICB2YXIgdmFsdWUgPSBjb29raWVbaV0udmFsdWUuc3BsaXQoXCImXCIpXHJcbiAgICAgICAgICAgIGZvciAoaiA9IDA7IGogPCB2YWx1ZS5sZW5ndGg7IGorKykgXHJcbiAgICAgICAgICAgIHtcclxuICAgICAgICAgICAgICAgIGlmICh2YWx1ZVtqXS5zcGxpdChcIj1cIilbMF0gPT0gXCJfbV9oNV90a1wiKVxyXG4gICAgICAgICAgICAgICAge1xyXG4gICAgICAgICAgICAgICAgICAgIFZBUl9DU1JGID0gdmFsdWVbal0uc3BsaXQoXCI9XCIpWzFdXHJcbiAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICB9fX0iLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+      /*//VAR_COOKIES = JSON.parse(VAR_SAVED_COOKIES);
+      //VAR__H5TK = VAR_COOKIES.cookies.
+      //=Получаем 4 cookie
+      http_client_get2("https://acs.aliexpress.com",{method:("GET"),headers:("")})!
+      var cookies = http_client_save_cookies()
+      */
+      var cooka1 = JSON.parse(VAR_SAVED_COOKIES)["cookies"].filter(function(c){return c["name"] == "_m_h5_tk"})
+      parse(cooka1)
+      log(cooka1)
+      function parse(cookie)
+      {
+      for (i = 0; i < cookie.length; i++)
+      {
+      var domain = cookie[i].domain
+      if (domain == ".aliexpress.com")
+      {
+      var value = cookie[i].value.split("&")
+      for (j = 0; j < value.length; j++)
+      {
+      if (value[j].split("=")[0] == "_m_h5_tk")
+      {
+      VAR_CSRF = value[j].split("=")[1]
+      }
+      }
+      }}}
+      section_end()!
+
+      section_start("", 358746590)!
+      /*Dat:eyJzIjoiY2xlYXJkYXRhIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
       /*Browser*/
-      page().script("location.reload()")!
+      cache_data_clear()!
+      section_end()!
+
+      section_start("", 825063839)!
+      /*Dat:eyJzIjoiY2FjaGVtYXNrYWxsb3ciLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiovaDUvbXRvcC5hbGlleHByZXNzLnNvY2lhbC5pbnRlcmFjdGl2ZS5kYWlseWNhc2guZ2V0Z2FtZWluZm8vMS4wLyoiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+      /*Browser*/
+      cache_allow("*/h5/mtop.aliexpress.social.interactive.dailycash.getgameinfo/1.0/*")!
+      section_end()!
+
+      section_start("", 501487093)!
+      /*Dat:eyJzIjoiamF2YXNjcmlwdCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJTQVZFRF9TQ1JJUFRfUkVTVUxUIn0seyJpZCI6IlZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJsb2NhdGlvbi5yZWxvYWQoKTsiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+      /*Browser*/
+      page().script("location.reload();")!
       VAR_SAVED_SCRIPT_RESULT = _result()
       section_end()!
 
-      section_start("", 371807328)!
+      section_start("", 199149901)!
       /*Dat:eyJzIjoid2FpdGZ1bGxsb2FkIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
       /*Browser*/
       wait_async_load()!
       section_end()!
 
-      section_start("", 954590576)!
-      /*Dat:eyJzIjoiZ2V0ZnJvbWNhY2hlIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJtdG9wanNvbnAxIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiU0FWRURfQ0FDSEUifSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
+      section_start("", 610631395)!
+      /*Dat:eyJzIjoiZ2V0YWxsY2FjaGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiovaDUvbXRvcC5hbGlleHByZXNzLnNvY2lhbC5pbnRlcmFjdGl2ZS5kYWlseWNhc2guZ2V0Z2FtZWluZm8qIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiQ0FDSEVfTElTVCJ9XX0=*/
       /*Browser*/
-      wait_load("mtopjsonp1")!
-      cache_get_string("mtopjsonp1")!
-      VAR_SAVED_CACHE = _result()
+      _cache_get_all("*/h5/mtop.aliexpress.social.interactive.dailycash.getgameinfo*")!
+      VAR_CACHE_LIST = JSON.parse(_result())
       section_end()!
 
-      section_start("", 619948329)!
-      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IlZBUl9TQVZFRF9DQUNIRSA9IFZBUl9TQVZFRF9DQUNIRS5zbGljZSgxMiwtMSk7XHJcblZBUl9DT1VQT05fQU1PVU5UID0gSlNPTi5wYXJzZShWQVJfU0FWRURfQ0FDSEUpLmRhdGEucmVzdWx0LmN1cnJlbnRBbW91bnREZXNjO1xyXG5sb2coVkFSX0NPVVBPTl9BTU9VTlQpOyIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
-      VAR_SAVED_CACHE = VAR_SAVED_CACHE.slice(12,-1);
-      VAR_COUPON_AMOUNT = JSON.parse(VAR_SAVED_CACHE).data.result.currentAmountDesc;
-      log(VAR_COUPON_AMOUNT);
+      section_start("", 582523250)!
+      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IlZBUl9VUkwgPSBWQVJfQ0FDSEVfTElTVFswXS51cmwiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+      VAR_URL = VAR_CACHE_LIST[0].url
+      section_end()!
+
+      section_start("", 444410557)!
+      /*Dat:eyJzIjoiaHR0cGNsaWVudGdldCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tVUkxdXSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkhlYWRlcnMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6Ik1ldGhvZCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiR0VUIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
+      _switch_http_client_main()
+      http_client_get_no_redirect2(VAR_URL,{method:("GET"),headers:("")})!
+      section_end()!
+
+      section_start("", 657164319)!
+      /*Dat:eyJzIjoiaHR0cGNsaWVudGNvbnRlbnQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiU0FWRURfQ09OVEVOVCJ9LHsiaWQiOiJFbmNvZGluZyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXV0byIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+      _switch_http_client_main()
+      VAR_SAVED_CONTENT = http_client_encoded_content("auto")
+      section_end()!
+
+      section_start("", 468236892)!
+      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InZhciByZXNwb25jZSA9IFZBUl9TQVZFRF9DT05URU5ULnNsaWNlKDEyLC0xKTtcclxuVkFSX0NPVVBPTl9BTU9VTlQgPSBKU09OLnBhcnNlKHJlc3BvbmNlKS5kYXRhLnJlc3VsdC5jdXJyZW50QW1vdW50RGVzYztcclxubG9nKFwi0JrRg9C/0L7QvTogXCIgKyBWQVJfQ09VUE9OX0FNT1VOVCk7IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+      var responce = VAR_SAVED_CONTENT.slice(12,-1);
+      VAR_COUPON_AMOUNT = JSON.parse(responce).data.result.currentAmountDesc;
+      log("Купон: " + VAR_COUPON_AMOUNT);
       section_end()!
 
    }
@@ -218,53 +282,30 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
       section_end()!
 
       section_start("\u007b\u0022n\u0022:\u0022Статус логина\u0022\u007d", 60663591)!
-      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImZvciAoaSA9IDA7IGkgPCBWQVJfQ0FDSEVfTElTVC5sZW5ndGg7IGkrKykge1xuICAgIGlmICgoKFZBUl9DQUNIRV9MSVNUW2ldLmJvZHkpLmxlbmd0aCkgPiAyMCkge1xuICAgICAgICB2YXIgcmVzdWx0ID0gSlNPTi5wYXJzZShiYXNlNjRfZGVjb2RlKFZBUl9DQUNIRV9MSVNUW2ldLmJvZHkpKVxuICAgICAgICB2YXIgY2FwdGNoYSA9IHJlc3VsdC5jb250ZW50LmRhdGEuaXNDaGVja0NvZGVTaG93ZWQ7XG4gICAgICAgIHZhciBiYW5uZWQgPSByZXN1bHQuY29udGVudC5kYXRhLnRpdGxlTXNnO1xuICAgICAgICB2YXIgbG9naW5fb2sgPSByZXN1bHQuY29udGVudC5kYXRhLmxvZ2luUmVzdWx0O1xuICAgICAgICB2YXIgdmVya2FfcG9jaHRhID0gcmVzdWx0LmNvbnRlbnQuZGF0YS5yZWRpcmVjdDtcbiAgICAgICAgdmFyIHZlcmthX3BvY2h0YV9taW5pID0gcmVzdWx0LmNvbnRlbnQuZGF0YS5pZnJhbWVSZWRpcmVjdFVybDtcbiAgICAgICAgaWYodHlwZW9mKHJlc291cmNlKSA9PSAndW5kZWZpbmVkJyB8fCAhcmVzb3VyY2Upe1xuICAgICAgICAgICAgIHJlc291cmNlID0gXCJcIjtcbiAgICAgICAgfVxuICAgICAgICBpZiAodmVya2FfcG9jaHRhX21pbmkgIT0gbnVsbCkge1xuICAgICAgICAgICAgaWYgKHJlc291cmNlID09IFwiT0xEXCIpIHtcbiAgICAgICAgICAgICAgICBSTWFwKFwib2xkYWNjc2ZvcnBsYXlcIikucmVtb3ZlKChsZW5ndGhfbG9naW5zLTEpKTtcbiAgICAgICAgICAgICAgICBSTWFwKFwib2xkYWNjc2ZvcnBsYXlcIikuc3luYygpO1xuICAgICAgICAgICAgICAgIGZhaWwoW1tVU0VSTkFNRV1dICsgXCI6XCIgKyBbW1BBU1NXT1JEXV0gKyBcIiDQvNC40L3QuNCy0LXRgNC60LAg0L/QviDQv9C+0YfRgtC1XCIsIGZhbHNlKTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICAgIGVsc2Uge1xuICAgICAgICAgICAgICAgIGZhaWwoW1tVU0VSTkFNRV1dICsgXCI6XCIgKyBbW1BBU1NXT1JEXV0gKyBcIiDQvNC40L3QuNCy0LXRgNC60LAg0L/QviDQv9C+0YfRgtC1XCIsIGZhbHNlKTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgfVxuICAgICAgICBpZiAodmVya2FfcG9jaHRhICE9IG51bGwpIHtcbiAgICAgICAgICAgIGlmIChyZXNvdXJjZSA9PSBcIk9MRFwiKSB7XG4gICAgICAgICAgICAgICAgUk1hcChcIm9sZGFjY3Nmb3JwbGF5XCIpLnJlbW92ZSgobGVuZ3RoX2xvZ2lucyAtIDEpKTtcbiAgICAgICAgICAgICAgICBSTWFwKFwib2xkYWNjc2ZvcnBsYXlcIikuc3luYygpO1xuICAgICAgICAgICAgICAgIGZhaWwoW1tVU0VSTkFNRV1dICsgXCI6XCIgKyBbW1BBU1NXT1JEXV0gKyBcIiDQstC10YDQutCwINC/0L4g0L/QvtGH0YLQtVwiLCBmYWxzZSk7XG4gICAgICAgICAgICB9XG4gICAgICAgICAgICBlbHNlIHtcbiAgICAgICAgICAgICAgICBmYWlsKFtbVVNFUk5BTUVdXSArIFwiOlwiICsgW1tQQVNTV09SRF1dICsgXCIg0LLQtdGA0LrQsCDQv9C+INC/0L7Rh9GC0LVcIiwgZmFsc2UpO1xuICAgICAgICAgICAgfVxuICAgICAgICB9XG4gICAgICAgIGlmIChjYXB0Y2hhICE9IG51bGwpIHtcbiAgICAgICAgICAgIGZhaWwoW1tVU0VSTkFNRV1dICsgXCI6XCIgKyBbW1BBU1NXT1JEXV0gKyBcIiDRgtGA0LXQsdGD0LXRgiDQstCy0L7QtNCwINC60LDQv9GC0YfQuFwiLCBmYWxzZSk7XG4gICAgICAgIH1cbiAgICAgICAgaWYgKGJhbm5lZCAhPSBudWxsKSB7XG4gICAgICAgICAgICBpZiAocmVzb3VyY2UgPT0gXCJPTERcIikge1xuICAgICAgICAgICAgICAgIFJNYXAoXCJvbGRhY2NzZm9ycGxheVwiKS5yZW1vdmUoKGxlbmd0aF9sb2dpbnMgLSAxKSk7XG4gICAgICAgICAgICAgICAgUk1hcChcIm9sZGFjY3Nmb3JwbGF5XCIpLnN5bmMoKTtcbiAgICAgICAgICAgICAgICBmYWlsKFtbVVNFUk5BTUVdXSArIFwiOlwiICsgW1tQQVNTV09SRF1dICsgXCIg0YLRgNC10LHRg9C10YIg0LLQtdGA0LjRhNC40LrQsNGG0LjQuCDRh9C10YDQtdC3INGB0LzRgVwiLCBmYWxzZSk7XG4gICAgICAgICAgICB9XG4gICAgICAgICAgICBlbHNlIHtcbiAgICAgICAgICAgICAgICBmYWlsKFtbVVNFUk5BTUVdXSArIFwiOlwiICsgW1tQQVNTV09SRF1dICsgXCIg0YLRgNC10LHRg9C10YIg0LLQtdGA0LjRhNC40LrQsNGG0LjQuCDRh9C10YDQtdC3INGB0LzRgVwiLCBmYWxzZSk7XG4gICAgICAgICAgICB9XG4gICAgICAgIH1cbiAgICAgICAgaWYgKGxvZ2luX29rICE9IG51bGwpIHtcbiAgICAgICAgICAgIGxvZyhbW1VTRVJOQU1FXV0gKyBcIjpcIiArIFtbUEFTU1dPUkRdXSArIFwiINGD0YHQv9C10YjQvdC+INCy0L7RiNC70LhcIik7XG4gICAgICAgIH1cbiAgICB9XG59XG4iLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
-      for (i = 0; i < VAR_CACHE_LIST.length; i++) {
-      if (((VAR_CACHE_LIST[i].body).length) > 20) {
-      var result = JSON.parse(base64_decode(VAR_CACHE_LIST[i].body))
-      var captcha = result.content.data.isCheckCodeShowed;
-      var banned = result.content.data.titleMsg;
-      var login_ok = result.content.data.loginResult;
-      var verka_pochta = result.content.data.redirect;
-      var verka_pochta_mini = result.content.data.iframeRedirectUrl;
-      if(typeof(resource) == 'undefined' || !resource){
-      resource = "";
+      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImZvciAoaSA9IDA7IGkgPCBWQVJfQ0FDSEVfTElTVC5sZW5ndGg7IGkrKykgXG57XG4gICAgaWYgKCgoVkFSX0NBQ0hFX0xJU1RbaV0uYm9keSkubGVuZ3RoKSA+IDIwKVxuICAgIHtcbiAgICAgICAgdmFyIHJlc3VsdCA9IFZBUl9BQVI9IEpTT04ucGFyc2UoYmFzZTY0X2RlY29kZShWQVJfQ0FDSEVfTElTVFtpXS5ib2R5KSlcbiAgICAgICAgdmFyIGNhcHRjaGEgPSByZXN1bHQuY29udGVudC5kYXRhLmlzQ2hlY2tDb2RlU2hvd2VkXG4gICAgICAgIHZhciBiYW5uZWQgPSByZXN1bHQuY29udGVudC5kYXRhLnRpdGxlTXNnXG4gICAgICAgIHZhciBsb2dpbl9vayA9IHJlc3VsdC5jb250ZW50LmRhdGEubG9naW5SZXN1bHRcbiAgICAgICAgdmFyIHZlcmthX3BvY2h0YSA9IHJlc3VsdC5jb250ZW50LmRhdGEucmVkaXJlY3Rcblx0XHRpZiAodmVya2FfcG9jaHRhICE9IG51bGwpXG4gICAgICAgIHtcbiAgICAgICAgICAgIGZhaWwoW1tVU0VSTkFNRV1dK1wiOlwiKyBbW1BBU1NXT1JEXV0gKyBcIiDQstC10YDQutCwINC/0L4g0L/QvtGH0YLQtVwiLCBmYWxzZSlcbiAgICAgICAgfVxuICAgICAgICBpZiAoY2FwdGNoYSAhPSBudWxsKVxuICAgICAgICB7XG4gICAgICAgICAgICBmYWlsKFtbVVNFUk5BTUVdXStcIjpcIisgW1tQQVNTV09SRF1dICsgXCIg0YLRgNC10LHRg9C10YIg0LLQstC+0LTQsCDQutCw0L/RgtGH0LhcIiwgZmFsc2UpXG4gICAgICAgIH1cbiAgICAgICAgaWYgKGJhbm5lZCAhPSBudWxsKVxuICAgICAgICB7XG4gICAgICAgICAgICBmYWlsKFtbVVNFUk5BTUVdXStcIjpcIisgW1tQQVNTV09SRF1dICsgXCIg0YLRgNC10LHRg9C10YIg0LLQtdGA0LjRhNC40LrQsNGG0LjQuCDRh9C10YDQtdC3INGB0LzRgVwiLCBmYWxzZSlcbiAgICAgICAgfVxuICAgICAgICBpZiAobG9naW5fb2sgIT0gbnVsbCl7XG4gICAgICAgICAgICBsb2coW1tVU0VSTkFNRV1dK1wiOlwiKyBbW1BBU1NXT1JEXV0gKyBcIiDRg9GB0L/QtdGI0L3QviDQstC+0YjQu9C4XCIpXG4gICAgICAgIH1cbiAgICB9XG59IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+      for (i = 0; i < VAR_CACHE_LIST.length; i++)
+      {
+      if (((VAR_CACHE_LIST[i].body).length) > 20)
+      {
+      var result = VAR_AAR= JSON.parse(base64_decode(VAR_CACHE_LIST[i].body))
+      var captcha = result.content.data.isCheckCodeShowed
+      var banned = result.content.data.titleMsg
+      var login_ok = result.content.data.loginResult
+      var verka_pochta = result.content.data.redirect
+      if (verka_pochta != null)
+      {
+      fail(VAR_USERNAME+":"+ VAR_PASSWORD + " верка по почте", false)
       }
-      if (verka_pochta_mini != null) {
-      if (resource == "OLD") {
-      RMap("oldaccsforplay").remove((length_logins-1));
-      RMap("oldaccsforplay").sync();
-      fail(VAR_USERNAME + ":" + VAR_PASSWORD + " миниверка по почте", false);
+      if (captcha != null)
+      {
+      fail(VAR_USERNAME+":"+ VAR_PASSWORD + " требует ввода каптчи", false)
       }
-      else {
-      fail(VAR_USERNAME + ":" + VAR_PASSWORD + " миниверка по почте", false);
+      if (banned != null)
+      {
+      fail(VAR_USERNAME+":"+ VAR_PASSWORD + " требует верификации через смс", false)
       }
-      }
-      if (verka_pochta != null) {
-      if (resource == "OLD") {
-      RMap("oldaccsforplay").remove((length_logins - 1));
-      RMap("oldaccsforplay").sync();
-      fail(VAR_USERNAME + ":" + VAR_PASSWORD + " верка по почте", false);
-      }
-      else {
-      fail(VAR_USERNAME + ":" + VAR_PASSWORD + " верка по почте", false);
-      }
-      }
-      if (captcha != null) {
-      fail(VAR_USERNAME + ":" + VAR_PASSWORD + " требует ввода каптчи", false);
-      }
-      if (banned != null) {
-      if (resource == "OLD") {
-      RMap("oldaccsforplay").remove((length_logins - 1));
-      RMap("oldaccsforplay").sync();
-      fail(VAR_USERNAME + ":" + VAR_PASSWORD + " требует верификации через смс", false);
-      }
-      else {
-      fail(VAR_USERNAME + ":" + VAR_PASSWORD + " требует верификации через смс", false);
-      }
-      }
-      if (login_ok != null) {
-      log(VAR_USERNAME + ":" + VAR_PASSWORD + " успешно вошли");
+      if (login_ok != null){
+      log(VAR_USERNAME+":"+ VAR_PASSWORD + " успешно вошли")
       }
       }
       }
@@ -341,7 +382,7 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
    {
    section_insert()
       section_start("\u007b\u0022n\u0022:\u0022дата + форматирование \u005cnпуть к проекту\u0022\u007d", 31100123)!
-      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ii8v0L/QvtC70YPRh9Cw0LXQvCDRgNC10LDQu9GM0L3Rg9GOINC00LDRgtGDXHJcbnZhciBkYXRhID0gX3BhcnNlX2RhdGUoRGF0ZS5ub3coKSxcImF1dG9cIilcclxuZGF0YS5nZXRUaW1lem9uZU9mZnNldCA9IGZ1bmN0aW9uKCl7cmV0dXJuIHBhcnNlSW50KG5hdGl2ZShcImRhdGV0aW1lXCIsIFwic3lzdGVtdGltZXpvbmVcIiwgXCJcIikpIH1cclxuVkFSX0RBVEFfTk9fVlJFTUlBID0gX2Zvcm1hdF9kYXRlKGRhdGEsXCJkZC5NTS55eXl5XCIpOyAvL9GE0L7RgNC80LDRgtC40YDQvtCy0LDQvdC40LUg0LTQsNGC0Ysg0L/QviDRiNCw0LHQu9C+0L3Rg1xyXG5WQVJfREFUQVRPTEtPVlJFTUlBID0gX2Zvcm1hdF9kYXRlKGRhdGEsXCJoaDptbVwiKTsvL9GE0L7RgNC80LDRgtC40YDQvtCy0LDQvdC40LUg0LTQsNGC0Ysg0LIg0YfQsNGB0Ysg0L/QviDRiNCw0LHQu9C+0L3RgyBcclxuLy9WQVJfREFUQV9OT19WUkVNSUEgPSAoVkFSX0RBVEFfTk9fVlJFTUlBLnNwbGl0KFwiLVwiKSkuam9pbihcIi5cIik7IC8vINGB0LzQtdC90LAgXCItXCIg0L3QsCBcIi5cIiDQsiDRgdGC0YDQvtC60LVcclxuVkFSX1BST0pFQ1RfUEFUSCA9IHByb2plY3RfcGF0aCgpOyAvLyDQv9GD0YLRjCDQuiDRhNCw0LnQu9GDXHJcbnZhciBqc29uID0gSlNPTi5wYXJzZShuYXRpdmUoXCJmaWxlc3lzdGVtXCIsIFwiZmlsZWluZm9cIiwgVkFSX1BST0pFQ1RfUEFUSCkpOy8vINGB0YPRidC10YHRgtCy0L7QstCw0L3QuNC1INGE0LDQudC70LBcclxuVkFSX0ZJTEVJTkZPX0VYSVNUUyA9IGpzb25bXCJleGlzdHNcIl07Ly8g0KHRg9GJ0LXRgdGC0LLQvtCy0LDQvdC40LUg0KTQsNC50LvQsFxyXG5WQVJfRklMRUlORk9fU0laRSA9IGpzb25bXCJzaXplXCJdOy8v0YDQsNC30LzQtdGAINGE0LDQudC70LBcclxuVkFSX0ZJTEVJTkZPX0JBU0VfRElSRUNUT1JZID0ganNvbltcImRpcmVjdG9yeVwiXTsvL9GA0LDRgdC/0L7Qu9C+0LbQtdC90LjQtSDQv9Cw0L/QutC4XHJcblZBUl9GSUxFSU5GT19JU19ESVJFQ1RPUlkgPSBqc29uW1wiaXNfZGlyZWN0b3J5XCJdOy8vINGP0LLQu9GP0LXRgtGB0Y8g0LvQuCDQv9Cw0L/QutC+0LlcclxuVkFSX0ZJTEVJTkZPX0xBU1RfTU9ESUZJRUQgPSBuZXcgRGF0ZShqc29uW1wibGFzdF9tb2RpZmllZFwiXSAqIDEwMDApOy8v0L/QvtGB0LvQtdC00L3QtdC1INC40LfQvNC10L3QtdC90LjQtVxyXG5QU2V0KFwiYmFzZ2xvYmFsXCIsIFwiREFUQV9OT19WUkVNSUFcIixWQVJfREFUQV9OT19WUkVNSUEgKTtcclxuUFNldChcImJhc2dsb2JhbFwiLCBcIkRBVEFUT0xLT1ZSRU1JQVwiLFZBUl9EQVRBVE9MS09WUkVNSUEgKTtcclxuUFNldChcImJhc2dsb2JhbFwiLCBcIkZJTEVJTkZPX0JBU0VfRElSRUNUT1JZXCIsVkFSX0ZJTEVJTkZPX0JBU0VfRElSRUNUT1JZICk7IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ii8v0L/QvtC70YPRh9Cw0LXQvCDRgNC10LDQu9GM0L3Rg9GOINC00LDRgtGDXHJcbnZhciBkYXRhID0gX3BhcnNlX2RhdGUoRGF0ZS5ub3coKSxcImF1dG9cIilcclxuZGF0YS5nZXRUaW1lem9uZU9mZnNldCA9IGZ1bmN0aW9uKCl7cmV0dXJuIHBhcnNlSW50KG5hdGl2ZShcImRhdGV0aW1lXCIsIFwic3lzdGVtdGltZXpvbmVcIiwgXCJcIikpIH1cclxuVkFSX0RBVEFfTk9fVlJFTUlBID0gX2Zvcm1hdF9kYXRlKGRhdGEsXCJkZC5NTS55eXl5XCIpOyAvL9GE0L7RgNC80LDRgtC40YDQvtCy0LDQvdC40LUg0LTQsNGC0Ysg0L/QviDRiNCw0LHQu9C+0L3Rg1xyXG5WQVJfREFUQVRPTEtPVlJFTUlBID0gX2Zvcm1hdF9kYXRlKGRhdGEsXCJoaDptbVwiKTsvL9GE0L7RgNC80LDRgtC40YDQvtCy0LDQvdC40LUg0LTQsNGC0Ysg0LIg0YfQsNGB0Ysg0L/QviDRiNCw0LHQu9C+0L3RgyBcclxuLy9WQVJfREFUQV9OT19WUkVNSUEgPSAoVkFSX0RBVEFfTk9fVlJFTUlBLnNwbGl0KFwiLVwiKSkuam9pbihcIi5cIik7IC8vINGB0LzQtdC90LAgXCItXCIg0L3QsCBcIi5cIiDQsiDRgdGC0YDQvtC60LVcclxuVkFSX1BST0pFQ1RfUEFUSCA9IHByb2plY3RfcGF0aCgpOyAvLyDQv9GD0YLRjCDQuiDRhNCw0LnQu9GDXHJcbnZhciBqc29uID0gSlNPTi5wYXJzZShuYXRpdmUoXCJmaWxlc3lzdGVtXCIsIFwiZmlsZWluZm9cIiwgVkFSX1BST0pFQ1RfUEFUSCkpOy8vINGB0YPRidC10YHRgtCy0L7QstCw0L3QuNC1INGE0LDQudC70LBcclxuVkFSX0ZJTEVJTkZPX0VYSVNUUyA9IGpzb25bXCJleGlzdHNcIl07Ly8g0Y/QstC70Y/QtdGC0YHRjyDQu9C4INC/0LDQv9C60L7QuVxyXG5WQVJfRklMRUlORk9fU0laRSA9IGpzb25bXCJzaXplXCJdOy8v0YDQsNC30LzQtdGAINGE0LDQudC70LBcclxuVkFSX0ZJTEVJTkZPX0JBU0VfRElSRUNUT1JZID0ganNvbltcImRpcmVjdG9yeVwiXTsvL9GA0LDRgdC/0L7Qu9C+0LbQtdC90LjQtSDQv9Cw0L/QutC4XHJcblZBUl9GSUxFSU5GT19JU19ESVJFQ1RPUlkgPSBqc29uW1wiaXNfZGlyZWN0b3J5XCJdO1xyXG5WQVJfRklMRUlORk9fTEFTVF9NT0RJRklFRCA9IG5ldyBEYXRlKGpzb25bXCJsYXN0X21vZGlmaWVkXCJdICogMTAwMCk7Ly/Qv9C+0YHQu9C10LTQvdC10LUg0LjQt9C80LXQvdC10L3QuNC1IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
       //получаем реальную дату
       var data = _parse_date(Date.now(),"auto")
       data.getTimezoneOffset = function(){return parseInt(native("datetime", "systemtimezone", "")) }
@@ -350,14 +391,11 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
       //VAR_DATA_NO_VREMIA = (VAR_DATA_NO_VREMIA.split("-")).join("."); // смена "-" на "." в строке
       VAR_PROJECT_PATH = project_path(); // путь к файлу
       var json = JSON.parse(native("filesystem", "fileinfo", VAR_PROJECT_PATH));// существование файла
-      VAR_FILEINFO_EXISTS = json["exists"];// Существование Файла
+      VAR_FILEINFO_EXISTS = json["exists"];// является ли папкой
       VAR_FILEINFO_SIZE = json["size"];//размер файла
       VAR_FILEINFO_BASE_DIRECTORY = json["directory"];//расположение папки
-      VAR_FILEINFO_IS_DIRECTORY = json["is_directory"];// является ли папкой
+      VAR_FILEINFO_IS_DIRECTORY = json["is_directory"];
       VAR_FILEINFO_LAST_MODIFIED = new Date(json["last_modified"] * 1000);//последнее изменение
-      PSet("basglobal", "DATA_NO_VREMIA",VAR_DATA_NO_VREMIA );
-      PSet("basglobal", "DATATOLKOVREMIA",VAR_DATATOLKOVREMIA );
-      PSet("basglobal", "FILEINFO_BASE_DIRECTORY",VAR_FILEINFO_BASE_DIRECTORY );
       section_end()!
 
    }
@@ -582,12 +620,10 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
          RESOURCE_595527 = _result().get()
          _if(VAR_REPEAT_COUNT >= RESOURCE_595527,function(){
          section_insert()
-            section_start("\u007b\u0022n\u0022:\u0022Результат 3\u0022,\u0022c\u0022:\u00223\u0022\u007d", 411169796)!
-            /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IlZBUl9DVVJSRU5UX0FDQ09VTlQgPSBWQVJfVVNFUk5BTUUgKyBcIjpcIisgVkFSX1BBU1NXT1JEO1xyXG4vL3Jlc3VsdChWQVJfQ1VSUkVOVF9BQ0NPVU5UICsgXCI6OiAgINCd0LAg0LDQutC60LDRg9C90YLQtSDRgdC10LrRjNGO0YDQuNGC0LhcIiwgMilcclxubG9nKFZBUl9DVVJSRU5UX0FDQ09VTlQgKyBcIjo6XCIgKyAoUChcImJhc2dsb2JhbFwiLCBcIkRBVEFfTk9fVlJFTUlBXCIpKSArIFwiICDQndCwINCw0LrQutCw0YPQvdGC0LUg0YHQtdC60YzRjtGA0LjRgtC4XCIpO1xyXG5zdWNjZXNzKFZBUl9DVVJSRU5UX0FDQ09VTlQgKyBcIjo6XCIgKyAoUChcImJhc2dsb2JhbFwiLCBcIkRBVEFfTk9fVlJFTUlBXCIpKSArIFwiICDQndCwINCw0LrQutCw0YPQvdGC0LUg0YHQtdC60YzRjtGA0LjRgtC4XCIpOyIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
-            VAR_CURRENT_ACCOUNT = VAR_USERNAME + ":"+ VAR_PASSWORD;
-            //result(VAR_CURRENT_ACCOUNT + "::   На аккаунте секьюрити", 2)
-            log(VAR_CURRENT_ACCOUNT + "::" + (P("basglobal", "DATA_NO_VREMIA")) + "  На аккаунте секьюрити");
-            success(VAR_CURRENT_ACCOUNT + "::" + (P("basglobal", "DATA_NO_VREMIA")) + "  На аккаунте секьюрити");
+            section_start("\u007b\u0022n\u0022:\u0022Результат 3\u0022,\u0022c\u0022:\u00223\u0022\u007d", 443672230)!
+            /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ii8vcmVzdWx0KFZBUl9BQ0NPVU5UX0ZPUl9QTEFZICsgXCI6OiAgINCd0LAg0LDQutC60LDRg9C90YLQtSDRgdC10LrRjNGO0YDQuNGC0LhcIiwgMilcclxubG9nKFZBUl9BQ0NPVU5UX0ZPUl9QTEFZICsgXCI6OiAgINCd0LAg0LDQutC60LDRg9C90YLQtSDRgdC10LrRjNGO0YDQuNGC0LhcIikiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+            //result(VAR_ACCOUNT_FOR_PLAY + "::   На аккаунте секьюрити", 2)
+            log(VAR_ACCOUNT_FOR_PLAY + "::   На аккаунте секьюрити")
             section_end()!
 
             section_start("", 949798658)!
@@ -712,11 +748,6 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
                      VAR_REPEAT_COUNT = parseInt(VAR_REPEAT_COUNT) + parseInt(1)
                      section_end()!
 
-                     section_start("", 759507920)!
-                     /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbUkVQRUFUX0NPVU5UXV0iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
-                     log(VAR_REPEAT_COUNT)
-                     section_end()!
-
                   })!
                   section_end()!
 
@@ -769,11 +800,6 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
                      VAR_REPEAT_COUNT = parseInt(VAR_REPEAT_COUNT) + parseInt(1)
                      section_end()!
 
-                     section_start("", 384067185)!
-                     /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbUkVQRUFUX0NPVU5UXV0iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
-                     log(VAR_REPEAT_COUNT)
-                     section_end()!
-
                   })!
                   section_end()!
 
@@ -824,11 +850,6 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
                      section_start("", 585424976)!
                      /*Dat:eyJzIjoiaW5jdmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJSRVBFQVRfQ09VTlQifSx7ImlkIjoiSW5jVmFyaWFibGVWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMSIsImNsYXNzIjoiaW50In1dfQ==*/
                      VAR_REPEAT_COUNT = parseInt(VAR_REPEAT_COUNT) + parseInt(1)
-                     section_end()!
-
-                     section_start("", 697564630)!
-                     /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbUkVQRUFUX0NPVU5UXV0iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
-                     log(VAR_REPEAT_COUNT)
                      section_end()!
 
                   })!
@@ -1914,17 +1935,17 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
          VAR_SAVED_SCRIPT_RESULT = _result();
          section_end()!
 
-         section_start("", 969431286)!
-         /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6ImNvdXBvbl9hbW91bnQifV19*/
-         _call_function(coupon_amount,{})!
+         section_start("", 112078308)!
+         /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IkNPVVBPTl9BTU9VTlQifV19*/
+         _call_function(COUPON_AMOUNT,{})!
          _result_function()
          section_end()!
 
-         section_start("", 175597030)!
+         section_start("", 121200950)!
          /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxPT0yIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
          _if(1==2,function(){
          section_insert()
-            section_start("\u007b\u0022n\u0022:\u0022Номинал набитого купона\u0022\u007d", 670183728)!
+            section_start("\u007b\u0022n\u0022:\u0022Номинал набитого купона\u0022\u007d", 796909980)!
             /*Dat:eyJzIjoidGV4dCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIxIiwidXRpIjoiMiIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2F2ZVRleHQiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IkNPVVBPTl9BTU9VTlQifV0sInAiOnsiaXNfaW1hZ2UiOmZhbHNlLCJjc3MiOiIgPlhQQVRIPi8vaDJbQGNsYXNzPVwiQ3VycmVudEJhbGFuY2UtLWJhbGFuY2UtLTE4aURQU2hcIl0iLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiA6bnRoLWNoaWxkKDMpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMikgPiA6bnRoLWNoaWxkKDIpID4gc3BhbiIsImNzczIiOiIiLCJjc3MzIjoiID5DU1M+IC5jdXJyZW50LWJhbGFuY2UgPiAucmF4LXRleHQiLCJjdXJyZW50IjoiY3NzIiwibWF0Y2giOiI+TUFUQ0g+PHNwYW4gY2xhc3M9XCJyYXgtdGV4dCBjdXJyZW50LW51bVwiIHN0eWxlIiwieHBhdGgiOiIgPlhQQVRIPiBpZChcInJvb3RcIikvZGl2W0BjbGFzcz1cInJheC12aWV3IHBhZ2Utd3JhcHBlclwiXS9kaXZbQGNsYXNzPVwicmF4LXZpZXcgbGV0dGVyLXdyYXBcIl0vZGl2W0BjbGFzcz1cInJheC12aWV3IGxldHRlci1jb250ZW50XCJdL2RpdltAY2xhc3M9XCJyYXgtdmlldyBjdXJyZW50LXdyYXBcIl0vZGl2W0BjbGFzcz1cInJheC12aWV3IGN1cnJlbnQtYmFsYW5jZVwiXS9zcGFuW0BjbGFzcz1cInJheC10ZXh0IGN1cnJlbnQtbnVtXCJdIiwiYXQiOiIzMTMsIDMyOSIsIndlIjp0cnVlLCJmYSI6ZmFsc2V9fQ==*/
             /*Browser*/
             _SELECTOR = " \u003eXPATH\u003e//h2[@class=\u0022CurrentBalance--balance--18iDPSh\u0022]";waiter_timeout_next(2000)
@@ -1965,7 +1986,7 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
          /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0NPVVBPTl9BTU9VTlRdXSA9PSBbW05FRURfQ09VUE9OX0FNT1VOVF1dIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
          _if(VAR_COUPON_AMOUNT == VAR_NEED_COUPON_AMOUNT,function(){
          section_insert()
-            section_start("\u007b\u0022n\u0022:\u0022Время \u0022,\u0022f\u0022:true\u007d", 262262944)!
+            section_start("\u007b\u0022n\u0022:\u0022Время \u0022\u007d", 262262944)!
             /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxID09IDEiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
             _if(1 == 1,function(){
             section_insert()
@@ -2009,23 +2030,21 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
             _result_function()
             section_end()!
 
-            section_start("\u007b\u0022f\u0022:true\u007d", 703573443)!
+            section_start("", 703573443)!
             /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxPT0yIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
             _if(1==2,function(){
             section_insert()
                section_start("", 424635560)!
-               /*Dat:eyJzIjoicmVzdWx0IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1VTRVJOQU1FXV06W1tQQVNTV09SRF1dOjpbW0dMT0JBTDpEQVRBX05PX1ZSRU1JQV1dICDQmtGD0L/QvtC9ICBbW0NPVVBPTl9BTU9VTlRdXSDQs9C+0YLQvtCyINC6INCy0LfRj9GC0LjRjiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlNlbGVjdCIsInR5cGUiOiJzZWxlY3QiLCJkYXRhIjoiMSJ9XX0=*/
-               result(VAR_USERNAME + ":" + VAR_PASSWORD + "::" + JSON.parse(P("basglobal", "DATA_NO_VREMIA") || '""') + "  Купон  " + VAR_COUPON_AMOUNT + " готов к взятию", 0)
+               /*Dat:eyJzIjoicmVzdWx0IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1VTRVJOQU1FXV06W1tQQVNTV09SRF1dOjpbW0RBVEFfTk9fVlJFTUlBXV0gINCa0YPQv9C+0L0gIFtbQ09VUE9OX0FNT1VOVF1dINCz0L7RgtC+0LIg0Log0LLQt9GP0YLQuNGOIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiU2VsZWN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiIxIn1dfQ==*/
+               result(VAR_USERNAME + ":" + VAR_PASSWORD + "::" + VAR_DATA_NO_VREMIA + "  Купон  " + VAR_COUPON_AMOUNT + " готов к взятию", 0)
                section_end()!
 
             })!
             section_end()!
 
-            section_start("", 822178555)!
-            /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IlZBUl9DVVJSRU5UX0FDQ09VTlQgPSBWQVJfVVNFUk5BTUUgKyBcIjpcIisgVkFSX1BBU1NXT1JEO1xyXG5sb2coVkFSX0NVUlJFTlRfQUNDT1VOVCArIFwiOjpcIiArIChQKFwiYmFzZ2xvYmFsXCIsIFwiREFUQV9OT19WUkVNSUFcIikpICsgXCLQvNC+0LbQvdC+INCx0YDQsNGC0Ywg0LrRg9C/0L7QvSBcIiAgKyBbW0NPVVBPTl9BTU9VTlRdXSk7XHJcbnN1Y2Nlc3MoVkFSX0NVUlJFTlRfQUNDT1VOVCArIFwiOjpcIiArIChQKFwiYmFzZ2xvYmFsXCIsIFwiREFUQV9OT19WUkVNSUFcIikpICsgXCLQvNC+0LbQvdC+INCx0YDQsNGC0Ywg0LrRg9C/0L7QvSBcIiAgKyBbW0NPVVBPTl9BTU9VTlRdXSk7XHJcbiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
-            VAR_CURRENT_ACCOUNT = VAR_USERNAME + ":"+ VAR_PASSWORD;
-            log(VAR_CURRENT_ACCOUNT + "::" + (P("basglobal", "DATA_NO_VREMIA")) + "можно брать купон "  + VAR_COUPON_AMOUNT);
-            success(VAR_CURRENT_ACCOUNT + "::" + (P("basglobal", "DATA_NO_VREMIA")) + "можно брать купон "  + VAR_COUPON_AMOUNT);
+            section_start("", 73768038)!
+            /*Dat:eyJzIjoic3VjY2VzcyIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJTdWNjZXNzTWVzc2FnZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoi0LzQvtC20L3QviDQsdGA0LDRgtGMINC60YPQv9C+0L0iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+            success("можно брать купон")
             section_end()!
 
          })!
@@ -3655,15 +3674,14 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
          _if(VAR_REPEAT_COUNT >= RESOURCE_595527,function(){
          section_insert()
             section_start("\u007b\u0022n\u0022:\u0022Обработка списка при  секьюрити : отправляем в конец списка с пометкой\u0022\u007d", 167430440)!
-            /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ii8vdmFyIGQgPSBuYXRpdmUoXCJmaWxlc3lzdGVtXCIsIFwicmVhZGZpbGVcIiwgSlNPTi5zdHJpbmdpZnkoeyB2YWx1ZTogUkluZm8oXCJMb2dpbjpQYXNzd29yZFwiLCBcIkxvY2F0aW9uXCIpLCBiYXNlNjQ6IGZhbHNlLCBmcm9tOiAwLCB0bzogMCB9KSk7XHJcbi8vVkFSX0FDQ09VTl9MSVNUID0gKGQubGVuZ3RoID09IDApID8gW10gOiBkLnNwbGl0KC9cXHI/XFxuLyk7XHJcbi8vVkFSX0FDQ09VTlRfRk9SX1BMQVkgPSBWQVJfVVNFUk5BTUUgKyBcIjpcIisgVkFSX1BBU1NXT1JEO1xyXG4vL1ZBUl9BQ0NPVU5fTElTVC5wdXNoKFZBUl9BQ0NPVU5UX0ZPUl9QTEFZICsgXCI6OlwiICsgVkFSX0RBVEVfTk9XICsgXCIgINCd0LAg0LDQutC60LDRg9C90YLQtSDRgdC10LrRjNGO0YDQuNGC0LhcIik7INC/0L7QvNC10YHRgtC40YLRjCDRjdC70LXQvNC10L3RgiDQsiDQutC+0L3QtdGGINGB0L/QuNGB0LrQsFxyXG4vL25hdGl2ZShcImZpbGVzeXN0ZW1cIiwgXCJ3cml0ZWZpbGVcIiwgSlNPTi5zdHJpbmdpZnkoeyBwYXRoOiBSSW5mbyhcIkxvZ2luOlBhc3N3b3JkXCIsIFwiTG9jYXRpb25cIiksIHZhbHVlOiAoVkFSX0FDQ09VTl9MSVNUKS5qb2luKFwiXFxyXFxuXCIpICsgKChmYWxzZSkgPyBcIlxcclxcblwiIDogXCJcIiksIGJhc2U2NDogZmFsc2UsIGFwcGVuZDogZmFsc2UgfSkpO1xyXG5WQVJfQ1VSUkVOVF9BQ0NPVU5UID0gVkFSX1VTRVJOQU1FICsgXCI6XCIrIFZBUl9QQVNTV09SRDtcclxuLy9yZXN1bHQoVkFSX0NVUlJFTlRfQUNDT1VOVCArIFwiOjogINCd0LAg0LDQutC60LDRg9C90YLQtSDRgdC10LrRjNGO0YDQuNGC0LhcIiwgMSk7XHJcbnN1Y2Nlc3MoVkFSX0NVUlJFTlRfQUNDT1VOVCArIFwiOjpcIiArIChQKFwiYmFzZ2xvYmFsXCIsIFwiREFUQV9OT19WUkVNSUFcIikpICsgXCIgINCd0LAg0LDQutC60LDRg9C90YLQtSDRgdC10LrRjNGO0YDQuNGC0LhcIik7IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
-            //var d = native("filesystem", "readfile", JSON.stringify({ value: RInfo("Login:Password", "Location"), base64: false, from: 0, to: 0 }));
-            //VAR_ACCOUN_LIST = (d.length == 0) ? [] : d.split(/\r?\n/);
-            //VAR_ACCOUNT_FOR_PLAY = VAR_USERNAME + ":"+ VAR_PASSWORD;
+            /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InZhciBkID0gbmF0aXZlKFwiZmlsZXN5c3RlbVwiLCBcInJlYWRmaWxlXCIsIEpTT04uc3RyaW5naWZ5KHsgdmFsdWU6IFJJbmZvKFwiTG9naW46UGFzc3dvcmRcIiwgXCJMb2NhdGlvblwiKSwgYmFzZTY0OiBmYWxzZSwgZnJvbTogMCwgdG86IDAgfSkpO1xyXG5WQVJfQUNDT1VOX0xJU1QgPSAoZC5sZW5ndGggPT0gMCkgPyBbXSA6IGQuc3BsaXQoL1xccj9cXG4vKTtcclxuVkFSX0FDQ09VTlRfRk9SX1BMQVkgPSBWQVJfVVNFUk5BTUUgKyBcIjpcIisgVkFSX1BBU1NXT1JEO1xyXG4vL1ZBUl9BQ0NPVU5fTElTVC5wdXNoKFZBUl9BQ0NPVU5UX0ZPUl9QTEFZICsgXCI6OlwiICsgVkFSX0RBVEVfTk9XICsgXCIgINCd0LAg0LDQutC60LDRg9C90YLQtSDRgdC10LrRjNGO0YDQuNGC0LhcIik7INC/0L7QvNC10YHRgtC40YLRjCDRjdC70LXQvNC10L3RgiDQsiDQutC+0L3QtdGGINGB0L/QuNGB0LrQsFxyXG4vL25hdGl2ZShcImZpbGVzeXN0ZW1cIiwgXCJ3cml0ZWZpbGVcIiwgSlNPTi5zdHJpbmdpZnkoeyBwYXRoOiBSSW5mbyhcIkxvZ2luOlBhc3N3b3JkXCIsIFwiTG9jYXRpb25cIiksIHZhbHVlOiAoVkFSX0FDQ09VTl9MSVNUKS5qb2luKFwiXFxyXFxuXCIpICsgKChmYWxzZSkgPyBcIlxcclxcblwiIDogXCJcIiksIGJhc2U2NDogZmFsc2UsIGFwcGVuZDogZmFsc2UgfSkpO1xyXG4vL3Jlc3VsdChWQVJfQUNDT1VOVF9GT1JfUExBWSArIFwiOjogINCd0LAg0LDQutC60LDRg9C90YLQtSDRgdC10LrRjNGO0YDQuNGC0LhcIiwgMSk7XHJcbnN1Y2Nlc3MoVkFSX0FDQ09VTlRfRk9SX1BMQVkgKyBcIjo6XCIgKyBWQVJfREFURV9OT1cgKyBcIiAg0J3QsCDQsNC60LrQsNGD0L3RgtC1INGB0LXQutGM0Y7RgNC40YLQuFwiKTsiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+            var d = native("filesystem", "readfile", JSON.stringify({ value: RInfo("Login:Password", "Location"), base64: false, from: 0, to: 0 }));
+            VAR_ACCOUN_LIST = (d.length == 0) ? [] : d.split(/\r?\n/);
+            VAR_ACCOUNT_FOR_PLAY = VAR_USERNAME + ":"+ VAR_PASSWORD;
             //VAR_ACCOUN_LIST.push(VAR_ACCOUNT_FOR_PLAY + "::" + VAR_DATE_NOW + "  На аккаунте секьюрити"); поместить элемент в конец списка
             //native("filesystem", "writefile", JSON.stringify({ path: RInfo("Login:Password", "Location"), value: (VAR_ACCOUN_LIST).join("\r\n") + ((false) ? "\r\n" : ""), base64: false, append: false }));
-            VAR_CURRENT_ACCOUNT = VAR_USERNAME + ":"+ VAR_PASSWORD;
-            //result(VAR_CURRENT_ACCOUNT + "::  На аккаунте секьюрити", 1);
-            success(VAR_CURRENT_ACCOUNT + "::" + (P("basglobal", "DATA_NO_VREMIA")) + "  На аккаунте секьюрити");
+            //result(VAR_ACCOUNT_FOR_PLAY + "::  На аккаунте секьюрити", 1);
+            success(VAR_ACCOUNT_FOR_PLAY + "::" + VAR_DATE_NOW + "  На аккаунте секьюрити");
             section_end()!
 
          })!
@@ -6460,54 +6478,13 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
       _cycle_params().if_else = JSON.parse(P("basglobal", "GAME_INDEX") || '""')%RESOURCE_850583 == 0;
       _if(_cycle_params().if_else,function(){
       section_insert()
-         section_start("\u007b\u0022n\u0022:\u0022Работа с ресурсом \u007b\u007boldaccsforplay\u007d\u007d Старореги с заказом\u0022,\u0022c\u0022:\u00221\u0022\u007d", 201598306)!
-         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ii8vINCf0L7Qu9GD0YfQsNC10Lwg0Y3Qu9C10LzQtdC90YIg0YDQtdGB0YPRgNGB0LBcclxuUk1hcChcIm9sZGFjY3Nmb3JwbGF5XCIpLnJlbG9hZCgpXHJcbiAgIHZhciBsZW5ndGhfbG9naW5zID0gUk1hcChcIm9sZGFjY3Nmb3JwbGF5XCIpLmxlbmd0aCgpO1xyXG4gICB2YXIgcmVzb3VyY2UgPSBcIk9MRFwiO1xyXG4gICBQU2V0KFwiYmFzZ2xvYmFsXCIsIFwiTEVOR1RIX0xPR0lOU1wiLCBsZW5ndGhfbG9naW5zKVxyXG4gICBQU2V0KFwiYmFzZ2xvYmFsXCIsIFwiUkVTT1VTRVNcIiwgcmVzb3VyY2UpXHJcbiAgIGlmIChsZW5ndGhfbG9naW5zIDw9IDApXHJcbiAgIHtcclxuICAgZmFpbChcItCh0L/QuNGB0L7QuiDQsNC60LrQsNGD0L3RgtC+0LIg0L/Rg9GB0YIhIFwiLCB0cnVlKVxyXG4gICB9XHJcbiAgIGVsc2V7XHJcbiAgIFZBUl9DVVJSRU5UX0FDQ09VTlQgPSBSTWFwKFwib2xkYWNjc2ZvcnBsYXlcIikuYXQoMCkuc3BsaXQoXCI7XCIpWzBdO1xyXG4gICBSTWFwKFwib2xkYWNjc2ZvcnBsYXlcIikucmVtb3ZlKDApO1xyXG4gICBSTWFwKFwib2xkYWNjc2ZvcnBsYXlcIikuc3luYygpO1xyXG4gICBSTWFwKFwib2xkYWNjc2ZvcnBsYXlcIikuaW5zZXJ0KFZBUl9DVVJSRU5UX0FDQ09VTlQsKGxlbmd0aF9sb2dpbnMrMikpO1xyXG4gICBSTWFwKFwib2xkYWNjc2ZvcnBsYXlcIikuc3luYygpO1xyXG4gICBsb2coXCJbXCIrbGVuZ3RoX2xvZ2lucytcIl0g0JLQt9GP0YIg0LDQutC60LDRg9C90YI6IFsgXCIrVkFSX0NVUlJFTlRfQUNDT1VOVCtcIiBdXCIpXHJcbiAgIH1cclxuICAgXHJcbi8vINC/0LDRgNGB0LjQvCDRgdGC0YDQvtC60YMg0YEg0L/QvtC70YPRh9C10L3QvdC+0Lkg0L/QtdGA0LXQvNC10L3QvdC+0Lkg0Lgg0L/QvtC70YPRh9Cw0LXQvCBVU0VOQU1FINC4IFBBU1NXT1JEXHJcbiAgIHZhciBjc3ZfcGFyc2VfcmVzdWx0ID0gY3N2X3BhcnNlKFZBUl9DVVJSRU5UX0FDQ09VTlQpXHJcbiAgIFZBUl9VU0VSTkFNRSA9IGNzdl9wYXJzZV9yZXN1bHRbMF07XHJcbiAgIGlmKHR5cGVvZihWQVJfVVNFUk5BTUUpID09ICd1bmRlZmluZWQnIHx8ICFWQVJfVVNFUk5BTUUpXHJcbiAgIHtcclxuICAgVkFSX1VTRVJOQU1FID0gXCJcIjtcclxuICAgfVxyXG4gICBWQVJfUEFTU1dPUkQgPSBjc3ZfcGFyc2VfcmVzdWx0WzFdO1xyXG4gICBpZih0eXBlb2YoVkFSX1BBU1NXT1JEKSA9PSAndW5kZWZpbmVkJyB8fCAhVkFSX1BBU1NXT1JEKVxyXG4gICB7XHJcbiAgIFZBUl9QQVNTV09SRCA9IFwiXCI7XHJcbiAgIH1cclxuICAgIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
-         // Получаем элемент ресурса
-         RMap("oldaccsforplay").reload()
-         var length_logins = RMap("oldaccsforplay").length();
-         var resource = "OLD";
-         PSet("basglobal", "LENGTH_LOGINS", length_logins)
-         PSet("basglobal", "RESOUSES", resource)
-         if (length_logins <= 0)
-         {
-         fail("Список аккаунтов пуст! ", true)
-         }
-         else{
-         VAR_CURRENT_ACCOUNT = RMap("oldaccsforplay").at(0).split(";")[0];
-         RMap("oldaccsforplay").remove(0);
-         RMap("oldaccsforplay").sync();
-         RMap("oldaccsforplay").insert(VAR_CURRENT_ACCOUNT,(length_logins+2));
-         RMap("oldaccsforplay").sync();
-         log("["+length_logins+"] Взят аккаунт: [ "+VAR_CURRENT_ACCOUNT+" ]")
-         }
-         // парсим строку с полученной переменной и получаем USENAME и PASSWORD
-         var csv_parse_result = csv_parse(VAR_CURRENT_ACCOUNT)
-         VAR_USERNAME = csv_parse_result[0];
-         if(typeof(VAR_USERNAME) == 'undefined' || !VAR_USERNAME)
-         {
-         VAR_USERNAME = "";
-         }
-         VAR_PASSWORD = csv_parse_result[1];
-         if(typeof(VAR_PASSWORD) == 'undefined' || !VAR_PASSWORD)
-         {
-         VAR_PASSWORD = "";
-         }
+         section_start("", 647120917)!
+         /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IlJlYWRfb2xkX2FjY3NfbG9naW5fbGlzdCJ9XX0=*/
+         _call_function(Read_old_accs_login_list,{})!
+         _result_function()
          section_end()!
 
-         section_start("\u007b\u0022n\u0022:\u0022старый вариант\u0022,\u0022f\u0022:true\u007d", 712081484)!
-         /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxPT0yIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
-         _if(1==2,function(){
-         section_insert()
-            section_start("", 123795120)!
-            /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IlJlYWRfb2xkX2FjY3NfbG9naW5fbGlzdCJ9XX0=*/
-            _call_function(Read_old_accs_login_list,{})!
-            _result_function()
-            section_end()!
-
-         })!
-         section_end()!
-
-         section_start("", 489133724)!
+         section_start("", 408584733)!
          /*Dat:eyJzIjoibG9nZ2VyX2xvZyIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJydSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoi0KDQsNCx0L7RgtCw0LXQvCDQsiDRgdC/0LjRgdC60LUg0YHQviDRgdGC0LDRgNGL0LzQuCDQsNC60LDRg9C90YLQsNC80LgiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJlbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoibGV2ZWwiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImluZm8iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJjb2xvciIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiY3lhbiIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
          logger_log({
          "color": ("cyan"),
@@ -6524,17 +6501,15 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
       /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoic2xhdmUiLCJzbGF2ZSI6NjEyMTgwMjE1LCJtYXN0ZXIiOjU2NTgzMDg5MSwiaWZfdmFyIjoiX2N5Y2xlX3BhcmFtcygpLmlmX2Vsc2UiLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0NZQ0xFX0lOREVYXV0lMyA9PSAwIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWV9XX0=*/
       _if(!_cycle_params().if_else,function(){
       section_insert()
-         section_start("\u007b\u0022n\u0022:\u0022Работа с ресурсом \u007b\u007bnewaccsforplay\u007d\u007d Новореги\u0022,\u0022c\u0022:\u00222\u0022\u007d", 194751482)!
-         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ii8vINCf0L7Qu9GD0YfQsNC10Lwg0Y3Qu9C10LzQtdC90YIg0YDQtdGB0YPRgNGB0LBcclxuUk1hcChcIm5ld2FjY3Nmb3JwbGF5XCIpLnJlbG9hZCgpXHJcbiAgIHZhciBsZW5ndGhfbG9naW5zID0gUk1hcChcIm5ld2FjY3Nmb3JwbGF5XCIpLmxlbmd0aCgpO1xyXG4gICB2YXIgcmVzb3VyY2UgPSBcIlwiO1xyXG4gICBQU2V0KFwiYmFzZ2xvYmFsXCIsIFwiTEVOR1RIX0xPR0lOU1wiLCBsZW5ndGhfbG9naW5zKVxyXG4gICBpZiAobGVuZ3RoX2xvZ2lucyA8PSAwKVxyXG4gICB7XHJcbiAgIGxvZyhcItCh0L/QuNGB0L7QuiDQsNC60LrQsNGD0L3RgtC+0LIg0L/Rg9GB0YIhIFwiKSAvLyDQtNC+0L8g0LvQvtCzINC00LvRjyDQsNGB0YHQuNC90YXRgNC+0L3QvdGL0YUg0YTRg9C90LrRhtC40Y9cclxuICAgZGllKFwi0KHQv9C40YHQvtC6INCw0LrQutCw0YPQvdGC0L7QsiDQv9GD0YHRgiEgXCIsdHJ1ZSk7XHJcbiAgIH1cclxuICAgZWxzZXtcclxuICAgVkFSX0NVUlJFTlRfQUNDT1VOVCA9IFJNYXAoXCJuZXdhY2NzZm9ycGxheVwiKS5hdCgwKS5zcGxpdChcIjtcIilbMF1cclxuICAgUk1hcChcIm5ld2FjY3Nmb3JwbGF5XCIpLnJlbW92ZSgwKVxyXG4gICBSTWFwKFwibmV3YWNjc2ZvcnBsYXlcIikuc3luYygpXHJcbiAgIGxvZyhcIltcIitsZW5ndGhfbG9naW5zK1wiXSDQktC30Y/RgiDQsNC60LrQsNGD0L3RgjogWyBcIitWQVJfQ1VSUkVOVF9BQ0NPVU5UK1wiIF1cIilcclxuICAgfVxyXG4gICBcclxuLy8g0L/QsNGA0YHQuNC8INGB0YLRgNC+0LrRgyDRgSDQv9C+0LvRg9GH0LXQvdC90L7QuSDQv9C10YDQtdC80LXQvdC90L7QuSDQuCDQv9C+0LvRg9GH0LDQtdC8IFVTRU5BTUUg0LggUEFTU1dPUkRcclxuICAgdmFyIGNzdl9wYXJzZV9yZXN1bHQgPSBjc3ZfcGFyc2UoVkFSX0NVUlJFTlRfQUNDT1VOVClcclxuICAgVkFSX1VTRVJOQU1FID0gY3N2X3BhcnNlX3Jlc3VsdFswXTtcclxuICAgaWYodHlwZW9mKFZBUl9VU0VSTkFNRSkgPT0gJ3VuZGVmaW5lZCcgfHwgIVZBUl9VU0VSTkFNRSlcclxuICAge1xyXG4gICBWQVJfVVNFUk5BTUUgPSBcIlwiO1xyXG4gICB9XHJcbiAgIFZBUl9QQVNTV09SRCA9IGNzdl9wYXJzZV9yZXN1bHRbMV07XHJcbiAgIGlmKHR5cGVvZihWQVJfUEFTU1dPUkQpID09ICd1bmRlZmluZWQnIHx8ICFWQVJfUEFTU1dPUkQpXHJcbiAgIHtcclxuICAgVkFSX1BBU1NXT1JEID0gXCJcIjtcclxuICAgfSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+         section_start("\u007b\u0022n\u0022:\u0022Работа с ресурсом Login:Password\u0022\u007d", 194751482)!
+         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ii8vINCf0L7Qu9GD0YfQsNC10Lwg0Y3Qu9C10LzQtdC90YIg0YDQtdGB0YPRgNGB0LBcclxuUk1hcChcIm5ld2FjY3Nmb3JwbGF5XCIpLnJlbG9hZCgpXHJcbiAgIHZhciBsZW5ndGhfbG9naW5zID0gUk1hcChcIm5ld2FjY3Nmb3JwbGF5XCIpLmxlbmd0aCgpO1xyXG4gICBQU2V0KFwiYmFzZ2xvYmFsXCIsIFwiTEVOR1RIX0dPT0RTXCIsIGxlbmd0aF9sb2dpbnMpXHJcbiAgIGlmIChsZW5ndGhfbG9naW5zIDw9IDApXHJcbiAgIHtcclxuICAgZmFpbChcItCh0L/QuNGB0L7QuiDQsNC60LrQsNGD0L3RgtC+0LIg0L/Rg9GB0YIhIFwiLCB0cnVlKVxyXG4gICB9XHJcbiAgIGVsc2V7XHJcbiAgIFZBUl9DVVJSRU5UX0FDQ09VTlQgPSBSTWFwKFwibmV3YWNjc2ZvcnBsYXlcIikuYXQoMCkuc3BsaXQoXCI7XCIpWzBdXHJcbiAgIFJNYXAoXCJuZXdhY2NzZm9ycGxheVwiKS5yZW1vdmUoMClcclxuICAgUk1hcChcIm5ld2FjY3Nmb3JwbGF5XCIpLnN5bmMoKVxyXG4gICBsb2coXCJbXCIrbGVuZ3RoX2xvZ2lucytcIl0g0JLQt9GP0YIg0LDQutC60LDRg9C90YI6IFsgXCIrVkFSX0NVUlJFTlRfQUNDT1VOVCtcIiBdXCIpXHJcbiAgIH1cclxuICAgXHJcbi8vINC/0LDRgNGB0LjQvCDRgdGC0YDQvtC60YMg0YEg0L/QvtC70YPRh9C10L3QvdC+0Lkg0L/QtdGA0LXQvNC10L3QvdC+0Lkg0Lgg0L/QvtC70YPRh9Cw0LXQvCBVU0VOQU1FINC4IFBBU1NXT1JEXHJcbiAgIHZhciBjc3ZfcGFyc2VfcmVzdWx0ID0gY3N2X3BhcnNlKFZBUl9DVVJSRU5UX0FDQ09VTlQpXHJcbiAgIFZBUl9VU0VSTkFNRSA9IGNzdl9wYXJzZV9yZXN1bHRbMF07XHJcbiAgIGlmKHR5cGVvZihWQVJfVVNFUk5BTUUpID09ICd1bmRlZmluZWQnIHx8ICFWQVJfVVNFUk5BTUUpXHJcbiAgIHtcclxuICAgVkFSX1VTRVJOQU1FID0gXCJcIjtcclxuICAgfVxyXG4gICBWQVJfUEFTU1dPUkQgPSBjc3ZfcGFyc2VfcmVzdWx0WzFdO1xyXG4gICBpZih0eXBlb2YoVkFSX1BBU1NXT1JEKSA9PSAndW5kZWZpbmVkJyB8fCAhVkFSX1BBU1NXT1JEKVxyXG4gICB7XHJcbiAgIFZBUl9QQVNTV09SRCA9IFwiXCI7XHJcbiAgIH0iLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
          // Получаем элемент ресурса
          RMap("newaccsforplay").reload()
          var length_logins = RMap("newaccsforplay").length();
-         var resource = "";
-         PSet("basglobal", "LENGTH_LOGINS", length_logins)
+         PSet("basglobal", "LENGTH_GOODS", length_logins)
          if (length_logins <= 0)
          {
-         log("Список аккаунтов пуст! ") // доп лог для ассинхронных функция
-         die("Список аккаунтов пуст! ",true);
+         fail("Список аккаунтов пуст! ", true)
          }
          else{
          VAR_CURRENT_ACCOUNT = RMap("newaccsforplay").at(0).split(";")[0]
@@ -6556,7 +6531,7 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
          }
          section_end()!
 
-         section_start("\u007b\u0022n\u0022:\u0022старый вариант работы со списком логинов\u0022,\u0022f\u0022:true\u007d", 190382971)!
+         section_start("\u007b\u0022n\u0022:\u0022старый вариант работы со списком логинов\u0022\u007d", 190382971)!
          /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxPT0yIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
          _if(1==2,function(){
          section_insert()
@@ -6909,64 +6884,14 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
       _result_function()
       section_end()!
 
-      section_start("", 862576164)!
-      /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
-      _call(function()
-      {
-      _on_fail(function(){
-      VAR_LAST_ERROR = _result()
-      VAR_ERROR_ID = ScriptWorker.GetCurrentAction()
-      VAR_WAS_ERROR = false
-      _break(1,true)
-      })
-      CYCLES.Current().RemoveLabel("function")
-      section_insert()
-         section_start("\u007b\u0022n\u0022:\u0022дата + форматирование \u005cn//путь к проекту\u0022\u007d", 30310679)!
-         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ii8v0L/QvtC70YPRh9Cw0LXQvCDRgNC10LDQu9GM0L3Rg9GOINC00LDRgtGDXHJcbnZhciBkYXRhID0gX3BhcnNlX2RhdGUoRGF0ZS5ub3coKSxcImF1dG9cIilcclxuZGF0YS5nZXRUaW1lem9uZU9mZnNldCA9IGZ1bmN0aW9uKCl7cmV0dXJuIHBhcnNlSW50KG5hdGl2ZShcImRhdGV0aW1lXCIsIFwic3lzdGVtdGltZXpvbmVcIiwgXCJcIikpIH1cclxuVkFSX0RBVEFfTk9fVlJFTUlBID0gX2Zvcm1hdF9kYXRlKGRhdGEsXCJkZC5NTS55eXl5XCIpOyAvL9GE0L7RgNC80LDRgtC40YDQvtCy0LDQvdC40LUg0LTQsNGC0Ysg0L/QviDRiNCw0LHQu9C+0L3Rg1xyXG5WQVJfREFUQVRPTEtPVlJFTUlBID0gX2Zvcm1hdF9kYXRlKGRhdGEsXCJoaDptbVwiKTsvL9GE0L7RgNC80LDRgtC40YDQvtCy0LDQvdC40LUg0LTQsNGC0Ysg0LIg0YfQsNGB0Ysg0L/QviDRiNCw0LHQu9C+0L3RgyBcclxuLy9WQVJfREFUQV9OT19WUkVNSUEgPSAoVkFSX0RBVEFfTk9fVlJFTUlBLnNwbGl0KFwiLVwiKSkuam9pbihcIi5cIik7IC8vINGB0LzQtdC90LAgXCItXCIg0L3QsCBcIi5cIiDQsiDRgdGC0YDQvtC60LVcclxuLypWQVJfUFJPSkVDVF9QQVRIID0gcHJvamVjdF9wYXRoKCk7IC8vINC/0YPRgtGMINC6INGE0LDQudC70YNcclxudmFyIGpzb24gPSBKU09OLnBhcnNlKG5hdGl2ZShcImZpbGVzeXN0ZW1cIiwgXCJmaWxlaW5mb1wiLCBWQVJfUFJPSkVDVF9QQVRIKSk7Ly8g0YHRg9GJ0LXRgdGC0LLQvtCy0LDQvdC40LUg0YTQsNC50LvQsFxyXG5WQVJfRklMRUlORk9fRVhJU1RTID0ganNvbltcImV4aXN0c1wiXTsvLyDRj9Cy0LvRj9C10YLRgdGPINC70Lgg0L/QsNC/0LrQvtC5XHJcblZBUl9GSUxFSU5GT19TSVpFID0ganNvbltcInNpemVcIl07Ly/RgNCw0LfQvNC10YAg0YTQsNC50LvQsFxyXG5WQVJfRklMRUlORk9fQkFTRV9ESVJFQ1RPUlkgPSBqc29uW1wiZGlyZWN0b3J5XCJdOy8v0YDQsNGB0L/QvtC70L7QttC10L3QuNC1INC/0LDQv9C60LhcclxuVkFSX0ZJTEVJTkZPX0lTX0RJUkVDVE9SWSA9IGpzb25bXCJpc19kaXJlY3RvcnlcIl07XHJcblZBUl9GSUxFSU5GT19MQVNUX01PRElGSUVEID0gbmV3IERhdGUoanNvbltcImxhc3RfbW9kaWZpZWRcIl0gKiAxMDAwKTsvL9C/0L7RgdC70LXQtNC90LXQtSDQuNC30LzQtdC90LXQvdC40LVcclxuKi8iLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
-         //получаем реальную дату
-         var data = _parse_date(Date.now(),"auto")
-         data.getTimezoneOffset = function(){return parseInt(native("datetime", "systemtimezone", "")) }
-         VAR_DATA_NO_VREMIA = _format_date(data,"dd.MM.yyyy"); //форматирование даты по шаблону
-         VAR_DATATOLKOVREMIA = _format_date(data,"hh:mm");//форматирование даты в часы по шаблону
-         //VAR_DATA_NO_VREMIA = (VAR_DATA_NO_VREMIA.split("-")).join("."); // смена "-" на "." в строке
-         /*VAR_PROJECT_PATH = project_path(); // путь к файлу
-         var json = JSON.parse(native("filesystem", "fileinfo", VAR_PROJECT_PATH));// существование файла
-         VAR_FILEINFO_EXISTS = json["exists"];// является ли папкой
-         VAR_FILEINFO_SIZE = json["size"];//размер файла
-         VAR_FILEINFO_BASE_DIRECTORY = json["directory"];//расположение папки
-         VAR_FILEINFO_IS_DIRECTORY = json["is_directory"];
-         VAR_FILEINFO_LAST_MODIFIED = new Date(json["last_modified"] * 1000);//последнее изменение
-         */
-         section_end()!
-
-         section_start("\u007b\u0022n\u0022:\u0022Переносим отыгравший акк в файл с отыгрынными аккаунтами\u0022\u007d", 74482824)!
-         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiAvL9Cn0LjRgtCw0LXQvCDRhNCw0LnQuyDQsiDRgdC/0LjRgdC+0LpcclxuIHZhciBkID0gbmF0aXZlKFwiZmlsZXN5c3RlbVwiLCBcInJlYWRmaWxlXCIsIEpTT04uc3RyaW5naWZ5KHt2YWx1ZTogSlNPTi5wYXJzZShQKFwiYmFzZ2xvYmFsXCIsIFwiRklMRV9ESVJFQ1RPUllcIikgfHwgJ1wiXCInKSArIFwiL3BsYXllZF9hY2NvdW50cy50eHRcIixiYXNlNjQ6ZmFsc2UsZnJvbTowLHRvOjB9KSlcclxuIFZBUl9MSVNUX1BMQVlFRF9BQ0NPVU5UU1x0PSAoZC5sZW5ndGggPT0gMCkgPyBbXSA6IGQuc3BsaXQoL1xccj9cXG4vKVxyXG4gVkFSX0xJU1RfUExBWUVEX0FDQ09VTlRTLnB1c2goVkFSX1VTRVJOQU1FICsgXCI6XCIrIFZBUl9QQVNTV09SRCArIFwiOjpcIiAgKyBWQVJfREFUQV9OT19WUkVNSUEgKSA7XHJcbiBcclxuIC8v0JfQsNC/0LjRgdGL0LLQsNC10Lwg0YHQv9C40YHQvtC6INGBINC/0LXRgNC10LzQtdGJ0LXQvdC90YvQvCDQsiDQutC+0L3QtdGGINGN0LvQtdC80LXQvdGC0L7QvFxyXG5uYXRpdmUoXCJmaWxlc3lzdGVtXCIsIFwid3JpdGVmaWxlXCIsIEpTT04uc3RyaW5naWZ5KHtwYXRoOiBKU09OLnBhcnNlKFAoXCJiYXNnbG9iYWxcIiwgXCJGSUxFX0RJUkVDVE9SWVwiKSB8fCAnXCJcIicpICsgXCJcXHUwMDVjcGxheWVkX2FjY291bnRzLnR4dFwiLHZhbHVlOiAoVkFSX0xJU1RfUExBWUVEX0FDQ09VTlRTKS5qb2luKFwiXFxyXFxuXCIpICsgKChmYWxzZSkgPyBcIlxcclxcblwiIDogXCJcIiApLGJhc2U2NDpmYWxzZSxhcHBlbmQ6ZmFsc2V9KSlcclxuIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
-         //Читаем файл в список
-         var d = native("filesystem", "readfile", JSON.stringify({value: JSON.parse(P("basglobal", "FILE_DIRECTORY") || '""') + "/played_accounts.txt",base64:false,from:0,to:0}))
-         VAR_LIST_PLAYED_ACCOUNTS	= (d.length == 0) ? [] : d.split(/\r?\n/)
-         VAR_LIST_PLAYED_ACCOUNTS.push(VAR_USERNAME + ":"+ VAR_PASSWORD + "::"  + VAR_DATA_NO_VREMIA ) ;
-         //Записываем список с перемещенным в конец элементом
-         native("filesystem", "writefile", JSON.stringify({path: JSON.parse(P("basglobal", "FILE_DIRECTORY") || '""') + "\u005cplayed_accounts.txt",value: (VAR_LIST_PLAYED_ACCOUNTS).join("\r\n") + ((false) ? "\r\n" : "" ),base64:false,append:false}))
-         section_end()!
-
-      },null)!
-      section_end()!
-
-      section_start("\u007b\u0022c\u0022:\u00225\u0022\u007d", 169272977)!
-      /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1dBU19FUlJPUl1dIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
-      _if(VAR_WAS_ERROR,function(){
-      section_insert()
-         section_start("\u007b\u0022c\u0022:\u00225\u0022\u007d", 642112806)!
-         /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCf0YDQvtC40LfQvtGI0LvQsCDQvtGI0LjQsdC60LAgOiBbW0xBU1RfRVJST1JdXSIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
-         log("Произошла ошибка : " + VAR_LAST_ERROR)
-         section_end()!
-
-      })!
-      section_end()!
-
-      section_start("", 310064911)!
-      /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCX0LDQv9C40YHRjCDRg9GB0L/QtdGI0L3QsCIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
-      log("Запись успешна")
+      section_start("\u007b\u0022n\u0022:\u0022Переносим отыгравший акк в файл с отыгрынными аккаунтами\u0022\u007d", 350430883)!
+      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiAvL9Cn0LjRgtCw0LXQvCDRhNCw0LnQuyDQsiDRgdC/0LjRgdC+0LpcclxuIHZhciBkID0gbmF0aXZlKFwiZmlsZXN5c3RlbVwiLCBcInJlYWRmaWxlXCIsIEpTT04uc3RyaW5naWZ5KHt2YWx1ZTogSlNPTi5wYXJzZShQKFwiYmFzZ2xvYmFsXCIsIFwiRklMRV9ESVJFQ1RPUllcIikgfHwgJ1wiXCInKSArIFwiL3BsYXllZF9hY2NvdW50cy50eHRcIixiYXNlNjQ6ZmFsc2UsZnJvbTowLHRvOjB9KSlcclxuIFZBUl9MSVNUX1BMQVlFRF9BQ0NPVU5UU1x0PSAoZC5sZW5ndGggPT0gMCkgPyBbXSA6IGQuc3BsaXQoL1xccj9cXG4vKVxyXG4gVkFSX0xJU1RfUExBWUVEX0FDQ09VTlRTLnB1c2goVkFSX1VTRVJOQU1FICsgXCI6XCIrIFZBUl9QQVNTV09SRCArIFwiOjpcIiAgKyBWQVJfREFUQV9OT19WUkVNSUEgKSA7XHJcbiBcclxuIC8v0JfQsNC/0LjRgdGL0LLQsNC10Lwg0YHQv9C40YHQvtC6INGBINC/0LXRgNC10LzQtdGJ0LXQvdC90YvQvCDQsiDQutC+0L3QtdGGINGN0LvQtdC80LXQvdGC0L7QvFxyXG5uYXRpdmUoXCJmaWxlc3lzdGVtXCIsIFwid3JpdGVmaWxlXCIsIEpTT04uc3RyaW5naWZ5KHtwYXRoOiBKU09OLnBhcnNlKFAoXCJiYXNnbG9iYWxcIiwgXCJGSUxFX0RJUkVDVE9SWVwiKSB8fCAnXCJcIicpICsgXCJcXHUwMDVjcGxheWVkX2FjY291bnRzLnR4dFwiLHZhbHVlOiAoVkFSX0xJU1RfUExBWUVEX0FDQ09VTlRTKS5qb2luKFwiXFxyXFxuXCIpICsgKChmYWxzZSkgPyBcIlxcclxcblwiIDogXCJcIiApLGJhc2U2NDpmYWxzZSxhcHBlbmQ6ZmFsc2V9KSlcclxuIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+      //Читаем файл в список
+      var d = native("filesystem", "readfile", JSON.stringify({value: JSON.parse(P("basglobal", "FILE_DIRECTORY") || '""') + "/played_accounts.txt",base64:false,from:0,to:0}))
+      VAR_LIST_PLAYED_ACCOUNTS	= (d.length == 0) ? [] : d.split(/\r?\n/)
+      VAR_LIST_PLAYED_ACCOUNTS.push(VAR_USERNAME + ":"+ VAR_PASSWORD + "::"  + VAR_DATA_NO_VREMIA ) ;
+      //Записываем список с перемещенным в конец элементом
+      native("filesystem", "writefile", JSON.stringify({path: JSON.parse(P("basglobal", "FILE_DIRECTORY") || '""') + "\u005cplayed_accounts.txt",value: (VAR_LIST_PLAYED_ACCOUNTS).join("\r\n") + ((false) ? "\r\n" : "" ),base64:false,append:false}))
       section_end()!
 
       section_start("\u007b\u0022n\u0022:\u0022возможный вариант продолжения\u0022,\u0022f\u0022:true\u007d", 349448844)!
@@ -7638,6 +7563,27 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
       },null)!
       section_end()!
 
+      section_start("", 655678922)!
+      /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+      _call(function()
+      {
+      _on_fail(function(){
+      VAR_LAST_ERROR = _result()
+      VAR_ERROR_ID = ScriptWorker.GetCurrentAction()
+      VAR_WAS_ERROR = false
+      _break(1,true)
+      })
+      CYCLES.Current().RemoveLabel("function")
+      section_insert()
+         section_start("", 904120024)!
+         /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IkNPVVBPTl9BTU9VTlQifV19*/
+         _call_function(COUPON_AMOUNT,{})!
+         _result_function()
+         section_end()!
+
+      },null)!
+      section_end()!
+
    }
    section_end()!
 
@@ -8287,7 +8233,7 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
    })!
    section_end()!
 
-   section_start("\u007b\u0022n\u0022:\u0022Путь к проекту\u0022\u007d", 882538673)!
+   section_start("\u007b\u0022n\u0022:\u0022Путь к проекту\u0022,\u0022f\u0022:true\u007d", 882538673)!
    /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxID09IDEiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
    _if(1 == 1,function(){
    section_insert()
@@ -8316,11 +8262,10 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
    section_end()!
 
    section_start("\u007b\u0022n\u0022:\u0022Работа с ресурсом Login:Password\u0022\u007d", 737260188)!
-   /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ii8vINCf0L7Qu9GD0YfQsNC10Lwg0Y3Qu9C10LzQtdC90YIg0YDQtdGB0YPRgNGB0LBcclxuUk1hcChcIkxvZ2luOlBhc3N3b3JkXCIpLnJlbG9hZCgpXHJcbiAgIHZhciBsZW5ndGhfbG9naW5zID0gUk1hcChcIkxvZ2luOlBhc3N3b3JkXCIpLmxlbmd0aCgpO1xyXG4gICB2YXIgcmVzb3VyY2UgPSBcIlwiO1xyXG4gICBQU2V0KFwiYmFzZ2xvYmFsXCIsIFwiTEVOR1RIX0dPT0RTXCIsIGxlbmd0aF9sb2dpbnMpXHJcbiAgIGlmIChsZW5ndGhfbG9naW5zIDw9IDApXHJcbiAgIHtcclxuICAgZmFpbChcItCh0L/QuNGB0L7QuiDQsNC60LrQsNGD0L3RgtC+0LIg0L/Rg9GB0YIhIFwiLCB0cnVlKVxyXG4gICB9XHJcbiAgIGVsc2V7XHJcbiAgIFZBUl9DVVJSRU5UX0FDQ09VTlQgPSBSTWFwKFwiTG9naW46UGFzc3dvcmRcIikuYXQoMCkuc3BsaXQoXCI7XCIpWzBdXHJcbiAgIFJNYXAoXCJMb2dpbjpQYXNzd29yZFwiKS5yZW1vdmUoMClcclxuICAgUk1hcChcIkxvZ2luOlBhc3N3b3JkXCIpLnN5bmMoKVxyXG4gICBsb2coXCJbXCIrbGVuZ3RoX2xvZ2lucytcIl0g0JLQt9GP0YIg0LDQutC60LDRg9C90YI6IFsgXCIrVkFSX0NVUlJFTlRfQUNDT1VOVCtcIiBdICAtLSDQntCh0J3QntCS0JBcIilcclxuICAgfVxyXG4gICBcclxuLy8g0L/QsNGA0YHQuNC8INGB0YLRgNC+0LrRgyDRgSDQv9C+0LvRg9GH0LXQvdC90L7QuSDQv9C10YDQtdC80LXQvdC90L7QuSDQuCDQv9C+0LvRg9GH0LDQtdC8IFVTRU5BTUUg0LggUEFTU1dPUkRcclxuICAgdmFyIGNzdl9wYXJzZV9yZXN1bHQgPSBjc3ZfcGFyc2UoVkFSX0NVUlJFTlRfQUNDT1VOVClcclxuICAgVkFSX1VTRVJOQU1FID0gY3N2X3BhcnNlX3Jlc3VsdFswXTtcclxuICAgaWYodHlwZW9mKFZBUl9VU0VSTkFNRSkgPT0gJ3VuZGVmaW5lZCcgfHwgIVZBUl9VU0VSTkFNRSlcclxuICAge1xyXG4gICBWQVJfVVNFUk5BTUUgPSBcIlwiO1xyXG4gICB9XHJcbiAgIFZBUl9QQVNTV09SRCA9IGNzdl9wYXJzZV9yZXN1bHRbMV07XHJcbiAgIGlmKHR5cGVvZihWQVJfUEFTU1dPUkQpID09ICd1bmRlZmluZWQnIHx8ICFWQVJfUEFTU1dPUkQpXHJcbiAgIHtcclxuICAgVkFSX1BBU1NXT1JEID0gXCJcIjtcclxuICAgfVxyXG5cclxuLy8g0LLRgNC10LzQtdC90L3Ri9C5INGA0LXQt9C10YDQsiDQvtGB0L3QvtCy0L3Ri9GFINCw0LrQvtCyLCDQv9C+0YLQvtC8INGD0LTQsNC70LjRgtGMIFxyXG4gLy/Qp9C40YLQsNC10Lwg0YTQsNC50Lsg0LIg0YHQv9C40YHQvtC6XHJcbiAgICAgIHZhciBkID1WQVJfREQ9IG5hdGl2ZShcImZpbGVzeXN0ZW1cIiwgXCJyZWFkZmlsZVwiLCBKU09OLnN0cmluZ2lmeSh7dmFsdWU6IEpTT04ucGFyc2UoUChcImJhc2dsb2JhbFwiLCBcIkZJTEVfRElSRUNUT1JZXCIpIHx8ICdcIlwiJykgKyBcIi9tYWluX2FjY291bnRzLnR4dFwiLGJhc2U2NDpmYWxzZSxmcm9tOjAsdG86MH0pKVxyXG4gICAgICBWQVJfTElTVF9NQUlOX1BMQVlFRF9BQ0NPVU5UU1x0PSAoZC5sZW5ndGggPT0gMCkgPyBbXSA6IGQuc3BsaXQoL1xccj9cXG4vKVxyXG4gICBcclxuXHJcbiAgICAgXHJcbiAgICAgIFZBUl9MSVNUX01BSU5fUExBWUVEX0FDQ09VTlRTLnB1c2goVkFSX1VTRVJOQU1FICsgXCI6XCIrIFZBUl9QQVNTV09SRCArIFwiOjpcIiAgKyBWQVJfREFUQV9OT19WUkVNSUEgKyBcIiAt0YDQtdC30LXRgNCyXCIpO1xyXG4gICAgICBcclxuXHJcbiAvL9CX0LDQv9C40YHRi9Cy0LDQtdC8INGB0L/QuNGB0L7QuiDRgSDQv9C10YDQtdC80LXRidC10L3QvdGL0Lwg0LIg0LrQvtC90LXRhiDRjdC70LXQvNC10L3RgtC+0LxcclxuICAgbmF0aXZlKFwiZmlsZXN5c3RlbVwiLCBcIndyaXRlZmlsZVwiLCBKU09OLnN0cmluZ2lmeSh7cGF0aDogSlNPTi5wYXJzZShQKFwiYmFzZ2xvYmFsXCIsIFwiRklMRV9ESVJFQ1RPUllcIikgfHwgJ1wiXCInKSArIFwiXFx1MDA1Y21haW5fYWNjb3VudHMudHh0XCIsdmFsdWU6IChWQVJfTElTVF9NQUlOX1BMQVlFRF9BQ0NPVU5UUykuam9pbihcIlxcclxcblwiKSArICgoZmFsc2UpID8gXCJcXHJcXG5cIiA6IFwiXCIgKSxiYXNlNjQ6ZmFsc2UsYXBwZW5kOmZhbHNlfSkpXHJcbiAgICIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+   /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ii8vINCf0L7Qu9GD0YfQsNC10Lwg0Y3Qu9C10LzQtdC90YIg0YDQtdGB0YPRgNGB0LBcclxuUk1hcChcIkxvZ2luOlBhc3N3b3JkXCIpLnJlbG9hZCgpXHJcbiAgIHZhciBsZW5ndGhfbG9naW5zID0gUk1hcChcIkxvZ2luOlBhc3N3b3JkXCIpLmxlbmd0aCgpO1xyXG4gICBQU2V0KFwiYmFzZ2xvYmFsXCIsIFwiTEVOR1RIX0dPT0RTXCIsIGxlbmd0aF9sb2dpbnMpXHJcbiAgIGlmIChsZW5ndGhfbG9naW5zIDw9IDApXHJcbiAgIHtcclxuICAgZmFpbChcItCh0L/QuNGB0L7QuiDQsNC60LrQsNGD0L3RgtC+0LIg0L/Rg9GB0YIhIFwiLCB0cnVlKVxyXG4gICB9XHJcbiAgIGVsc2V7XHJcbiAgIFZBUl9DVVJSRU5UX0FDQ09VTlQgPSBSTWFwKFwiTG9naW46UGFzc3dvcmRcIikuYXQoMCkuc3BsaXQoXCI7XCIpWzBdXHJcbiAgIFJNYXAoXCJMb2dpbjpQYXNzd29yZFwiKS5yZW1vdmUoMClcclxuICAgUk1hcChcIkxvZ2luOlBhc3N3b3JkXCIpLnN5bmMoKVxyXG4gICBsb2coXCJbXCIrbGVuZ3RoX2xvZ2lucytcIl0g0JLQt9GP0YIg0LDQutC60LDRg9C90YI6IFsgXCIrVkFSX0NVUlJFTlRfQUNDT1VOVCtcIiBdICAtLSDQntCh0J3QntCS0JBcIilcclxuICAgfVxyXG4gICBcclxuLy8g0L/QsNGA0YHQuNC8INGB0YLRgNC+0LrRgyDRgSDQv9C+0LvRg9GH0LXQvdC90L7QuSDQv9C10YDQtdC80LXQvdC90L7QuSDQuCDQv9C+0LvRg9GH0LDQtdC8IFVTRU5BTUUg0LggUEFTU1dPUkRcclxuICAgdmFyIGNzdl9wYXJzZV9yZXN1bHQgPSBjc3ZfcGFyc2UoVkFSX0NVUlJFTlRfQUNDT1VOVClcclxuICAgVkFSX1VTRVJOQU1FID0gY3N2X3BhcnNlX3Jlc3VsdFswXTtcclxuICAgaWYodHlwZW9mKFZBUl9VU0VSTkFNRSkgPT0gJ3VuZGVmaW5lZCcgfHwgIVZBUl9VU0VSTkFNRSlcclxuICAge1xyXG4gICBWQVJfVVNFUk5BTUUgPSBcIlwiO1xyXG4gICB9XHJcbiAgIFZBUl9QQVNTV09SRCA9IGNzdl9wYXJzZV9yZXN1bHRbMV07XHJcbiAgIGlmKHR5cGVvZihWQVJfUEFTU1dPUkQpID09ICd1bmRlZmluZWQnIHx8ICFWQVJfUEFTU1dPUkQpXHJcbiAgIHtcclxuICAgVkFSX1BBU1NXT1JEID0gXCJcIjtcclxuICAgfVxyXG5cclxuLy8g0LLRgNC10LzQtdC90L3Ri9C5INGA0LXQt9C10YDQsiDQvtGB0L3QvtCy0L3Ri9GFINCw0LrQvtCyLCDQv9C+0YLQvtC8INGD0LTQsNC70LjRgtGMIFxyXG4gLy/Qp9C40YLQsNC10Lwg0YTQsNC50Lsg0LIg0YHQv9C40YHQvtC6XHJcbiAgICAgIHZhciBkID1WQVJfREQ9IG5hdGl2ZShcImZpbGVzeXN0ZW1cIiwgXCJyZWFkZmlsZVwiLCBKU09OLnN0cmluZ2lmeSh7dmFsdWU6IEpTT04ucGFyc2UoUChcImJhc2dsb2JhbFwiLCBcIkZJTEVfRElSRUNUT1JZXCIpIHx8ICdcIlwiJykgKyBcIi9tYWluX2FjY291bnRzLnR4dFwiLGJhc2U2NDpmYWxzZSxmcm9tOjAsdG86MH0pKVxyXG4gICAgICBWQVJfTElTVF9NQUlOX1BMQVlFRF9BQ0NPVU5UU1x0PSAoZC5sZW5ndGggPT0gMCkgPyBbXSA6IGQuc3BsaXQoL1xccj9cXG4vKVxyXG4gICBcclxuXHJcbiAgICAgXHJcbiAgICAgIFZBUl9MSVNUX01BSU5fUExBWUVEX0FDQ09VTlRTLnB1c2goVkFSX1VTRVJOQU1FICsgXCI6XCIrIFZBUl9QQVNTV09SRCArIFwiOjpcIiAgKyBWQVJfREFUQV9OT19WUkVNSUEgKyBcIiAt0YDQtdC30LXRgNCyXCIpO1xyXG4gICAgICBcclxuXHJcbiAvL9CX0LDQv9C40YHRi9Cy0LDQtdC8INGB0L/QuNGB0L7QuiDRgSDQv9C10YDQtdC80LXRidC10L3QvdGL0Lwg0LIg0LrQvtC90LXRhiDRjdC70LXQvNC10L3RgtC+0LxcclxuICAgbmF0aXZlKFwiZmlsZXN5c3RlbVwiLCBcIndyaXRlZmlsZVwiLCBKU09OLnN0cmluZ2lmeSh7cGF0aDogSlNPTi5wYXJzZShQKFwiYmFzZ2xvYmFsXCIsIFwiRklMRV9ESVJFQ1RPUllcIikgfHwgJ1wiXCInKSArIFwiXFx1MDA1Y21haW5fYWNjb3VudHMudHh0XCIsdmFsdWU6IChWQVJfTElTVF9NQUlOX1BMQVlFRF9BQ0NPVU5UUykuam9pbihcIlxcclxcblwiKSArICgoZmFsc2UpID8gXCJcXHJcXG5cIiA6IFwiXCIgKSxiYXNlNjQ6ZmFsc2UsYXBwZW5kOmZhbHNlfSkpXHJcbiAgICIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
    // Получаем элемент ресурса
    RMap("Login:Password").reload()
    var length_logins = RMap("Login:Password").length();
-   var resource = "";
    PSet("basglobal", "LENGTH_GOODS", length_logins)
    if (length_logins <= 0)
    {
@@ -8445,8 +8390,8 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
          section_end()!
 
          section_start("\u007b\u0022n\u0022:\u0022Рекзльтат 4 - возможно купон на добивочном аке.\u0022\u007d", 915831955)!
-         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ii8vcmVzdWx0KFZBUl9VU0VSTkFNRSArIFwiOlwiKyBWQVJfUEFTU1dPUkQgKyBcIjo6XCIgICsgKFAoXCJiYXNnbG9iYWxcIiwgXCJEQVRBX05PX1ZSRU1JQVwiKSkgK1wiICDQn9GA0L7QstC10YDRj9C5INCw0LrQsNGD0L3RgiDQuNC3INC+0YHQvdC+0LLQvdC+0LPQviDRgdC/0LjRgdC60LAgINC90LAg0L3QsNCx0LjRgtGL0Lkg0LrRg9C/0L7QvVwiLCA0KVxyXG4iLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
-         //result(VAR_USERNAME + ":"+ VAR_PASSWORD + "::"  + (P("basglobal", "DATA_NO_VREMIA")) +"  Проверяй акаунт из основного списка  на набитый купон", 4)
+         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ii8vcmVzdWx0KFZBUl9VU0VSTkFNRSArIFwiOlwiKyBWQVJfUEFTU1dPUkQgKyBcIjo6XCIgICsgVkFSX0RBVEVfTk9XICtcIiAg0J/RgNC+0LLQtdGA0Y/QuSDQsNC60LDRg9C90YIg0LjQtyDQvtGB0L3QvtCy0L3QvtCz0L4g0YHQv9C40YHQutCwICDQvdCwINC90LDQsdC40YLRi9C5INC60YPQv9C+0L1cIiwgNClcclxuIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+         //result(VAR_USERNAME + ":"+ VAR_PASSWORD + "::"  + VAR_DATE_NOW +"  Проверяй акаунт из основного списка  на набитый купон", 4)
          section_end()!
 
       })!
@@ -8514,7 +8459,7 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
                section_end()!
 
                section_start("\u007b\u0022n\u0022:\u0022Ассинхронная функция добивки\u0022,\u0022c\u0022:\u00221\u0022\u007d", 391370924)!
-               /*Dat:eyJzIjoiYXN5bmNmdW5jdGlvbl9jYWxsIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6InNsYXZlIn0seyJpZCI6IlJlc3VsdFRocmVhZElkIiwidHlwZSI6InZhciIsImRhdGEiOiJUSFJFQURfSUQifSx7ImlkIjoiRGVzaXJlZFRocmVhZElkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiQ2xvc2VUaHJlYWRBZnRlckZ1bmN0aW9uRW5kcyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6Ik9uSWRsZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoic3RhcnQgcG9zdHBvbmRlZCBmdW5jdGlvbiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6Ik1heFRocmVhZHMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJUaHJlYWRMaXN0IiwidHlwZSI6InZhciIsImRhdGEiOiJUSFJFQURfTElTVCJ9XX0=*/
+               /*Dat:eyJzIjoiYXN5bmNmdW5jdGlvbl9jYWxsIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6InNsYXZlIn0seyJpZCI6IlJlc3VsdFRocmVhZElkIiwidHlwZSI6InZhciIsImRhdGEiOiJUSFJFQURfSUQifSx7ImlkIjoiRGVzaXJlZFRocmVhZElkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiQ2xvc2VUaHJlYWRBZnRlckZ1bmN0aW9uRW5kcyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6Ik9uSWRsZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoid2FpdCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6Ik1heFRocmVhZHMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJUaHJlYWRMaXN0IiwidHlwZSI6InZhciIsImRhdGEiOiJUSFJFQURfTElTVCJ9XX0=*/
                VAR_THREAD_ID = 0
                if(VAR_THREAD_ID <= 0)
                {
@@ -8526,17 +8471,17 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
                }
                if((VAR_THREAD_LIST).indexOf(VAR_THREAD_ID) < 0)
                (VAR_THREAD_LIST).push(VAR_THREAD_ID)
-               _thread_start(VAR_THREAD_ID, 0 == 0, "slave", {}, ("true") == "true", 2, "start postponded function" != "wait")!
+               _thread_start(VAR_THREAD_ID, 0 == 0, "slave", {}, ("true") == "true", 2, "wait" != "wait")!
                section_end()!
 
-               section_start("", 183326368)!
+               section_start("", 11845587)!
                /*Dat:eyJzIjoiZm9yZWFjaCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJGb3JBcnJheSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tUSFJFQURfTElTVF1dIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
                _do_with_params({"foreach_data":(VAR_THREAD_LIST)},function(){
                VAR_CYCLE_INDEX = _iterator() - 1
                if(VAR_CYCLE_INDEX > _cycle_param("foreach_data").length - 1)_break();
                VAR_FOREACH_DATA = _cycle_param("foreach_data")[VAR_CYCLE_INDEX]
                section_insert()
-                  section_start("", 872328680)!
+                  section_start("", 799854987)!
                   /*Dat:eyJzIjoiYXN5bmNmdW5jdGlvbl9yZXN1bHQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVGhyZWFkSWQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbRk9SRUFDSF9EQVRBXV0iLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiUmVzdWx0IiwidHlwZSI6InZhciIsImRhdGEiOiJUSFJFQURfUkVTVUxUIn0seyJpZCI6IklzUnVubmlnIiwidHlwZSI6InZhciIsImRhdGEiOiJUSFJFQURfSVNfUlVOTklORyJ9LHsiaWQiOiJJc1N1Y2Nlc3MiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IlRIUkVBRF9JU19TVUNDRVNTIn0seyJpZCI6IkVycm9yIiwidHlwZSI6InZhciIsImRhdGEiOiJUSFJFQURfRVJST1IifV19*/
                   {
                   var thread_data = _thread_get_status(VAR_FOREACH_DATA)
@@ -8547,39 +8492,19 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
                   }
                   section_end()!
 
-                  section_start("", 396525869)!
+                  section_start("", 315109634)!
                   /*Dat:eyJzIjoid2hpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiV2hpbGVFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1RIUkVBRF9JU19SVU5OSU5HXV0gPT0gdHJ1ZSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
                   _do(function(){
                   VAR_CYCLE_INDEX = _iterator() - 1
                   BREAK_CONDITION = VAR_THREAD_IS_RUNNING == true;
                   if(!BREAK_CONDITION)_break();
                   section_insert()
-                     section_start("", 445075900)!
+                     section_start("", 614239952)!
                      /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI1MCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwcmFuZG9tIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
                      sleep(50)!
                      section_end()!
 
-                     section_start("\u007b\u0022n\u0022:\u0022проверка при определенном цикле\u0022,\u0022f\u0022:true\u007d", 720234502)!
-                     /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxPT0yIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
-                     _if(1==2,function(){
-                     section_insert()
-                        section_start("", 410507455)!
-                        /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0NZQ0xFX0lOREVYXV0lNTAwID09IDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
-                        _if(VAR_CYCLE_INDEX%500 == 0,function(){
-                        section_insert()
-                           section_start("", 79525968)!
-                           /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6ImNoZWNrX2NsYWltX29sZF9tYXN0ZXIifV19*/
-                           _call_function(check_claim_old_master,{})!
-                           _result_function()
-                           section_end()!
-
-                        })!
-                        section_end()!
-
-                     })!
-                     section_end()!
-
-                     section_start("", 644716535)!
+                     section_start("", 489466447)!
                      /*Dat:eyJzIjoiYXN5bmNmdW5jdGlvbl9yZXN1bHQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVGhyZWFkSWQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbRk9SRUFDSF9EQVRBXV0iLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiUmVzdWx0IiwidHlwZSI6InZhciIsImRhdGEiOiJUSFJFQURfUkVTVUxUIn0seyJpZCI6IklzUnVubmlnIiwidHlwZSI6InZhciIsImRhdGEiOiJUSFJFQURfSVNfUlVOTklORyJ9LHsiaWQiOiJJc1N1Y2Nlc3MiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IlRIUkVBRF9JU19TVUNDRVNTIn0seyJpZCI6IkVycm9yIiwidHlwZSI6InZhciIsImRhdGEiOiJUSFJFQURfRVJST1IifV19*/
                      {
                      var thread_data = _thread_get_status(VAR_FOREACH_DATA)
@@ -8593,34 +8518,34 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
                   })!
                   section_end()!
 
-                  section_start("", 939626015)!
-                  /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0dMT0JBTDpDTEFJTV9DT05UUk9MX0lOREVYXV0gPT0gMSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
-                  _if(JSON.parse(P("basglobal", "CLAIM_CONTROL_INDEX") || '""') == 1,function(){
+                  section_start("", 932961000)!
+                  /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0dMT0JBTDpDTEFJTV9DT05UUk9MX0lOREVYXV0gPiAwIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+                  _if(JSON.parse(P("basglobal", "CLAIM_CONTROL_INDEX") || '""') > 0,function(){
                   section_insert()
-                     section_start("", 856428704)!
+                     section_start("", 27829098)!
                      /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItC+0YHQvdC+0LLQsCBbW0dMT0JBTDpDTEFJTV9DT05UUk9MX0lOREVYXV0iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
                      log("основа " + JSON.parse(P("basglobal", "CLAIM_CONTROL_INDEX") || '""'))
                      section_end()!
 
-                     section_start("\u007b\u0022n\u0022:\u0022Обнуление индекса для контроля Claim чека\u0022\u007d", 61397424)!
+                     section_start("\u007b\u0022n\u0022:\u0022Обнуление индекса для контроля Claim чека\u0022\u007d", 340959345)!
                      /*Dat:eyJzIjoiZ2xvYmFsc2V0IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6Ik5hbWUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IkNMQUlNX0NPTlRST0xfSU5ERVgifSx7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjAiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
                      var val = JSON.stringify("0");
                      PSet("basglobal", "CLAIM_CONTROL_INDEX", val)
                      section_end()!
 
-                     section_start("", 534010738)!
+                     section_start("", 39654512)!
                      /*Dat:eyJzIjoidXJsIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlNhdmVVcmwiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IkNVUlJFTlRfVVJMIn1dfQ==*/
                      /*Browser*/
                      url()!
                      VAR_CURRENT_URL = _result()
                      section_end()!
 
-                     section_start("", 337392732)!
-                     /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoibWFzdGVyIiwic2xhdmUiOjM4NTAwMzcyOSwiaWZfdmFyIjoiX2N5Y2xlX3BhcmFtcygpLmlmX2Vsc2UiLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0NVUlJFTlRfVVJMXV0uaW5kZXhPZignaHR0cHM6Ly9zYWxlLmFsaWV4cHJlc3MuY29tJykgPi0xOyIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
+                     section_start("", 888678054)!
+                     /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoibWFzdGVyIiwic2xhdmUiOjcxODk1MTI1OCwiaWZfdmFyIjoiX2N5Y2xlX3BhcmFtcygpLmlmX2Vsc2UiLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0NVUlJFTlRfVVJMXV0uaW5kZXhPZignaHR0cHM6Ly9zYWxlLmFsaWV4cHJlc3MuY29tJykgPi0xOyIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
                      _cycle_params().if_else = VAR_CURRENT_URL.indexOf('https://sale.aliexpress.com') >-1;;
                      _if(_cycle_params().if_else,function(){
                      section_insert()
-                        section_start("", 763324178)!
+                        section_start("", 214331809)!
                         /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
                         _call(function()
                         {
@@ -8632,7 +8557,7 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
                         })
                         CYCLES.Current().RemoveLabel("function")
                         section_insert()
-                           section_start("", 473151131)!
+                           section_start("", 516095843)!
                            /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6ImNoZWNrX2NsYWltX21hc3RlciJ9XX0=*/
                            _call_function(check_claim_master,{})!
                            _result_function()
@@ -8644,11 +8569,11 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
                      })!
                      section_end()!
 
-                     section_start("\u007b\u0022n\u0022:\u0022Else\u0022\u007d", 385003729)!
-                     /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoic2xhdmUiLCJzbGF2ZSI6Mzg1MDAzNzI5LCJtYXN0ZXIiOjMzNzM5MjczMiwiaWZfdmFyIjoiX2N5Y2xlX3BhcmFtcygpLmlmX2Vsc2UiLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0NVUlJFTlRfVVJMXV0uaW5kZXhPZignaHR0cHM6Ly9zYWxlLmFsaWV4cHJlc3MuY29tJyk+MCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
+                     section_start("\u007b\u0022n\u0022:\u0022Else\u0022\u007d", 718951258)!
+                     /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoic2xhdmUiLCJzbGF2ZSI6NzE4OTUxMjU4LCJtYXN0ZXIiOjg4ODY3ODA1NCwiaWZfdmFyIjoiX2N5Y2xlX3BhcmFtcygpLmlmX2Vsc2UiLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0NVUlJFTlRfVVJMXV0uaW5kZXhPZignaHR0cHM6Ly9zYWxlLmFsaWV4cHJlc3MuY29tJyk+MCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
                      _if(!_cycle_params().if_else,function(){
                      section_insert()
-                        section_start("", 300784221)!
+                        section_start("", 174252719)!
                         /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
                         _call(function()
                         {
@@ -8660,7 +8585,7 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
                         })
                         CYCLES.Current().RemoveLabel("function")
                         section_insert()
-                           section_start("", 473192069)!
+                           section_start("", 435190970)!
                            /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6ImNoZWNrX2NsYWltX29sZF9tYXN0ZXIifV19*/
                            _call_function(check_claim_old_master,{})!
                            _result_function()
@@ -8716,8 +8641,8 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
             section_end()!
 
             section_start("", 547705561)!
-            /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxPT0xIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
-            _if(1==1,function(){
+            /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxPT0yIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+            _if(1==2,function(){
             section_insert()
                section_start("", 620919666)!
                /*Dat:eyJzIjoiYXN5bmNmdW5jdGlvbl93YWl0IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjEiLCJ1dGkiOiIxMDAwMDAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlRocmVhZElkIiwidHlwZSI6ImNvbnN0ciIsImpzb24iOiJbe1wibmFtZVwiOlwicmVzdWx0XCIsXCJpZFwiOlwiMFwiLFwieFwiOjIyMDAsXCJ5XCI6MjAwMH0se1wibmFtZVwiOlwidmFsdWVcIixcImRhdGFcIjpcIltbVEhSRUFEX0lEXV1cIixcImRhdGFvcmlnaW5hbFwiOlwiW1tUSFJFQURfSURdXVwiLFwiZGF0YXR5cGVcIjpcInN0cmluZ1wiLFwiaWRcIjpcIjFcIixcInhcIjoxNDc0LFwieVwiOjE5MDR9LHtcIm5hbWVcIjpcInZhbHVlXCIsXCJkYXRhXCI6XCJbW1RIUkVBRF9JRDFdXVwiLFwiZGF0YW9yaWdpbmFsXCI6XCJbW1RIUkVBRF9JRDFdXVwiLFwiZGF0YXR5cGVcIjpcInN0cmluZ1wiLFwiaWRcIjpcIjJcIixcInhcIjoxNDcyLFwieVwiOjIwMDB9LHtcIm5hbWVcIjpcImFuZFwiLFwiaWRcIjpcIjNcIixcInhcIjoxNzkxLFwieVwiOjE5NTV9LHtcInR5cGVcIjpcImxpbmtcIixcInNvdXJjZVwiOntcImlkXCI6XCIzXCIsXCJwb3J0XCI6XCItXCJ9LFwidGFyZ2V0XCI6e1wiaWRcIjpcIjBcIixcInBvcnRcIjpcIi1cIn19LHtcInR5cGVcIjpcImxpbmtcIixcInNvdXJjZVwiOntcImlkXCI6XCIxXCIsXCJwb3J0XCI6XCItXCJ9LFwidGFyZ2V0XCI6e1wiaWRcIjpcIjNcIixcInBvcnRcIjpcInZhbHVlMVwifX0se1widHlwZVwiOlwibGlua1wiLFwic291cmNlXCI6e1wiaWRcIjpcIjJcIixcInBvcnRcIjpcIi1cIn0sXCJ0YXJnZXRcIjp7XCJpZFwiOlwiM1wiLFwicG9ydFwiOlwidmFsdWUyXCJ9fV0iLCJkYXRhIjoiW1tUSFJFQURfTElTVF1dIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
@@ -8742,7 +8667,7 @@ section(RESOURCE_1 /*{{Потоки}}*/,RESOURCE_2 /*{{starts}}*/,10000 /*10000*
 }
 ]]></ModuleInfo>
      <Modules>
-          <Module Name="Logger"><![CDATA[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]]></Module>
+          <Module Name="Logger"><![CDATA[UEsDBBQACAAIANl8a1H9w6/JdQYAAB0WAAAJAAAAZW5naW5lLmpz1VhdbttGEH6mT7GRgZCEZUVO2/xItgtbtpO0/iksB31wXYEmVzJrihSWy6hG4peiZ+hr79GHnMG9Qk/S2dkfLkUqaeICRWnY5s58Mzu7Oz87TLLJhLLR4c7xC7JFRt/2VxJJCbMkY6M4HWdAd90FOmUsY4KxujfY+PKLwSJ/HrAU2bvPnj3p7pbsOb0c0Tc05YI7DpKcljx+xWgQAUO+jNJiekmZ55fCLOb0EMQTIR0kCciujIs05HGWEgWaUH4WT+lBxqYB96KAU5+8XSHwvAkYuQJJQesA7GVWsFyo18ypxTyK04LTCju32EMaZmlk2PGYeFdkk2x0fZyi1W2RNXJVMqeKOTXMacnMFTM3zFwyGeUFbGTrHLXBb6uHouYtF28XrZXb+j7gLnv4V28A7n6ccsrGQUgBESReK8rCYgqgThTns4CHV/somNI5GRQ5z6Zy/EPR7T5+HCLlMJvIYZsII+R5giG+32/5TbbIA/2OwdyeNkatzUtsD9yCc2WFS74mLrn7/e79n7/cvb/7g/z1628u6QHtDBWtuj5MV/WaNeICoN80exBFw1kQxunEiyPbGXLl2nqcUhoNgfacrJM46vBsyJmQ8jsJTSccjhOhY3B9LwZct09iODoUg9e1Na1cPHA0oH2k1N/aa4bTvW3w3DG67Ks9L0DyK7TVUTL1tZQoWPu5C381RRAulmwG+O4gSyBGd2+Ogyn1MF7FW5skIrL0EoRfGp69rqo9Ul3GBllk6VJRcUsoBLi9J/MYHAzO3J5JP2EAWM8VKcf1exWWeN7WKHVryqTVb0Rfgqtc11m3TXaIFHY/O4SG+9uBqfZ+hqCKe1gS0XFQJPwTTXBXx+Ox+yHd8u3WafJTtPzl2dGhN80nbYJDOx7cTchWEEr8JqFbLWT3RAzgmwiA1rYYgrAYbD4S6O3mkGA0h9V52eVP2iUV4/j10e7+KQQ6sM5bshy1Lsi7d2Sjb+MOTk6Pds5GO8PR4ckLDZfRvJNDsmxdrKw4WGDyyQHwK/EO2Rin7huIWHU5Og3mMDAx2TylyJucFdTFLXKUEphKzNgBGaXTkQqJU3JQP56DjtaafGnToryxT+QzR27k6IpPE0/JtNUS2gt7uk42/IZlWdeDypK0x4g90deHb4Ynx50cM3Q8vvHeLrgsD+Kk1+Ch/GZGe8RxXGmt264jsKIAplJh6jhwCKGosrA6Sromwa076OCoDoojg9BJvA4Sdw8DE4M6BFgGIeKmBhgXSXKEIHkuFYAVmX4Ztw33CVXSlpaXWj2wisqjH1cfdeBmxS22r3OGIZmajBRRqO0KBLvlrh4cdOGxzi9jQTqhkrXzVYV1Q6HkzSVLyFmsCaM0FZyng4NBhRPeBMjodoWQxbhMCpxmY/95t8KYFWyWIGtv52l374nFml/FXNlWVRWE13KSrlu/KcjVn5ttgTvJYTanbAC1wfMvGtNZTjmHmMgbEpq65mN+SmCzWheVPFa58yNIvDeCdAOAKBw0wlQfgCjxvgCyuwGJoZd43RQ4HVjWrd/ADEmmY90LLFtLk3PWcD5qcj+w2I+qQaDUUzZGyzblo9oETikzbZQJo/q9OSh45gr4A4uF8hXsA33HfviQ1OgUrjx2vq36jWgPl0Y+/NMeh6ULxrpVk/4mjws0/NNSKIsTgFJIWqJYOHalsHrBLdUNyuJnxCoVzlHlrVFFJ04j+vPJ2NNG+2SbrG98WJ+qXkAwFc+U2rYy/r+ucTDlPQocHpkqcbgt/6vqps/q80qc8vTmDFuEIc2bEuz+scmJkOtszulrzWGF4mg1SzrgUrBXqm9sr8fgBvc1Ri+NZ7Mz/R0GEYKiMGKeUZFDlH6Kye267sZVRDH9lxZB0+hVmvMg5clNWckUQUHFbJ+1Clt582lUcpn1ucG053B7HoYsnvHvM3ZNWecFlICCMXC7HYTYH51EJIDPQxKkc7IHg8oHK3Ubd7bIkrWY/YG1mF1U+VWoHnJGHLsWLX47KydTeVBMpiUXPsLoDzxrZd9irnC2kYvfINAwRLUu2pVqUV0r9iSlmkqLiD2G7BLL8qEF3M0ofrO9GVTbxdVnXfHTx6vZOjSIIe3NGO3LznH5RxnsJwMbVFoiN8n0qwgVc+vSre51VpMlkxUWDVlsFFFXEtN0mTt72xQlCVMkbSAQyyzrODqvypQq/8PZAUm9CaJJ4/giihs49srfUEsHCP3Dr8l1BgAAHRYAAFBLAwQUAAgACADZfGtRuG0A79sEAAB5EAAACAAAAGljb24ucG5n5VftT1tVGP/de9tSKLUMiRE0cyCBEkjATI1OmIyAG0u2GCG4xS/TP8CZjE/TT34zIUs0fjHqHyALm4nRD8PUTY2yOdwLSGGRMRnUUmgLty/0tr29Ps9pixUooNh92dM895577jn393vezjn94NXjh+0lVSUA7N1HOl+j+z5Wq4WuZ86eDdOt+J0jJ88Ae75klUbqI71AWWN356HeE8XSvrKZIB56kda1pXV9hRAjR9fAOGxPWq3WJzLtQpFg0HgsFpun+xy3TXSRSWsHBgY+7Ovr65BJCgQuJEUyODjo6u/vP02Pk2ypRVGUY+Pj41+oqqosLy8XEh8Oh4NVb2pqel3X9a/YAwo1bERMKS0thd1uLygBFsZiTMY2ZfqkZDKJnp4eOJ1OSFJhUsAwDExOTmJoaEhg8iVLAEyguroaVVVVgkBFRQUaGhrEJPekG/4l/+4J0E/TNIGVlTUC5BLxIpFIoK2tDS1tRxHRdOpPYW/ji5i67sLIyIjgXV9XB4ulCKFQCBw2w0hhye/HwsLCdi5AUk8KrA0EGJyVk+Sp5nZ8fsWDgw2PCm9c/k3F0cZWONxuLC0tghI256s7DxcTzeJsIMCWM7s6su781Xnc9ujYX1MGExXl2FwICS2M/c56eFwe1NbWgion7bFkArYSGyKRiHCyqobIiEcQp+8VFRUhTi4PUmVVVlZidHQUK8srAmvTEOiZEKjaKnyqgW9uePFSXTk8gVXU7LFCl3SEI2FM351GIh5HNBqFnCESUtUtrb8zNSXyiefnhmBt0Um7RsfNmzfQ5bQRQAwVxQasUhy+gIre56vg+s6FlZUV8FrFHrDZbCgvL4fZbIZEfTtRhTRvEuoUgvn5eczdcuHdroMYnfHj3lwEn77lxNjl8/BRknGF3r8/u8FCWd4+F8gBgnz+JKQXGrl2+NthPD52Gy0tLZCWZVz45Fd4F7zCgs1kp2nIZZgN2aYEssPYGt+iD5eGL+VY+D9sEeSBLUOgKLIAyq6EvDCxzMzM7B4c6ZWQPZA3BLKsCHDeDzoOHEDb79Mibq72dnz/yzXK+lUx1mKxUJnFRVuW5LWSzDVVkuQMaCqHAISReUOQ9cBztU+jbOAcHquphkH9FRcvYu8rnbgT08RY2skQDodhNplRai/F7OysqAauCs4ITYuJcWzpxMTE37wkYwPZdSFQRPyDq6uoDvghnRsQcTOfehPB2OpaprvdE6JkOamUTFYvUs7wfHZzKmWk8cibMhmVPvtkQrBVFfAHONPv+Xx4of1laLN/iBSPPtNCBLR0LdPY5uYW4QG21OEoE4sXPysmRayK/MwrI3uFwYLBIDx/etgB+T2QJcAMefJdAlU++hh6KoWJrk4gGKB4p4+Mfn96Z+Sc8RFZtqy4uBgakfR6vWLHY2HQrIgqMrYNgSxA2NIrtPFIp98WH5u6dlVMzEokGkGSrJQzJUUHDMTj6W3WoLac5zxhUL+yZRWIEBAB+ik0+Ieff0oPMpn+8aFlcun61SeWSTwWKd+quF0VMHt2I3ZxItpqJudiis8E+UJw8sQb/xn434ias3OaMsR0ZhUIBB4IgYxwIhjsMTPps6StpNYHBM4J8yPp9WzIGJj/5hb0T0mO8PoczRB5yKX11ntfH/7sUDO3u7uOd17oOPX+X1BLBwi4bQDv2wQAAHkQAABQSwMEFAAIAAgA2XxrUVQrLfBCAAAAaAAAABIAAABsb2dnZXJfZGllX2NvZGUuanPLyU9PTy2KT8lM1ahW4OVSAAKlolIlKwUNG1VbhaJSBVU7TR2oeGoeTDw1D1k8M6+4JDGvJKcSJg0XAKni5aoFYgBQSwcIVCst8EIAAABoAAAAUEsDBBQACAAIANl8a1HWuj3QlQEAAOEDAAAXAAAAbG9nZ2VyX2RpZV9pbnRlcmZhY2UuanO1U02P0zAQvSPxH0aGVROpae9R2guCGxfEPZrak2ZYr23Zk7Kr1f53nKTdpos4Ab5YmS+/ee+lMXwCbTGlndLeCbKjWHV2YKP2799BPs3dDtqN0EOwKFR8LFYf2IVB2lyfJA5afFyVm14ebFGWxfPcNR42Nag4qDVcY4aSjhyEvatBYqG+Daq8LehwsNImsjSOziPyK+yOt2M44cFSy07qjIGWuRPagdq5KXer9TXVkw01PL8FsfpKKeGRVuULvJTnUXf/Zn9yf95/IuCz++8EAPwlBSmgA4OCVYiUKJ5op8ZX1W2wkqeQM7onff82xWanPk2J/RVMMzEJi7aDf1SwqIXG4oEsdD5eYhe/SlT7L+w49TDvApwFQSf2adNsp7YL/u24QP5ottnv472wvXhvhUMmkqJD+2r7ZUmEc1UVMOIxYuirjmOSqvM2/ynfe06AemQTugkSJfjZe0tnaGtwXuDHkARSViXHpY+EZjMjGgV6xfa73w6o75cWm1+qFT2SHoTQGTQmy3zixNkUkyGyiKN8vwBQSwcI1ro90JUBAADhAwAAUEsDBBQACAAIANl8a1HO4RmYEgEAAM8BAAAUAAAAbG9nZ2VyX2RpZV9zZWxlY3QuanN9UE1LAzEQve+vGKLQBJfiueKhtiC9eCl4EVnGZGyD2WTJTiq19L87adGDordM3se8NzvMkAvcwj3xKg6FFymOnIvllB8xFNIqF9VCSOgom5tmJwKK/woo/hR4oWDksBfdpVYXiy3ZN2WmftSTma0DuYlpGs77QwNQJTY5EvbZZirL5s559iliWCKjNnAF3ZSpHwIy6eoa0mZDuXOeuqoW/y33QRujqylAbTKTtk+qDE5ETj23Z0ASz6TVb+A7uODfb4GOUgy+Mj6k3GPwH6TrR3t9wu5yeh8pzwunHmvuNRfnUzcfBopOKznRX5Q17kiuyjmF8dTzZAtoK6eFpR/xJdDqVS4iq44W2W41meZwbD4BUEsHCM7hGZgSAQAAzwEAAFBLAwQUAAgACADZfGtRQFn+dj4AAABfAAAAEwAAAGxvZ2dlcl9mYWlsX2NvZGUuanPLyU9PTy2KT0vMzNGoVuDlUgACpaJSJSsFDRtVW4WiUgVVO00dqHhqHkw8NQ9ZvLgkvwAmA2KD5Hi5aoEYAFBLBwhAWf52PgAAAF8AAABQSwMEFAAIAAgA2XxrUTNHBNCTAQAA5gMAABgAAABsb2dnZXJfZmFpbF9pbnRlcmZhY2UuanO1U01v2zAMvQ/YfyC0FbGBOrkHTi5b/8Cwe8DIdCxUkQSKyjoU/e+jnaZxOuzWCTAM8fPp8bHt3Amsx5w3xsYg6AJx0/viOrP9/An0tHcb2C2FjsmjUPW1WnxxIRXZaXwWLlYiL+rlIEdf1XX1fM4aj+vWYLiYe7jaOsqWXRIXwxqEK/OjmPo2oMfiZZfJ01haS2gXFw63ZVzGvaedC7JWDDT3ndAX2p2TNNvcX10D+bSG5/cgFg/MkeFIOeOBFvULvNSvBe8+hgUK/2ZhouEh/HcaAD6EiJwwQIeCTWLKxCfamLG3uTU28jupxw5kH9+7XLcx3ybH9gqpnfiEWdo+PhmYxULrcU8e+sgX20W7wmb7PUKIAtpEkLXQQPoxYbdsV1Pi5QWr8Ql6aVeq/vE/WwKJ0YtLSihxQP+2BPMQhteoJiHjgTENTe84S9NHr3vzk/jogspkhgF+ORlAmSshF2uV4L74EasOeXkGMs7nDdLfctujfZwrDO00NkNPZIsQhg67Tqd8ctmpJiY96PTGuf0BUEsHCDNHBNCTAQAA5gMAAFBLAwQUAAgACADZfGtRI+CWBRABAADBAQAAFQAAAGxvZ2dlcl9mYWlsX3NlbGVjdC5qc31QTUsDMRC9768YotAEl8VzxUM/QHrxUvAisozJtA1mN0t2sqKl/91JixdFTyHzPua9mTBBynAPD8Sbfsi8iv3IKVuO6QlDJq1SVjWEiI6SuasmEVD/r4D6n4KR4yCSa62uVgeyb8o0ftSzuS0fcjNTVZw+jhVAYdvoSNgXh0b2LJzz7GOPYY2M2sANtA1TNwRk0sU1xP2eUrtDH9oilwUH7oI2RhdXgNJiLk2fVR6cqJx6qS+ApJ1Lo99ACS1QeWRwkirwHe0xpg6D/yRdBvXtGVum+D5SWmSOHZa4W87Ox3YxDNQ7reQof1G2OJHckVMM47ne2RbQFk4Naz/ia6DNTg4hq04W2R40mep4qr4AUEsHCCPglgUQAQAAwQEAAFBLAwQUAAgACADZfGtRO8CTNkoAAAB/AAAAEgAAAGxvZ2dlcl9sb2dfY29kZS5qc8vJT09PLYrPyU/XqFbg5VIAAqXk/Jz8IiUrBQ0bVVsFMEdB1U5TByqbmgeTSs1DFs9JLUvNgUmBOciyRaUwqaJSkDjQrlpNXi4AUEsHCDvAkzZKAAAAfwAAAFBLAwQUAAgACADZfGtRXKhZNGUBAACBBQAAFwAAAGxvZ2dlcl9sb2dfaW50ZXJmYWNlLmpz1VQ9b8IwEN0r9T9YblESidI9gi5Vt05dKxQd9hGsGjvyRyhC/Pc6CRUQKxUDDPWS6L278713tqdc1IRJsHZGmVYOhELztJRecPpyf0fCmo5mpJg4XFcSHKaPafIgVOVdEeKtM545bZJssnJrmWZZuuuymiV4To2nY3KEOFpmROWEVjn96HNL8NIVFiU2RXNCQ32hyvMoYWEhsRDK5WF3POVqkB6LLilkn+WtUFY52Z02QJxJ6Tuo0kOJlmZ7ss8OGaOriEc1LP6tzw2K/5/aJdYoB+V327ch2U3PgFBLTc95I0A5m5PPX5JuwDTToGiMNnQ+vsA5XZJO4fWdY1qGLv507rUNua1zQ64dwWYlBnky7mHahIOFEbxFKfUmgkuDqCKUbSEGF6HDCKy8qWQMb1bCYdL+H5n5Jdfi4G5vsNPn8FY233i4C2Bfp/ME1t1x/EbmHYLiwHnwsxZWBPdb50PtpuoPUEsHCFyoWTRlAQAAgQUAAFBLAwQUAAgACADZfGtRWA/3ShEBAAAzAgAAFAAAAGxvZ2dlcl9sb2dfc2VsZWN0LmpzfZBBS8NAEIXv+RXD6mGDoXiOeKgWpBcvBS8iYcxO28AmGyazES39706yCKXFngL73jfhfSMycIRHeCFZd32U59ANwrGWwG/oI1nD0RTgAzri/CEbFaDuKkDdOeBpJH+VmRvnWB184KvY3DjFhL8PGUCiHSmcooXeWDrXSBM69CsUtDncQbUQanuPQvbWmhsfdjviSj/VRJt8sZfW2zy301GAyUWpvt5N7J1CznwUKdDNpXq5DNKwMim4jNOAMk09iTU96hz4W/EauEXf/JCdHor7OXvi8DUQL6OEFqdlG4muCdWy76lz1qiY/yobHEl1Cgc/zCbms4D11Clg1Qz46Wm9VWf6q2ONUu8t5dnhmP0CUEsHCFgP90oRAQAAMwIAAFBLAwQUAAgACADZfGtRegMs/WQAAACsAAAAFQAAAGxvZ2dlcl9yZXN1bHRfY29kZS5qc8vJT09PLYovSi0uzSnRqFbg5VIAAqXUPCUrBQ0bVVuF1DwFVTtNHah4Wn5RbmKJY7FPfjpMAZIQssq80tyk1CKYIggPKs+plJyfk1+kpACVBPOQ9RaVwvQVlYLEga6q1eTlAgBQSwcIegMs/WQAAACsAAAAUEsDBBQACAAIANl8a1GD6lK0zAEAAPcFAAAaAAAAbG9nZ2VyX3Jlc3VsdF9pbnRlcmZhY2UuanPVVE1r3EAMPTuQ/zBMG2xDmtJbMUmglPYUeii9lWC0Y9k7dDxj5mOzIeS/V+Oxu9uuNw2kl/okPWkkvYesy0ZumFDg3BUXRnuQGu2bVgXZ8OvTk8uzK1ZfeOwHBR6L10X+Suoh+JpynbdBeGPz8mLte1WUZfFwesLok03FdehXaPk5S1CDTlg5eGl0xbwt+JcUL3cJLQTla4cKY9WKcan97r10sFJY43aw6FwsQ+3xzzDNJHX3W2gDKmCdxqnYuxnupZ7BHQbbGXs/Y2tUQ8UeDub/tkaWcplpmSeP5iICvHxkjyU9Prum1y9R0IZF9fjXffxAtKTAgW6k5YIqk1yM87/RvQHdBejQ7fF7CTnUy+Q+6f+YXBaZCaNM2vvsoNHHMVZOwafoZUvcsiViBFoJ2ruKfScvyy02+floGUvEcHLuUSlzNzmdRdSTLe5hNldUfjKHYAc1O3dr6TGPEsaGt2PbY2JOHP/JlrTG9uA/uBvTHb8kn8ckBo7FtKcOyrPX55egPOL0gLegHPLbIxuWos85GSZ4Ys4SMSbdeDkc9Bjnj7aKHPbFe0sXelnEFYgf+7qBSP8QblEEj6AbaBqaaiOdJJ4jR6obq/4EUEsHCIPqUrTMAQAA9wUAAFBLAwQUAAgACADZfGtRlxgCxSwBAAClAgAAFwAAAGxvZ2dlcl9yZXN1bHRfc2VsZWN0LmpzfZFBS8MwFMfP9lOE6CHFUjxXPFQHMhAvAy8iJWvetkKalNeXiY5+d1/bDerGes37//7J+2WvUbhQrwHFk3gFWrom0It3LWEoyeOHtgGUHCMyEdZrAxg/RnsGMcxCGM4BcLMAuHOg9NbPv2xInGMbj7WmvH3z21l4kptWEP4cIiHGBxjginGUclNuTEWVd9ouNGkVi3tRpAR1YzWBulPy1vrtFrBAaIOloi+Qcbqj2qo4Vn2vECef2dH9pwyNYd7Ir2QMsLuM/V4O2FHGHv8Nbo4WstHXJTTdM5vamUQ52fHu4rTye5+y1S+o/iB5GGbP6L9bwDyQ5wrWsKJgKl/kTQPOKMkWr0VWeg/8A4TetoO2oVboss8kYlG1em1huWHBfFVXaip3CuLo0EV/UEsHCJcYAsUsAQAApQIAAFBLAwQUAAgACADZfGtRtkq+w1wAAACsAAAAFwAAAGxvZ2dlcl9zZXR0aW5nc19jb2RlLmpzy8lPT08tii9OLSnJzEsv1qjm5VIAAqXUoqL8IiUrBQ0bVVsFMEdB1U5TByqbmZeWD5MEsZHlchLz0mFyIDayXHliUR5MDsRGkUtNci1LzSuBy0P5IDW8XLVADABQSwcItkq+w1wAAACsAAAAUEsDBBQACAAIANl8a1G6ic3oyAMAANAQAAAcAAAAbG9nZ2VyX3NldHRpbmdzX2ludGVyZmFjZS5qc+1XbW/bNhD+vAL9D1dlhW3A8lvarBNcAxvQAQXSTwlQoEFgUNLJJkaTAkk5MYr89x0py5YjvyRr92FbBfgFx4d3x7vnjqdxypeQCGbM+yBR0jIuUYeZKHgaTF6+AHrGr9/DtGdxkQtmsf1zu3XGZV7YKeGN1UVilW51enO7EO1Op/213OUenkaBYHIWdGErTNEkmueWKxmB1e3gkhAFm6EJOru4jBXCTg0KdCYiCMgaf6yNGxYLnHJpI/IF62tLJgqclptoNyusCrr1Zc2ZtCaCm/UaBLpw3yiD27qiOYo8gq/HPH+Ah856x+vvEjfUWunDgfP2P3jMPxu1YHdtE7Kt0D0tjWmr+0imNMUHG+IVCqHuGuKZRpQNabJiTWFMHjaEeaFz0RTfzbltSmPBkj9b7u924Skpb13PsYoxJEooDRl97JwbEGoGApcousAlKbhnKSZ8wYSDLJhtfX+ScJmp48X10SF+MMQL/wZDdtjx7+DEHdPyOCc+O8QPTnjh/4QTGH9YorTHeXGFMgUmAR0UrCJ3EWgruWlRZyzBk6yJlRLI5EHawAneZEwYPESewG1293OJelK/Pn2mRrjHr8Lw5YufvjHimgh06bJ8POaf2H2vZAOozFFjRoFwfjLIuDgd8G8ciYR4YqUSslkk1Ecotin4WaVZyFKsmktHauZELBqJCsNXLl19GmHdb22StURDy3OfY8nEZpKtQ6gaS1SYM81mmuXzMOPa2DBTgobfK7RF7uniPEEN8apKQGmymh1Oa/X6qmERyuzRqWGhUlzPpRCCqAAp5sRaA4Rw5n//7WrL1g2qOvYzPPiDOhCyZL7tQLBSBSRUHslcKYPe3E7X6m4QVHIKTE6dKls5oV63tb0trHfQu4ZrJK8iviXJ2OTOqepEweRj5h1B6ZhNEZSpo4YvarO3qrtOVMZv3Hfa6trjSZAUxqrFpZoF4358zPK6c9xxISBGmCG9H1E/SN3BnfbywFHTSD4hO9er3PMnclbG/XwHoHGyWzIp0vuXoNKAXbl7LGmKoEW6HheaX51rZGkEwz1rPtO01Q2Lra4XNUE+mdQRzjL/BE0Ed+ovRhfvhm8H+8ykFBVSMBoMfw2Hg/B8cD18F725iN4Me+ejX74Ee7YsDDUhCBZoDDF6HyIrhPjkUMHNxvYt3AyG0eg8Gr29hWt/8LMhRFCp2dXyUIt4fzfktRRpNMT5Z2bpYJJKbc/NkywW+xf+W5Hf9Ovqt3nPxm7Mql2tzLdLeie+x6SwNF+kLE3p4lpyw6kf+FuObgZ3J/wFUEsHCLqJzejIAwAA0BAAAFBLAwQUAAgACADZfGtRYUb8Rk4BAAA1AwAAGQAAAGxvZ2dlcl9zZXR0aW5nc19zZWxlY3QuanN9kUFLwzAYhs/rrwjRQ4pl9VzxMJ3IQLwMvIiUrPnWBdKkpF87dOy/m2R11rk1l5bmeZ/C+3bcErDWWHJPngEXum7x0egGbVugsW9ctcBoIGhClOECbHwXdS4m9dqMpjxwGlJcl6MhD5yGttzq0ZAH/oVg9dSBxvFgDw3DaRriViK8QAdqXHDEhooI7ecuIu54VWEEOMnhdupcMyEkSqO5mnPkLCY3JJ8iVLXiCOya0StlyhJs3gCi1GWTewWNpxusFItjdnD700+THUZ8p20tnEPQj+QXCTtkYa/zQOg8C9ucB0K/WdjhAvDTY3bs/Q84maTpsKts0O8A7IV7V6F/9sW9GltxJb+A+Q/JbX/7YM22ATtr0VTc17nEVkiTz+oatGDUDXIJWfIO3JZojWpC/UFMeOGZhMxlw1cKFms3VPjZvuBYbBjE7n23j74BUEsHCGFG/EZOAQAANQMAAFBLAwQUAAgACADZfGtR0wk5NDYAAABFAAAAFgAAAGxvZ2dlcl9zdWNjZXNzX2NvZGUuanPLyU9PTy2KLy5NTk4tLtao5uVSAAKlolIlKwUNG1VbhaJSBVU7TR2oeGoeTDw1DyTOy1ULxABQSwcI0wk5NDYAAABFAAAAUEsDBBQACAAIANl8a1Fv2fYFcgEAAEkDAAAbAAAAbG9nZ2VyX3N1Y2Nlc3NfaW50ZXJmYWNlLmpztZLNSgMxEMfvgu8wRGV3wa33pfXmC4j3Jc3OtsE0u+SjCEXw4yLYu69RhKKora+QvJHZtvRD8aZzCcz8Z/LPL9Mu+BCYoFp3CKukoVyiSktheUFO9/cgRPuoA3nL4KAW1GB8GEcHXNbW5EGvjbLMVCpKWn0zEHGSxKNlVxO8yIiy5Bg2qQI1U7w2vJIZGBWTc0uSXUFJrTC5RoHN5AxIuITL3u4YrmlXYM6lyYIF3K4NqbCYL5tCNznelPoo6gxG301EF32EAWpNewi0W1kD2jIWElFyDdfJavjRnwBB+TuQBZEz+e9EAP6SSfskLFFzbu2SqSpheB3coJJUrHdpW6JgpUprqmhP0bqfllxpk5aVCOvnntzEPbupv/EP7tXf+TG4Tzf3d27u3sDfgpuF4r2/DdlpkMz8o/sAf+Om7sXfu3c/DtLJQv7RWppsHr62+/Mbu5Rdbv8cZQseBK+QWYNUFrQoAr4h1zzAXoAOKBoIX1BLBwhv2fYFcgEAAEkDAABQSwMEFAAIAAgA2XxrUbUDY3z2AAAAiwEAABgAAABsb2dnZXJfc3VjY2Vzc19zZWxlY3QuanN9kEFLxDAQhe/9FUP0kGApnlc8VBdkL14WvIiUMRl3C2lTkklFl/53J12Eveh13rw335sZI8QM9/BEvBunzI9hTByz5RBf0GfSKmZVgw/oKJq7ahYDjf8aaLw0cPw6VQDFZ4MjcZ6lRgJa53ruw4h+i4zawA10DdMweWTS11pd+XA4UOxStpZS6kqCMs2RB6+N0SUYoBBupMWrypMTo1Nv9VkQko3QXggyXwQKflmeQxzQ99+ky6C+XbWHGD4TxTZzGLDw7Tm7PnTtNNHotJJ6f63scSb5CMfg09pnjQW0ZaeGbZ/w3dPuQ5rLqcUi26MmU52W6gdQSwcItQNjfPYAAACLAQAAUEsDBBQACAAIANl8a1GyTEYyuAcAAPIbAAANAAAAbWFuaWZlc3QuanNvbs1ZS28URxA+h1/RmvOyEomUA6cQHhIREClGyiGOrPZu73rI7MxqHhjHshSbJBBB4JIokRISCFFuUdaGNWb9+gsz/yhf1XTPTs+MIUv2AAZ5t6e66qv6qquqh/VTAn8c2YndwI+cs+KzdV4xf5xO0FX1ZX7Ucz165HhBv6/CpUjFsev3oyXa0r4ROa36Fl8OTtziWOIbn9vbna6KOqE7JJzQ0ABH0bpzQfVk4sXCqG5CESYkmT5KR9lmtpV9lR6lL9NJuifS4/RIZLfTA6zsZ3fSUXqY7mUPKsgqwFw/VmFPdhodKx7WA+K40ZLy1ED5MXb2pBepisAJ0arqiaClEzdZz580mI7VYOjJmLWvr3vS729sTL0sefjG2YBfMySCkZ5PDlwJ+q+g/ReQ+2x2SgniPNn0aiDrRJLN/8RhmCAc62GysbHoK58+K3/ejIYqwsGagdTShvnw+gkrfAW1j9Nx+gLndz+7n23hdG/NTrMGPU+mwybYdbK15beG7yjpdFQ0Uzkv7ZgP4wu5xpMpNwKzV2iNda4FuhFtQ33Wtt8aqnvS9WbguRCfD8mXoO5khvnpzPQyxHly26uDrBPLVt8aVruumoFUIz0fTi/6XbHAgq8o179j9Brj3w6V6uy+SJ+kE3zdS4/fpHKTA/NkHPpeSzjZnA/f/EkH25FDd+mmCqM8yGf06nIYrEYqJPKNYFcNld+N7KUyQTQLAahYdeMVESXDYRDGoheEYoBe49Lgl8i+EhJ0wSXhqZvKi9pOXddSNJCeZ1E+nbZgoeS8NWjhBxTnjm4UamElGCJ+akDHiuLpxuq8DAfygz4ttTvBwKlJG4ISROF6mKi6ROTm4TZP1GBZdbv4K2NZDpLy+67Px6jsDa0RjxYXbicPJP1uD30ztCEFe0FTOC4PhmFwU3E8i8jn0XYp2p6hoSXiFUR+GevxmogDEQ1Vx+2t8XIn8EASEdV1ez0VIms1OSLosQTUt8X1QKwG4Re5EVpdVcuiOAQtI0g4+spXIbIxYqKhyo8jiIqPFj6+RoYGMm6Lc14UCEkRE67xY1HPXYuOyK+JubUgiYdJrHeKyB0gm0JyA3JICVGItxtS4ylGtNvZnewuBrbD9DC7l74U6f40X0S2yZex9Dl+qETs4n52REIHxXi3lz3EsHcP17TD9IguculeS6CWHKUv+AK3a9Yh/YBudRPc57ChKDfZt/g4zrYEbOxnDwXMQIDQZN9Anu+FO1AynoIbtUX6w1R4Gwa2snuMFqrSbYHidQgkgJx9TRuzTew7sH2jX6SWSh3kbjMGFtyGaXassAe9IqcI+o6w44DAp2Pg+AMAJvByTPixF193sI1U8yXWijAEWI4hQcEOgI7BUX1kBm9wx7LGHuxw5IgRgKKL8Uhj3CMG8PCgoh9BX9RFYNFp2xUAtVgmcWBysoukiHGg9VNTlqy65gUd6blfKvvMXSmJrhfp9Q/zPHHKfcO5ipELkpbgE6CjsH/HUUJI7C3n6RRaG/7KU8YWu0IH0xJ7qpMHWrP7FWFTZk/eULBv77yWoJrZcB4RN1xgLcmLYVjB/RsSYQ85Mqkq/VSGviXJTTl9jpQ45k+7zGpDcC7rAljs/BnYp2nzLeWxveM6qtEgZwF1DwVEmIm5pOZ8lRLB6YzzcQxHv6lThCarYsWlLl4Jlezm9Uka5b3EE/ndqm3B/YkPDJ1UhCafP47pPMP6hI+AsXlXpzeHwzorFP12Q+iNl6/1C/YMLxW/LgTCD2ICHku07Kl37UoCjAWDZGzw6JhhT8xEVXhUgXldhQPXl01x80Xi/8/QcXV7o/AtYJwhCNyfqJvUmlolrbc4TQkOfK5V0R1dl0/X67Jt91LexmREvcsy8ee0EApuIRN9POu53dXvHqfNO15xo+lg1aJ+u6JuyS4aPcYp3TybCsxJryKLXvU9h+9ZfjZ0pyKPd/lrXp1H1A/FmfdPcwW3G0g17HEyLE8Ly2vGm0q62a9MR1Zno68nvEG1S6AZO/PRmUaKAW4eaBfUFNCATotiMtUTroAMwfvw3MI0FQopC+NjLlp7pmdts9dIjYd5U8BHtCUkDAWQbZkngg8Qda5Nymo6nFvlbQ29fUSAapkklOysTGkXa0EiOkjqzkoQRPmJs1KlVUhImr/MHIjFUOdSY97YZzIfSzhDd3kgeE1ucHSEnpTG5JeOF0WrMh81k9rKVdBZNoNIWZuZuIy2TR4fXpbU7ggaT3heIFDP8WSUBzgfKhrStlIuLvc4dMqXyx6lk9/FjG2G26bqwSNxnkpW9H4EvH36HwAOChWT/ewBu6pDc1SuNNltq9LQfPiKStOiEB3ZwHWBW3U9TyyrYjjvEtMELmf4bBmjbRKQthHh52Z4tGZKpnzEgyAF2Yrg2Uq6ur4b4WrI9zxYR7vxY2/tdfWeeoy5qhPtz5itHTNsVrsNlUF9eeixQVxDVlcC4owNt7jZ3Ugiukn4fa+52f1NcaxPsfrY5vBGOrU4r2ycyNcRtybmg9oQXSpyakknLeirSKVtvvOOc1XeauvjjAsYVUnKNKSYFPq1yxTnr3Qgss329PjpsY4bdF5frAkfDI1QT/cd/R7AjMkDeSMIS28C3jXrrm+tv2fWg27i2WOzuTPrW/qpjX8BUEsHCLJMRjK4BwAA8hsAAFBLAQIeAxQACAAIANl8a1H9w6/JdQYAAB0WAAAJAAAAAAAAAAEAAAC2gQAAAABlbmdpbmUuanNQSwECHgMUAAgACADZfGtRuG0A79sEAAB5EAAACAAAAAAAAAAAAAAAtoGsBgAAaWNvbi5wbmdQSwECHgMUAAgACADZfGtRVCst8EIAAABoAAAAEgAAAAAAAAABAAAAtoG9CwAAbG9nZ2VyX2RpZV9jb2RlLmpzUEsBAh4DFAAIAAgA2XxrUda6PdCVAQAA4QMAABcAAAAAAAAAAQAAALaBPwwAAGxvZ2dlcl9kaWVfaW50ZXJmYWNlLmpzUEsBAh4DFAAIAAgA2XxrUc7hGZgSAQAAzwEAABQAAAAAAAAAAQAAALaBGQ4AAGxvZ2dlcl9kaWVfc2VsZWN0LmpzUEsBAh4DFAAIAAgA2XxrUUBZ/nY+AAAAXwAAABMAAAAAAAAAAQAAALaBbQ8AAGxvZ2dlcl9mYWlsX2NvZGUuanNQSwECHgMUAAgACADZfGtRM0cE0JMBAADmAwAAGAAAAAAAAAABAAAAtoHsDwAAbG9nZ2VyX2ZhaWxfaW50ZXJmYWNlLmpzUEsBAh4DFAAIAAgA2XxrUSPglgUQAQAAwQEAABUAAAAAAAAAAQAAALaBxREAAGxvZ2dlcl9mYWlsX3NlbGVjdC5qc1BLAQIeAxQACAAIANl8a1E7wJM2SgAAAH8AAAASAAAAAAAAAAEAAAC2gRgTAABsb2dnZXJfbG9nX2NvZGUuanNQSwECHgMUAAgACADZfGtRXKhZNGUBAACBBQAAFwAAAAAAAAABAAAAtoGiEwAAbG9nZ2VyX2xvZ19pbnRlcmZhY2UuanNQSwECHgMUAAgACADZfGtRWA/3ShEBAAAzAgAAFAAAAAAAAAABAAAAtoFMFQAAbG9nZ2VyX2xvZ19zZWxlY3QuanNQSwECHgMUAAgACADZfGtRegMs/WQAAACsAAAAFQAAAAAAAAABAAAAtoGfFgAAbG9nZ2VyX3Jlc3VsdF9jb2RlLmpzUEsBAh4DFAAIAAgA2XxrUYPqUrTMAQAA9wUAABoAAAAAAAAAAQAAALaBRhcAAGxvZ2dlcl9yZXN1bHRfaW50ZXJmYWNlLmpzUEsBAh4DFAAIAAgA2XxrUZcYAsUsAQAApQIAABcAAAAAAAAAAQAAALaBWhkAAGxvZ2dlcl9yZXN1bHRfc2VsZWN0LmpzUEsBAh4DFAAIAAgA2XxrUbZKvsNcAAAArAAAABcAAAAAAAAAAQAAALaByxoAAGxvZ2dlcl9zZXR0aW5nc19jb2RlLmpzUEsBAh4DFAAIAAgA2XxrUbqJzejIAwAA0BAAABwAAAAAAAAAAQAAALaBbBsAAGxvZ2dlcl9zZXR0aW5nc19pbnRlcmZhY2UuanNQSwECHgMUAAgACADZfGtRYUb8Rk4BAAA1AwAAGQAAAAAAAAABAAAAtoF+HwAAbG9nZ2VyX3NldHRpbmdzX3NlbGVjdC5qc1BLAQIeAxQACAAIANl8a1HTCTk0NgAAAEUAAAAWAAAAAAAAAAEAAAC2gRMhAABsb2dnZXJfc3VjY2Vzc19jb2RlLmpzUEsBAh4DFAAIAAgA2XxrUW/Z9gVyAQAASQMAABsAAAAAAAAAAQAAALaBjSEAAGxvZ2dlcl9zdWNjZXNzX2ludGVyZmFjZS5qc1BLAQIeAxQACAAIANl8a1G1A2N89gAAAIsBAAAYAAAAAAAAAAEAAAC2gUgjAABsb2dnZXJfc3VjY2Vzc19zZWxlY3QuanNQSwECHgMUAAgACADZfGtRskxGMrgHAADyGwAADQAAAAAAAAABAAAAtoGEJAAAbWFuaWZlc3QuanNvblBLBQYAAAAAFQAVAHkFAAB3LAAAAAA=]]></Module>
      </Modules>
      <EmbeddedData><![CDATA[[]]]></EmbeddedData>
      <DatabaseId>Database.31672</DatabaseId>
@@ -8771,11 +8696,11 @@ ProxiesReconnect=false
 AutostartDebug=false
 ForceUtf8=true
 SkipFrames=1
-ToolboxHeight=502
+ToolboxHeight=346
 MaxBrowserStartSimultaneously=1
 MinFreeMemoryToStartBrowser=500
 MinUnusedCpu=20
-ScenarioWidth=730
+ScenarioWidth=573
 Zoom=100
 IsMaximized=false
 Restart=true
@@ -8803,16 +8728,24 @@ Detector=true
 --ignore-certificate-errors
 --enable-widevine-cdm
 --enable-blink-features=WebBluetooth,Badging,InstalledApp,WakeLock,Notifications,WebAnimationsAPI,AOMPhase1</ChromeCommandLine>
-     <ModulesMetaJson>{&quot;Adress_random&quot;:false,&quot;Adress_tokken&quot;:false,&quot;Archive&quot;:false,&quot;Excel&quot;:false,&quot;FTP&quot;:false,&quot;Images_off&quot;:true}</ModulesMetaJson>
-     <OutputTitle1 en="First Results" ru="Набитый купон"/>
-     <OutputTitle2 en="Second Results" ru="Секьюрити основа"/>
-     <OutputTitle3 en="Third Results" ru="Секьюрити добивка"/>
-     <OutputTitle4 en="Fourth Results" ru="Возможный купон добивка"/>
-     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
-     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
-     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
-     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
-     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
+     <ModulesMetaJson>{
+    &quot;Adress_random&quot;: true,
+    &quot;Adress_token&quot;: true,
+    &quot;Archive&quot;: false,
+    &quot;Data_and_clock&quot;: false,
+    &quot;Excel&quot;: false,
+    &quot;FTP&quot;: false
+}
+</ModulesMetaJson>
+     <OutputTitle1 ru="Набитый купон" en="First Results"/>
+     <OutputTitle2 ru="Секьюрити основа" en="Second Results"/>
+     <OutputTitle3 ru="Секьюрити добивка" en="Third Results"/>
+     <OutputTitle4 ru="Возможный купон добивка" en="Fourth Results"/>
+     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
+     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
+     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
+     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
+     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>1</OutputVisible2>
      <OutputVisible3>1</OutputVisible3>
@@ -8825,8 +8758,8 @@ Detector=true
      <ModelList>
           <Model>
                <Name>Login:Password</Name>
-               <Description en="Login:Password" ru="Login:Password"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="Login:Password" en="Login:Password"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -8849,8 +8782,8 @@ Detector=true
           <Defaults>
                <Default>
                     <Name>Login:Password</Name>
-                    <Description en="Login:Password" ru="Login:Password"/>
-                    <SectionName en="General" ru="Основные"/>
+                    <Description ru="Login:Password" en="Login:Password"/>
+                    <SectionName ru="Основные" en="General"/>
                     <VisibilityConditionValue></VisibilityConditionValue>
                     <VisibilityConditionVariable></VisibilityConditionVariable>
                     <Type>FixedString</Type>
@@ -8864,8 +8797,8 @@ Detector=true
           </Defaults>
           <Model>
                <Name>newaccsforplay</Name>
-               <Description en="new accounts for play" ru="аккаунты для добивки новореги"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="аккаунты для добивки новореги" en="new accounts for play"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -8888,8 +8821,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>oldaccsforplay</Name>
-               <Description en="old accounts for play" ru="аккаунты для добивки старые с покупокой"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="аккаунты для добивки старые с покупокой" en="old accounts for play"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -8912,8 +8845,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>Proxy switch</Name>
-               <Description en="Proxy switch" ru="Proxy switch"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="Proxy switch" en="Proxy switch"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -8928,8 +8861,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>proxy</Name>
-               <Description en="proxy" ru="proxy"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="proxy" en="proxy"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue>Вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>Proxy switch</VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -8952,8 +8885,8 @@ Detector=true
           <Defaults>
                <Default>
                     <Name>proxy</Name>
-                    <Description en="proxy" ru="proxy"/>
-                    <SectionName en="General" ru="Основные"/>
+                    <Description ru="proxy" en="proxy"/>
+                    <SectionName ru="Основные" en="General"/>
                     <VisibilityConditionValue>Вкл</VisibilityConditionValue>
                     <VisibilityConditionVariable>Proxy switch</VisibilityConditionVariable>
                     <Type>FixedString</Type>
@@ -8967,8 +8900,8 @@ Detector=true
           </Defaults>
           <Model>
                <Name>Потоки</Name>
-               <Description en="Потоки" ru="Потоки"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="Потоки" en="Потоки"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -8983,8 +8916,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>adslave</Name>
-               <Description en="adslave" ru="дополнительная добивка"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="дополнительная добивка" en="adslave"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -8999,8 +8932,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>slave</Name>
-               <Description en="slave " ru="добивка"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="добивка" en="slave "/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -9015,8 +8948,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>ip modema</Name>
-               <Description en="ip modema" ru="ip modema"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="ip modema" en="ip modema"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -9030,8 +8963,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>ip change</Name>
-               <Description en="ip change" ru="смена ip"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="смена ip" en="ip change"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -9046,8 +8979,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>starts</Name>
-               <Description en="starts" ru="starts"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="starts" en="starts"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9062,8 +8995,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>3plays</Name>
-               <Description en="3plays" ru="3plays"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="3plays" en="3plays"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -9080,8 +9013,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>nord vpn</Name>
-               <Description en="nord vpn" ru="nord vpn"/>
-               <SectionName en="counters" ru="счетчики"/>
+               <Description ru="nord vpn" en="nord vpn"/>
+               <SectionName ru="счетчики" en="counters"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -9096,8 +9029,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>pause </Name>
-               <Description en="pause vpn restart" ru="pause "/>
-               <SectionName en="counters" ru="счетчики"/>
+               <Description ru="pause " en="pause vpn restart"/>
+               <SectionName ru="счетчики" en="counters"/>
                <VisibilityConditionValue>вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>nord vpn</VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9112,8 +9045,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>cycle NORD</Name>
-               <Description en="cycle NORD" ru="cycle NORD"/>
-               <SectionName en="counters" ru="счетчики"/>
+               <Description ru="cycle NORD" en="cycle NORD"/>
+               <SectionName ru="счетчики" en="counters"/>
                <VisibilityConditionValue>вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>nord vpn</VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -9136,8 +9069,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>counter slave cycles</Name>
-               <Description en="counter cycles" ru="счетчик slave циклов"/>
-               <SectionName en="counters" ru="счетчики"/>
+               <Description ru="счетчик slave циклов" en="counter cycles"/>
+               <SectionName ru="счетчики" en="counters"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9152,8 +9085,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>counter security</Name>
-               <Description en="count security" ru="счетчик ошибок security"/>
-               <SectionName en="counters" ru="счетчики"/>
+               <Description ru="счетчик ошибок security" en="count security"/>
+               <SectionName ru="счетчики" en="counters"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9168,8 +9101,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>сounter errors</Name>
-               <Description en="сounter errors" ru="счетчик ошибок для циклов контроля запуска"/>
-               <SectionName en="counters" ru="счетчики"/>
+               <Description ru="счетчик ошибок для циклов контроля запуска" en="сounter errors"/>
+               <SectionName ru="счетчики" en="counters"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9184,8 +9117,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>vpn cycle index</Name>
-               <Description en="vpn cycle index" ru="vpn cycle index"/>
-               <SectionName en="counters" ru="счетчики"/>
+               <Description ru="vpn cycle index" en="vpn cycle index"/>
+               <SectionName ru="счетчики" en="counters"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9200,8 +9133,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>country</Name>
-               <Description en="country" ru="country"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="country" en="country"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -9218,8 +9151,8 @@ RU</Values>
           <Defaults/>
           <Model>
                <Name>refer list</Name>
-               <Description en="refer list" ru="список рефок для добивки"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="список рефок для добивки" en="refer list"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue>Вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>adslave</VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -9242,8 +9175,8 @@ RU</Values>
           <Defaults/>
           <Model>
                <Name>refer link</Name>
-               <Description en="refer link" ru="refer link"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="refer link" en="refer link"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue>Вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>adslave</VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -9257,8 +9190,8 @@ RU</Values>
           <Defaults/>
           <Model>
                <Name>resurce_change</Name>
-               <Description en="resurce change order" ru="порядок смены ресурса логинов для добивки, смена на цикле кратному установленной пеерменной"/>
-               <SectionName en="counters" ru="счетчики"/>
+               <Description ru="порядок смены ресурса логинов для добивки, смена на цикле кратному установленной пеерменной" en="resurce change order"/>
+               <SectionName ru="счетчики" en="counters"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9273,8 +9206,8 @@ RU</Values>
           <Defaults/>
           <Model>
                <Name>pause for cycles</Name>
-               <Description en="pause for cycles" ru="паузы для циклов"/>
-               <SectionName en="counters" ru="счетчики"/>
+               <Description ru="паузы для циклов" en="pause for cycles"/>
+               <SectionName ru="счетчики" en="counters"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9289,8 +9222,8 @@ RU</Values>
           <Defaults/>
           <Model>
                <Name>manual change ip</Name>
-               <Description en="manual change ip" ru="пауза (количество циклов) для смены ип руками"/>
-               <SectionName en="counters" ru="счетчики"/>
+               <Description ru="пауза (количество циклов) для смены ип руками" en="manual change ip"/>
+               <SectionName ru="счетчики" en="counters"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9305,8 +9238,8 @@ RU</Values>
           <Defaults/>
           <Model>
                <Name>EU taker_ref</Name>
-               <Description en="EU taker_ref" ru="Опция взятия рефки EU полуавтомат"/>
-               <SectionName en="General" ru="Основные"/>
+               <Description ru="Опция взятия рефки EU полуавтомат" en="EU taker_ref"/>
+               <SectionName ru="Основные" en="General"/>
                <VisibilityConditionValue>EU</VisibilityConditionValue>
                <VisibilityConditionVariable>country</VisibilityConditionVariable>
                <Type>Select</Type>
