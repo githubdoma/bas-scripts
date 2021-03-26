@@ -79,7 +79,7 @@ section(1 /*1*/,RESOURCE_1 /*{{starts}}*/,10000 /*10000*/,0,function(){
    function cartdelete()
    {
    section_insert()
-      section_start("", 499098373)!
+      section_start("", 608877300)!
       /*Dat:eyJzIjoibG9hZGNvb2tpZXNmcm9tYnJvd3NlciIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W119*/
       /*Browser*/
       save_cookies()!
@@ -87,24 +87,40 @@ section(1 /*1*/,RESOURCE_1 /*{{starts}}*/,10000 /*10000*/,0,function(){
       http_client_restore_cookies(JSON.stringify({cookies:JSON.parse(_result())}))
       section_end()!
 
-      section_start("\u007b\u0022n\u0022:\u0022токен для корзины\u0022\u007d", 375709742)!
-      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ii8v0L/QvtC70YPRh9Cw0LXQvCBjc2ZyX3Rva2VuINC00LvRjyDQutC+0YDQt9C40L3Ri1xyXG5odHRwX2NsaWVudF9nZXQyKFwiaHR0cHM6Ly9zaG9wcGluZ2NhcnQuYWxpZXhwcmVzcy5ydS9zaG9wY2FydC9zaG9wY2FydERldGFpbC5odG1cIix7bWV0aG9kOihcIkdFVFwiKSxoZWFkZXJzOihcIlwiKX0pIVxyXG52YXIgcmVzcG9uc2UgPSBWQVJfQ09PS1NBVkU9IGh0dHBfY2xpZW50X2VuY29kZWRfY29udGVudChcImF1dG9cIilcclxuVkFSX0NTUkZfVE9LX0NBUlQgPSByZXNwb25zZS5tYXRjaCgvX2NzcmZfdG9rZW5fICsoW1xcc1xcU10rKS9pKVswXS5tYXRjaCgvXFwnXFxTK1xcJy9pKVswXS5zcGxpdChcIidcIilbMV07XHJcblxyXG4iLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+      section_start("\u007b\u0022n\u0022:\u0022токен для корзины\u005cnзапрос корзины\u0022\u007d", 661381651)!
+      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ii8v0L/QvtC70YPRh9Cw0LXQvCBjc2ZyX3Rva2VuINC00LvRjyDQutC+0YDQt9C40L3Ri1xyXG5odHRwX2NsaWVudF9nZXQyKFwiaHR0cHM6Ly9zaG9wcGluZ2NhcnQuYWxpZXhwcmVzcy5ydS9zaG9wY2FydC9zaG9wY2FydERldGFpbC5odG1cIiwgeyBtZXRob2Q6IChcIkdFVFwiKSwgaGVhZGVyczogKFwiXCIpIH0pIVxyXG52YXIgcmVzcG9uc2UgPSBodHRwX2NsaWVudF9lbmNvZGVkX2NvbnRlbnQoXCJhdXRvXCIpO1xyXG5WQVJfQ1NSRl9UT0tfQ0FSVCA9IHJlc3BvbnNlLm1hdGNoKC9fY3NyZl90b2tlbl8gKyhbXFxzXFxTXSspL2kpWzBdLnNwbGl0KFwiJ1wiKVsxXTtcclxuXHJcbi8vLS3Ql9Cw0L/RgNC+0YEg0LrQvtGA0LfQuNC90YstLVxyXG5odHRwX2NsaWVudF9wb3N0KFwiaHR0cHM6Ly9zaG9wcGluZ2NhcnQuYWxpZXhwcmVzcy5ydS9hcGkvMS4wL2NhcnQuZG9cIiwgW1wiZGF0YVwiLCBcIlxcdTAwN2JcXHJcXG5cdFxcdTAwMjJzZWxlY3RlZFxcdTAwMjI6IFxcdTAwMjJcXHUwMDIyLFxcclxcblx0XFx1MDAyMnNlbGVjdEFsbFxcdTAwMjI6IHRydWVcXHJcXG5cXHUwMDdkXCJdLCB7IFwiY29udGVudC10eXBlXCI6IFwiY3VzdG9tL1wiICsgKFwiYXBwbGljYXRpb24vanNvblwiKSwgXCJlbmNvZGluZ1wiOiAoXCJVVEYtOFwiKSwgXCJtZXRob2RcIjogKFwiUE9TVFwiKSwgaGVhZGVyczogKFwiXCIpIH0pIVxyXG52YXIgcmVzcG9uc2UgPSBodHRwX2NsaWVudF9lbmNvZGVkX2NvbnRlbnQoXCJhdXRvXCIpXHJcbnZhciByZXNwb25zZV9mb3JfcHJpY2UgPSBKU09OLnBhcnNlKHJlc3BvbnNlKTtcclxudmFyIHJlc3BvbnNlID0gSlNPTi5wYXJzZShyZXNwb25zZSkuc3RvcmVzO1xyXG5WQVJfU0hPUFBJTkdfQ0FSVF9JVEVNU19JRCA9IFtdXHJcblxyXG5mb3IgKGkgPSAwOyBpIDwgcmVzcG9uc2UubGVuZ3RoOyBpKyspIHtcclxuICAgIHZhciBzdG9yZWxpc3QgPSByZXNwb25zZVtpXS5zdG9yZUxpc3RcclxuICAgIGZvciAoaiA9IDA7IGogPCBzdG9yZWxpc3QubGVuZ3RoOyBqKyspIHtcclxuICAgICAgICB2YXIgcHJvZHVjdHMgPSBzdG9yZWxpc3Rbal0ucHJvZHVjdHNcclxuICAgICAgICBmb3IgKGsgPSAwOyBrIDwgcHJvZHVjdHMubGVuZ3RoOyBrKyspIHtcclxuICAgICAgICAgICAgdmFyIGl0ZW1JZCA9IHByb2R1Y3RzW2tdLml0ZW1JZDtcclxuICAgICAgICAgICAgdmFyIHByb2R1Y3RJZCA9IHByb2R1Y3RzW2tdLnByb2R1Y3RJZDtcclxuICAgICAgICAgICAgcHJvZHVjdElkID0gcHJvZHVjdElkICsgXCJcIjtcclxuICAgICAgICAgICAgVkFSX1NIT1BQSU5HX0NBUlRfSVRFTVNfSUQucHVzaChpdGVtSWQpO1xyXG4gICAgICAgICAgICBpZiAoVkFSX1NIT1BQSU5HX0NBUlRfSVRFTVNfSUQubGVuZ3RoIDwgLTEpIHtcclxuICAgICAgICAgICAgICAgIGxvZyhcItCi0L7QstCw0YDQvtCyICDQsiDQutC+0YDQt9C40L3QtSDQvdC1INC90LDQudC00LXQvdC+LlwiKVxyXG5cclxuICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICB9XHJcbiAgICB9XHJcbn1cclxubG9nKFwi0KLQvtCy0LDRgNC+0LIg0LIg0LrQvtGA0LfQuNC90LU6IFwiICsgVkFSX1NIT1BQSU5HX0NBUlRfSVRFTVNfSUQubGVuZ3RoKVxyXG4iLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
       //получаем csfr_token для корзины
-      http_client_get2("https://shoppingcart.aliexpress.ru/shopcart/shopcartDetail.htm",{method:("GET"),headers:("")})!
-      var response = VAR_COOKSAVE= http_client_encoded_content("auto")
-      VAR_CSRF_TOK_CART = response.match(/_csrf_token_ +([\s\S]+)/i)[0].match(/\'\S+\'/i)[0].split("'")[1];
+      http_client_get2("https://shoppingcart.aliexpress.ru/shopcart/shopcartDetail.htm", { method: ("GET"), headers: ("") })!
+      var response = http_client_encoded_content("auto");
+      VAR_CSRF_TOK_CART = response.match(/_csrf_token_ +([\s\S]+)/i)[0].split("'")[1];
+      //--Запрос корзины--
+      http_client_post("https://shoppingcart.aliexpress.ru/api/1.0/cart.do", ["data", "\u007b\r\n	\u0022selected\u0022: \u0022\u0022,\r\n	\u0022selectAll\u0022: true\r\n\u007d"], { "content-type": "custom/" + ("application/json"), "encoding": ("UTF-8"), "method": ("POST"), headers: ("") })!
+      var response = http_client_encoded_content("auto")
+      var response_for_price = JSON.parse(response);
+      var response = JSON.parse(response).stores;
+      VAR_SHOPPING_CART_ITEMS_ID = []
+      for (i = 0; i < response.length; i++) {
+      var storelist = response[i].storeList
+      for (j = 0; j < storelist.length; j++) {
+      var products = storelist[j].products
+      for (k = 0; k < products.length; k++) {
+      var itemId = products[k].itemId;
+      var productId = products[k].productId;
+      productId = productId + "";
+      VAR_SHOPPING_CART_ITEMS_ID.push(itemId);
+      if (VAR_SHOPPING_CART_ITEMS_ID.length < -1) {
+      log("Товаров  в корзине не найдено.")
+      }
+      }
+      }
+      }
+      log("Товаров в корзине: " + VAR_SHOPPING_CART_ITEMS_ID.length)
       section_end()!
 
-      section_start("", 400201865)!
-      /*Dat:eyJzIjoiaHR0cGNsaWVudHBvc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Imh0dHBzOi8vc2hvcHBpbmdjYXJ0LmFsaWV4cHJlc3MucnUvYXBpLzEuMC9jYXJ0LmRvIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiSGVhZGVycyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX0seyJpZCI6IlBvc3ROYW1lIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQb3N0VmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlBvc3REYXRhQXJyYXkiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ilwic2VsZWN0ZWRcIixcIjUwMDAyNzQwNzcwOTIxXCIsXCJfY3NyZl90b2tlbl9cIixbW0NTUkZfVE9LX0NBUlRdXSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJDb250ZW50VHlwZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidXJsZW5jb2RlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUG9zdERhdGFSYXciLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNvbnRlbnRUeXBlUmF3IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJhcHBsaWNhdGlvbi94LXd3dy1mb3JtLXVybGVuY29kZWQiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJFbmNvZGluZyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiVVRGLTgiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJNZXRob2QiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IlBPU1QiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWV9XX0=*/
+      section_start("", 615159274)!
+      /*Dat:eyJzIjoiaHR0cGNsaWVudHBvc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Imh0dHBzOi8vc2hvcHBpbmdjYXJ0LmFsaWV4cHJlc3MucnUvYXBpLzEuMC9jYXJ0LmRvIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiSGVhZGVycyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoicmVmZXJlcjogaHR0cHM6Ly9zaG9wcGluZ2NhcnQuYWxpZXhwcmVzcy5ydS9zaG9wY2FydC9zaG9wY2FydERldGFpbC5odG0/c3BtPWEyZzBvLmNhcnQuMTAwMDAwMi4xLjZkNmIzYzAwQ3hjYzVHXHJcbnRlOiB0cmFpbGVyc1xyXG5jb29raWU6IHhtYW5fdXNfZj14X2xvY2FsZT1ydV9SVSZ4X2w9MCZ4X3VzZXI9UlV8dXZvaHBpbXptM3x1c2VyfGlmbXwzMTA2ODE1NzE1JnhfbGlkPXJ1MTUwODMxODcxNWZ2YWFlJnhfY19jaGc9MCZhY3NfcnQ9OGM3OTc0MGM2MjFhNDkzYjk1OTNiYTcxN2U3NTY3NzNcclxuY29va2llOiBhZXBfY29tbW9uX2Y9Q3NhWnk1ZkJ6SWNmQlZKcW15REJoREJzOUtWdVo1TEVtRkFldTltbEhJZ2R2R0FQZis4MjFBPT1cclxuY29va2llOiBhZXBfdXN1Y19mPXNpdGU9cnVzJmNfdHA9VVNEJnhfYWxpbWlkPTMxMDY4MTU3MTUmaXNiPXkmcmVnaW9uPUNMJmJfbG9jYWxlPXJ1X1JVXHJcbmNvb2tpZTogYWNzX3VzdWNfdD14X2NzcmY9cGxvOGQzN24zeTh2JmFjc19ydD0xZTNiODAzOTdhNGY0OThjYTQyZGNkZTk4MzkwM2JhM1xyXG5cclxue1widXBkYXRlc1wiOlt7XCJpdGVtSWRcIjo1MDAwMjc0NTE1NTY2NixcInF1YW50aXR5XCI6MH1dLFwiYWN0aW9uXCI6XCJERUxFVEVfSVRFTVNcIixcInNlbGVjdGVkXCI6XCJcIixcIl9jc3JmX3Rva2VuX1wiOltbQ1NSRl9UT0tfQ0FSVF1dfSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiUG9zdE5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlBvc3RWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUG9zdERhdGFBcnJheSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IkNvbnRlbnRUeXBlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ1cmxlbmNvZGUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQb3N0RGF0YVJhdyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ29udGVudFR5cGVSYXciLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcGxpY2F0aW9uL3gtd3d3LWZvcm0tdXJsZW5jb2RlZCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkVuY29kaW5nIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJVVEYtOCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6Ik1ldGhvZCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiUE9TVCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
       _switch_http_client_main()
-      http_client_post("https://shoppingcart.aliexpress.ru/api/1.0/cart.do", ["selected","50002740770921","_csrf_token_",VAR_CSRF_TOK_CART], {"content-type":("urlencode"), "encoding":("UTF-8"), "method":("POST"),headers:("")})!
-      section_end()!
-
-      section_start("", 826286778)!
-      /*Dat:eyJzIjoiaHR0cGNsaWVudHBvc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Imh0dHBzOi8vc2hvcHBpbmdjYXJ0LmFsaWV4cHJlc3MucnUvYXBpLzEuMC9jYXJ0LmRvIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiSGVhZGVycyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX0seyJpZCI6IlBvc3ROYW1lIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQb3N0VmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlBvc3REYXRhQXJyYXkiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IlwidXBkYXRlc1wiLFtcIlxcdTAwMjJpdGVtSWRcXHUwMDIyLFxcdTAwMjI1MDAwMjc0MDc3MDkyMVxcdTAwMjIsXFx1MDAyMnF1YW50aXR5XFx1MDAyMixcXHUwMDIyMFxcdTAwMjJcIl0sXCJhY3Rpb25cIixcIkRFTEVURV9JVEVNU1wiLFwic2VsZWN0ZWRcIixcIixcIixcIl9jc3JmX3Rva2VuX1wiLFwic3Z6engwaGt2eWNiXCIiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiQ29udGVudFR5cGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InVybGVuY29kZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlBvc3REYXRhUmF3IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDb250ZW50VHlwZVJhdyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiRW5jb2RpbmciLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IlVURi04IiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiTWV0aG9kIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJQT1NUIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
-      _switch_http_client_main()
-      http_client_post("https://shoppingcart.aliexpress.ru/api/1.0/cart.do", ["updates",["\u0022itemId\u0022,\u002250002740770921\u0022,\u0022quantity\u0022,\u00220\u0022"],"action","DELETE_ITEMS","selected",",","_csrf_token_","svzzx0hkvycb"], {"content-type":("urlencode"), "encoding":("UTF-8"), "method":("POST"),headers:("")})!
+      http_client_post_no_redirect("https://shoppingcart.aliexpress.ru/api/1.0/cart.do", ["data", ""], {"content-type":"custom/" + ("application/x-www-form-urlencoded"), "encoding":("UTF-8"), "method":("POST"),headers:("referer: https://shoppingcart.aliexpress.ru/shopcart/shopcartDetail.htm?spm=a2g0o.cart.1000002.1.6d6b3c00Cxcc5G\r\nte: trailers\r\ncookie: xman_us_f=x_locale=ru_RU\u0026x_l=0\u0026x_user=RU|uvohpimzm3|user|ifm|3106815715\u0026x_lid=ru1508318715fvaae\u0026x_c_chg=0\u0026acs_rt=8c79740c621a493b9593ba717e756773\r\ncookie: aep_common_f=CsaZy5fBzIcfBVJqmyDBhDBs9KVuZ5LEmFAeu9mlHIgdvGAPf+821A==\r\ncookie: aep_usuc_f=site=rus\u0026c_tp=USD\u0026x_alimid=3106815715\u0026isb=y\u0026region=CL\u0026b_locale=ru_RU\r\ncookie: acs_usuc_t=x_csrf=plo8d37n3y8v\u0026acs_rt=1e3b80397a4f498ca42dcde983903ba3\r\n\r\n\u007b\u0022updates\u0022:[\u007b\u0022itemId\u0022:50002745155666,\u0022quantity\u0022:0\u007d],\u0022action\u0022:\u0022DELETE_ITEMS\u0022,\u0022selected\u0022:\u0022\u0022,\u0022_csrf_token_\u0022:" + VAR_CSRF_TOK_CART + "\u007d")})!
       section_end()!
 
    }
@@ -6471,24 +6487,16 @@ Detector=true
 --ignore-certificate-errors
 --enable-widevine-cdm
 --enable-blink-features=WebBluetooth,Badging,InstalledApp,WakeLock,Notifications,WebAnimationsAPI,AOMPhase1</ChromeCommandLine>
-     <ModulesMetaJson>{
-    &quot;Adress_random&quot;: true,
-    &quot;Adress_token&quot;: true,
-    &quot;Archive&quot;: false,
-    &quot;Data_and_clock&quot;: false,
-    &quot;Excel&quot;: false,
-    &quot;FTP&quot;: false
-}
-</ModulesMetaJson>
-     <OutputTitle1 ru="First Results" en="First Results"/>
-     <OutputTitle2 ru="Second Results" en="Second Results"/>
-     <OutputTitle3 ru="Third Results" en="Third Results"/>
-     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
-     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
-     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
-     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
-     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
-     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
+     <ModulesMetaJson>{&quot;Adress_random&quot;:false,&quot;Adress_tokken&quot;:false,&quot;Archive&quot;:false,&quot;Excel&quot;:false,&quot;FTP&quot;:false,&quot;Images_off&quot;:true}</ModulesMetaJson>
+     <OutputTitle1 en="First Results" ru="First Results"/>
+     <OutputTitle2 en="Second Results" ru="Second Results"/>
+     <OutputTitle3 en="Third Results" ru="Third Results"/>
+     <OutputTitle4 en="Fourth Results" ru="Fourth Results"/>
+     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
+     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
+     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
+     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
+     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>1</OutputVisible2>
      <OutputVisible3>1</OutputVisible3>
@@ -6501,8 +6509,8 @@ Detector=true
      <ModelList>
           <Model>
                <Name>logins</Name>
-               <Description ru="Логины" en="Логины"/>
-               <SectionName ru="Основные" en="Main"/>
+               <Description en="Логины" ru="Логины"/>
+               <SectionName en="Main" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -6525,8 +6533,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>goods</Name>
-               <Description ru="Товары (количество | айди | доставка | опция )" en="Товары"/>
-               <SectionName ru="Основные" en="Main"/>
+               <Description en="Товары" ru="Товары (количество | айди | доставка | опция )"/>
+               <SectionName en="Main" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -6549,8 +6557,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>result_list</Name>
-               <Description ru="Результаты" en="Результаты"/>
-               <SectionName ru="Основные" en="Main"/>
+               <Description en="Результаты" ru="Результаты"/>
+               <SectionName en="Main" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -6573,8 +6581,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>ip_change</Name>
-               <Description ru="Смена IP" en="Смена IP"/>
-               <SectionName ru="Основные" en="Main"/>
+               <Description en="Смена IP" ru="Смена IP"/>
+               <SectionName en="Main" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -6589,8 +6597,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>Proxy switch</Name>
-               <Description ru="Proxy switch" en="Proxy switch"/>
-               <SectionName ru="Основные" en="Main"/>
+               <Description en="Proxy switch" ru="Proxy switch"/>
+               <SectionName en="Main" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -6605,8 +6613,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>proxy</Name>
-               <Description ru="proxy" en="proxy"/>
-               <SectionName ru="Основные" en="Main"/>
+               <Description en="proxy" ru="proxy"/>
+               <SectionName en="Main" ru="Основные"/>
                <VisibilityConditionValue>Вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>Proxy switch</VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -6629,8 +6637,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>router_ip</Name>
-               <Description ru="IP адрес MI роутера" en="IP адрес MI роутера"/>
-               <SectionName ru="Основные" en="Main"/>
+               <Description en="IP адрес MI роутера" ru="IP адрес MI роутера"/>
+               <SectionName en="Main" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -6644,8 +6652,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>router_pwd</Name>
-               <Description ru="Пароль роутера" en="Пароль роутера"/>
-               <SectionName ru="Основные" en="Main"/>
+               <Description en="Пароль роутера" ru="Пароль роутера"/>
+               <SectionName en="Main" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -6659,8 +6667,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>country</Name>
-               <Description ru="country" en="country"/>
-               <SectionName ru="Основные" en="Main"/>
+               <Description en="country" ru="country"/>
+               <SectionName en="Main" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -6693,8 +6701,8 @@ Random</Values>
           <Defaults/>
           <Model>
                <Name>Random country collection</Name>
-               <Description ru="набор для рандомных стран" en="Random country collection"/>
-               <SectionName ru="Основные" en="Main"/>
+               <Description en="Random country collection" ru="набор для рандомных стран"/>
+               <SectionName en="Main" ru="Основные"/>
                <VisibilityConditionValue>Random</VisibilityConditionValue>
                <VisibilityConditionVariable>country</VisibilityConditionVariable>
                <Type>Select</Type>
@@ -6726,8 +6734,8 @@ ES</Values>
           <Defaults/>
           <Model>
                <Name>Currency</Name>
-               <Description ru="Валюта для первой оплаты в корзине для финта, далее на выкупе перейдет на WM и USD" en="Currency"/>
-               <SectionName ru="Основные" en="Main"/>
+               <Description en="Currency" ru="Валюта для первой оплаты в корзине для финта, далее на выкупе перейдет на WM и USD"/>
+               <SectionName en="Main" ru="Основные"/>
                <VisibilityConditionValue>RU</VisibilityConditionValue>
                <VisibilityConditionVariable>country</VisibilityConditionVariable>
                <Type>Select</Type>
@@ -6743,8 +6751,8 @@ RUB</Values>
           <Defaults/>
           <Model>
                <Name>real adress</Name>
-               <Description ru="данные для замены строки адреса, индекса . Заполнение через &quot;|&quot; пример: Страна|индекс|Город улица дом кв   " en="real adress"/>
-               <SectionName ru="Основные" en="Main"/>
+               <Description en="real adress" ru="данные для замены строки адреса, индекса . Заполнение через &quot;|&quot; пример: Страна|индекс|Город улица дом кв   "/>
+               <SectionName en="Main" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -6758,8 +6766,8 @@ RUB</Values>
           <Defaults/>
           <Model>
                <Name>1 CENT</Name>
-               <Description ru="Покупка центовика" en="1 CENT"/>
-               <SectionName ru="Основные" en="Main"/>
+               <Description en="1 CENT" ru="Покупка центовика"/>
+               <SectionName en="Main" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -6774,8 +6782,8 @@ RUB</Values>
           <Defaults/>
           <Model>
                <Name>buy without payment</Name>
-               <Description ru="оформить заказ без оплаты" en="buy without payment"/>
-               <SectionName ru="Основные" en="Main"/>
+               <Description en="buy without payment" ru="оформить заказ без оплаты"/>
+               <SectionName en="Main" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -6790,8 +6798,8 @@ RUB</Values>
           <Defaults/>
           <Model>
                <Name>seller message</Name>
-               <Description ru="seller message" en="seller message"/>
-               <SectionName ru="Основные" en="Main"/>
+               <Description en="seller message" ru="seller message"/>
+               <SectionName en="Main" ru="Основные"/>
                <VisibilityConditionValue>Вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>buy without payment</VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -6805,8 +6813,8 @@ RUB</Values>
           <Defaults/>
           <Model>
                <Name>after_payment mode</Name>
-               <Description ru="Оплата из списка ожидающих оплаты " en="after_payment mode"/>
-               <SectionName ru="Основные" en="Main"/>
+               <Description en="after_payment mode" ru="Оплата из списка ожидающих оплаты "/>
+               <SectionName en="Main" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -6821,8 +6829,8 @@ RUB</Values>
           <Defaults/>
           <Model>
                <Name>payment max in cents</Name>
-               <Description ru="максимальная доплата  в центах" en="payment max"/>
-               <SectionName ru="Основные" en="Main"/>
+               <Description en="payment max" ru="максимальная доплата  в центах"/>
+               <SectionName en="Main" ru="Основные"/>
                <VisibilityConditionValue>Вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>after_payment mode</VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -6837,8 +6845,8 @@ RUB</Values>
           <Defaults/>
           <Model>
                <Name>check status mode</Name>
-               <Description ru="check status mode" en="check status mode"/>
-               <SectionName ru="Основные" en="Main"/>
+               <Description en="check status mode" ru="check status mode"/>
+               <SectionName en="Main" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -6853,8 +6861,8 @@ RUB</Values>
           <Defaults/>
           <Model>
                <Name>confirm</Name>
-               <Description ru="confirm" en="confirm"/>
-               <SectionName ru="Основные" en="Main"/>
+               <Description en="confirm" ru="confirm"/>
+               <SectionName en="Main" ru="Основные"/>
                <VisibilityConditionValue>Вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>check status mode</VisibilityConditionVariable>
                <Type>Select</Type>
@@ -6869,8 +6877,8 @@ RUB</Values>
           <Defaults/>
           <Model>
                <Name>starts</Name>
-               <Description ru="запуски" en="starts"/>
-               <SectionName ru="Основные" en="Main"/>
+               <Description en="starts" ru="запуски"/>
+               <SectionName en="Main" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -6885,8 +6893,8 @@ RUB</Values>
           <Defaults/>
           <Model>
                <Name>real person</Name>
-               <Description ru="real person" en="real person"/>
-               <SectionName ru="Основные" en="Main"/>
+               <Description en="real person" ru="real person"/>
+               <SectionName en="Main" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -6901,8 +6909,8 @@ RUB</Values>
           <Defaults/>
           <Model>
                <Name>City</Name>
-               <Description ru="City" en="City"/>
-               <SectionName ru="адрес" en="adress"/>
+               <Description en="City" ru="City"/>
+               <SectionName en="adress" ru="адрес"/>
                <VisibilityConditionValue>Вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>real person</VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -6925,8 +6933,8 @@ RUB</Values>
           <Defaults/>
           <Model>
                <Name>surnames</Name>
-               <Description ru="surnames" en="surnames"/>
-               <SectionName ru="адрес" en="adress"/>
+               <Description en="surnames" ru="surnames"/>
+               <SectionName en="adress" ru="адрес"/>
                <VisibilityConditionValue>Вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>real person</VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -6949,8 +6957,8 @@ RUB</Values>
           <Defaults/>
           <Model>
                <Name>names</Name>
-               <Description ru="names" en="names"/>
-               <SectionName ru="адрес" en="adress"/>
+               <Description en="names" ru="names"/>
+               <SectionName en="adress" ru="адрес"/>
                <VisibilityConditionValue>Вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>real person</VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -6973,8 +6981,8 @@ RUB</Values>
           <Defaults/>
           <Model>
                <Name>Streets</Name>
-               <Description ru="Streets" en="Streets"/>
-               <SectionName ru="адрес" en="adress"/>
+               <Description en="Streets" ru="Streets"/>
+               <SectionName en="adress" ru="адрес"/>
                <VisibilityConditionValue>Вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>real person</VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -6997,8 +7005,8 @@ RUB</Values>
           <Defaults/>
           <Model>
                <Name>Province</Name>
-               <Description ru="Province" en="Province"/>
-               <SectionName ru="адрес" en="adress"/>
+               <Description en="Province" ru="Province"/>
+               <SectionName en="adress" ru="адрес"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -7021,8 +7029,8 @@ RUB</Values>
           <Defaults/>
           <Model>
                <Name>FingerPrint</Name>
-               <Description ru="FingerPrint" en="FingerPrint"/>
-               <SectionName ru="Настройки отпечатка" en="Safety"/>
+               <Description en="FingerPrint" ru="FingerPrint"/>
+               <SectionName en="Safety" ru="Настройки отпечатка"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -7038,8 +7046,8 @@ RUB</Values>
           <Defaults/>
           <Model>
                <Name>parameters</Name>
-               <Description ru="parameters" en="parameters"/>
-               <SectionName ru="Настройки отпечатка" en="Safety"/>
+               <Description en="parameters" ru="parameters"/>
+               <SectionName en="Safety" ru="Настройки отпечатка"/>
                <VisibilityConditionValue>Использовать</VisibilityConditionValue>
                <VisibilityConditionVariable>FingerPrint</VisibilityConditionVariable>
                <Type>Select</Type>
