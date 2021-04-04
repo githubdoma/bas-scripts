@@ -8828,15 +8828,15 @@ Detector=true
     &quot;FTP&quot;: false
 }
 </ModulesMetaJson>
-     <OutputTitle1 ru="Секьюрити основной ак" en="First Results"/>
-     <OutputTitle2 ru="Секьюрити добивка" en="Second Results"/>
-     <OutputTitle3 ru="акаунты  с возможным купоном " en="Third Results"/>
-     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
-     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
-     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
-     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
-     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
-     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
+     <OutputTitle1 en="First Results" ru="Секьюрити основной ак"/>
+     <OutputTitle2 en="Second Results" ru="Секьюрити добивка"/>
+     <OutputTitle3 en="Third Results" ru="акаунты  с возможным купоном "/>
+     <OutputTitle4 en="Fourth Results" ru="Fourth Results"/>
+     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
+     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
+     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
+     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
+     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>1</OutputVisible2>
      <OutputVisible3>1</OutputVisible3>
@@ -8849,8 +8849,8 @@ Detector=true
      <ModelList>
           <Model>
                <Name>Login:Password</Name>
-               <Description ru="Login:Password" en="Login:Password"/>
-               <SectionName ru="Основные" en="General"/>
+               <Description en="Login:Password" ru="Login:Password"/>
+               <SectionName en="General" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -8873,8 +8873,8 @@ Detector=true
           <Defaults>
                <Default>
                     <Name>Login:Password</Name>
-                    <Description ru="Login:Password" en="Login:Password"/>
-                    <SectionName ru="Основные" en="General"/>
+                    <Description en="Login:Password" ru="Login:Password"/>
+                    <SectionName en="General" ru="Основные"/>
                     <VisibilityConditionValue></VisibilityConditionValue>
                     <VisibilityConditionVariable></VisibilityConditionVariable>
                     <Type>FixedString</Type>
@@ -8888,8 +8888,8 @@ Detector=true
           </Defaults>
           <Model>
                <Name>newaccsforplay</Name>
-               <Description ru="аккаунты для добивки новореги" en="new accounts for play"/>
-               <SectionName ru="Основные" en="General"/>
+               <Description en="new accounts for play" ru="аккаунты для добивки новореги"/>
+               <SectionName en="General" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -8912,8 +8912,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>oldaccsforplay</Name>
-               <Description ru="аккаунты для добивки старые с покупокой" en="old accounts for play"/>
-               <SectionName ru="Основные" en="General"/>
+               <Description en="old accounts for play" ru="аккаунты для добивки старые с покупокой"/>
+               <SectionName en="General" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -8936,8 +8936,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>Proxy switch</Name>
-               <Description ru="Proxy switch" en="Proxy switch"/>
-               <SectionName ru="Основные" en="General"/>
+               <Description en="Proxy switch" ru="Proxy switch"/>
+               <SectionName en="General" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -8952,8 +8952,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>proxy</Name>
-               <Description ru="proxy" en="proxy"/>
-               <SectionName ru="Основные" en="General"/>
+               <Description en="proxy" ru="proxy"/>
+               <SectionName en="General" ru="Основные"/>
                <VisibilityConditionValue>Вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>Proxy switch</VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -8976,8 +8976,8 @@ Detector=true
           <Defaults>
                <Default>
                     <Name>proxy</Name>
-                    <Description ru="proxy" en="proxy"/>
-                    <SectionName ru="Основные" en="General"/>
+                    <Description en="proxy" ru="proxy"/>
+                    <SectionName en="General" ru="Основные"/>
                     <VisibilityConditionValue>Вкл</VisibilityConditionValue>
                     <VisibilityConditionVariable>Proxy switch</VisibilityConditionVariable>
                     <Type>FixedString</Type>
@@ -8991,8 +8991,8 @@ Detector=true
           </Defaults>
           <Model>
                <Name>Потоки</Name>
-               <Description ru="Потоки" en="Потоки"/>
-               <SectionName ru="Основные" en="General"/>
+               <Description en="Потоки" ru="Потоки"/>
+               <SectionName en="General" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9007,8 +9007,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>adslave</Name>
-               <Description ru="дополнительная добивка" en="adslave"/>
-               <SectionName ru="Основные" en="General"/>
+               <Description en="adslave" ru="дополнительная добивка"/>
+               <SectionName en="General" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -9023,8 +9023,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>slave</Name>
-               <Description ru="добивка" en="slave "/>
-               <SectionName ru="Основные" en="General"/>
+               <Description en="slave " ru="добивка"/>
+               <SectionName en="General" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -9039,8 +9039,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>ip modema</Name>
-               <Description ru="ip modema" en="ip modema"/>
-               <SectionName ru="Основные" en="General"/>
+               <Description en="ip modema" ru="ip modema"/>
+               <SectionName en="General" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -9054,8 +9054,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>ip change</Name>
-               <Description ru="смена ip" en="ip change"/>
-               <SectionName ru="Основные" en="General"/>
+               <Description en="ip change" ru="смена ip"/>
+               <SectionName en="General" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -9070,8 +9070,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>starts</Name>
-               <Description ru="starts" en="starts"/>
-               <SectionName ru="Основные" en="General"/>
+               <Description en="starts" ru="starts"/>
+               <SectionName en="General" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9086,8 +9086,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>3plays</Name>
-               <Description ru="3plays" en="3plays"/>
-               <SectionName ru="Основные" en="General"/>
+               <Description en="3plays" ru="3plays"/>
+               <SectionName en="General" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -9104,8 +9104,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>nord vpn</Name>
-               <Description ru="nord vpn" en="nord vpn"/>
-               <SectionName ru="счетчики" en="counters"/>
+               <Description en="nord vpn" ru="nord vpn"/>
+               <SectionName en="counters" ru="счетчики"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -9120,8 +9120,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>pause </Name>
-               <Description ru="pause " en="pause vpn restart"/>
-               <SectionName ru="счетчики" en="counters"/>
+               <Description en="pause vpn restart" ru="pause "/>
+               <SectionName en="counters" ru="счетчики"/>
                <VisibilityConditionValue>вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>nord vpn</VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9136,8 +9136,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>cycle NORD</Name>
-               <Description ru="cycle NORD" en="cycle NORD"/>
-               <SectionName ru="счетчики" en="counters"/>
+               <Description en="cycle NORD" ru="cycle NORD"/>
+               <SectionName en="counters" ru="счетчики"/>
                <VisibilityConditionValue>вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>nord vpn</VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -9160,8 +9160,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>counter slave cycles</Name>
-               <Description ru="счетчик slave циклов" en="counter cycles"/>
-               <SectionName ru="счетчики" en="counters"/>
+               <Description en="counter cycles" ru="счетчик slave циклов"/>
+               <SectionName en="counters" ru="счетчики"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9176,8 +9176,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>counter security</Name>
-               <Description ru="счетчик ошибок security" en="count security"/>
-               <SectionName ru="счетчики" en="counters"/>
+               <Description en="count security" ru="счетчик ошибок security"/>
+               <SectionName en="counters" ru="счетчики"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9192,8 +9192,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>сounter errors</Name>
-               <Description ru="счетчик ошибок для циклов контроля запуска" en="сounter errors"/>
-               <SectionName ru="счетчики" en="counters"/>
+               <Description en="сounter errors" ru="счетчик ошибок для циклов контроля запуска"/>
+               <SectionName en="counters" ru="счетчики"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9208,8 +9208,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>vpn cycle index</Name>
-               <Description ru="vpn cycle index" en="vpn cycle index"/>
-               <SectionName ru="счетчики" en="counters"/>
+               <Description en="vpn cycle index" ru="vpn cycle index"/>
+               <SectionName en="counters" ru="счетчики"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9224,8 +9224,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>country</Name>
-               <Description ru="country" en="country"/>
-               <SectionName ru="Основные" en="General"/>
+               <Description en="country" ru="country"/>
+               <SectionName en="General" ru="Основные"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -9242,8 +9242,8 @@ RU</Values>
           <Defaults/>
           <Model>
                <Name>refer list</Name>
-               <Description ru="список рефок для добивки" en="refer list"/>
-               <SectionName ru="Основные" en="General"/>
+               <Description en="refer list" ru="список рефок для добивки"/>
+               <SectionName en="General" ru="Основные"/>
                <VisibilityConditionValue>Вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>adslave</VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -9266,8 +9266,8 @@ RU</Values>
           <Defaults/>
           <Model>
                <Name>refer link</Name>
-               <Description ru="refer link" en="refer link"/>
-               <SectionName ru="Основные" en="General"/>
+               <Description en="refer link" ru="refer link"/>
+               <SectionName en="General" ru="Основные"/>
                <VisibilityConditionValue>Вкл</VisibilityConditionValue>
                <VisibilityConditionVariable>adslave</VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -9281,8 +9281,8 @@ RU</Values>
           <Defaults/>
           <Model>
                <Name>resurce_change</Name>
-               <Description ru="порядок смены ресурса логинов для добивки, смена на цикле кратному установленной пеерменной" en="resurce change order"/>
-               <SectionName ru="счетчики" en="counters"/>
+               <Description en="resurce change order" ru="порядок смены ресурса логинов для добивки, смена на цикле кратному установленной пеерменной"/>
+               <SectionName en="counters" ru="счетчики"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9297,8 +9297,8 @@ RU</Values>
           <Defaults/>
           <Model>
                <Name>pause for cycles</Name>
-               <Description ru="паузы для циклов" en="pause for cycles"/>
-               <SectionName ru="счетчики" en="counters"/>
+               <Description en="pause for cycles" ru="паузы для циклов"/>
+               <SectionName en="counters" ru="счетчики"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9313,8 +9313,8 @@ RU</Values>
           <Defaults/>
           <Model>
                <Name>manual change ip</Name>
-               <Description ru="пауза (количество циклов) для смены ип руками" en="manual change ip"/>
-               <SectionName ru="счетчики" en="counters"/>
+               <Description en="manual change ip" ru="пауза (количество циклов) для смены ип руками"/>
+               <SectionName en="counters" ru="счетчики"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -9329,8 +9329,8 @@ RU</Values>
           <Defaults/>
           <Model>
                <Name>EU taker_ref</Name>
-               <Description ru="Опция взятия рефки EU полуавтомат" en="EU taker_ref"/>
-               <SectionName ru="Основные" en="General"/>
+               <Description en="EU taker_ref" ru="Опция взятия рефки EU полуавтомат"/>
+               <SectionName en="General" ru="Основные"/>
                <VisibilityConditionValue>EU</VisibilityConditionValue>
                <VisibilityConditionVariable>country</VisibilityConditionVariable>
                <Type>Select</Type>
